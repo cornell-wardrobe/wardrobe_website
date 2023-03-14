@@ -16,14 +16,13 @@ function App() {
   return (
     <div>
       <Router>
+        <Layout />
         <Routes>
-          <Route element={<Layout />}>
-            <Route path="/" element={<Landingpage />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/team" element={<Team />} />
-            <Route path="/media" element={<Media />} />
-            <Route path="/apply" element={<Apply />} />
-          </Route>
+          <Route path="/" element={<Landingpage />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/media" element={<Media />} />
+          <Route path="/apply" element={<Apply />} />
         </Routes>
       </Router>
     </div>
