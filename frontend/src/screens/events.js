@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Events() {
   return (
     <div>
-      <p className="text-3xl font-bold">Hello Events Page</p>
+      <p className="text-3xl font-bold">Hello Events Page. Test</p>
     </div>
   );
 }
