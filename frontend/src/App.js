@@ -11,6 +11,7 @@ import Events from "./screens/events";
 import Team from "./screens/team";
 import Media from "./screens/media";
 import Apply from "./screens/apply";
+import Rent from "./screens/rent";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/media" element={<Media />} />
           <Route path="/apply" element={<Apply />} />
+          <Route path="/rent" element={<Rent />} />
         </Routes>
       </Router>
     </div>
