@@ -24,14 +24,12 @@ function Apply() {
           </img>
         </div>
       </div>
-      <div className="h-screen">
         <div className="flex justify-content items-center">
           <div className="text-center w-screen">
             <p className="text-3xl font-bold">Want to know more?</p>
-            <p className="my-2 text-xl pt-2 pr-40 pl-40">Coffee chat with us! You can find the NetID’s of Wardrobe members on the Team Page. Feel free to reach out to anyone, we would all be thrilled to meet you!</p>
+            <p className="my-2 text-xl pt-2 pr-40 pl-40 pb-10">Coffee chat with us! You can find the NetID’s of Wardrobe members on the Team Page. Feel free to reach out to anyone, we would all be thrilled to meet you!</p>
           </div>
         </div>
-      </div>
     </div>
   );
 }
