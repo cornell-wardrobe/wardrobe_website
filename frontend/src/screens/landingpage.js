@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 function Landingpage() {
   return (
     <div>
-      <div className="h-screen gap-0 columns-2">
+      <div className="h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 h-full items-center">
-          <div className="ml-7">
+          <div className="ml-7 text-center md:text-left">
             <p className="text-xl text-blue-700">CORNELL WARDROBE</p>
-            <p className="my-4 mr-4 text-6xl font-bold">Pre-Professional Clothing For All Students</p>
-            <p className="text-2xl">Helping any student pursue any opportunity</p>
+            <p className="my-4 mr-4 text-4xl font-bold med:text-5xl xl:text-6xl">Pre-Professional Clothing For All Students</p>
+            <p className="text-xl med:text-2xl">Helping any student pursue any opportunity</p>
           </div>
         </div>
         <div className="flex items-center justify-center bg-slate-100 h-full">
@@ -79,7 +79,7 @@ function Landingpage() {
                 </p>
               </div>
               <div className="w-3/5">
-                <p className="text-5xl text-center text-blue-700 font-bold -rotate-90">STEP ONE</p>
+                <p className="text-5xl text-center text-blue-700 font-bold -rotate-90 hidden lg:flex">STEP ONE</p>
               </div>
             </div>
           </div>
@@ -88,7 +88,7 @@ function Landingpage() {
           <div className="flex items-center justify-center h-full">
           <div className="flex">
             <div className="w-4/5">
-                <p className="text-5xl text-center text-blue-700 font-bold -rotate-90">STEP TWO</p>
+                <p className="text-5xl text-center text-blue-700 font-bold -rotate-90 hidden lg:flex">STEP TWO</p>
               </div>
               <div className="-ml-16">
                 <p className="text-3xl mb-8 font-bold">Step Two: Wait</p>
@@ -125,7 +125,7 @@ function Landingpage() {
                 </p>
               </div>
               <div className="w-3/5">
-                <p className="text-5xl text-center text-blue-700 font-bold -rotate-90">STEP THREE</p>
+                <p className="text-5xl text-center text-blue-700 font-bold -rotate-90 hidden lg:flex">STEP THREE</p>
               </div>
             </div>
           </div>
@@ -148,7 +148,7 @@ function Landingpage() {
         </div>
         <div className="flex items-center justify-center bg-slate-100 h-full">
           <img
-          className="h-96 w-96"
+          className="h-96 w-96 pr-3 med:pr-0"
           src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613bfc96c3d4908a8ee0e2a6_undraw_Resume_re_hkth.svg" 
           alt="Application">
           </img>
@@ -159,7 +159,7 @@ function Landingpage() {
             <img
             className="h-24 w-24 m-auto"
             src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613b88e3d1d6425d8987647f_Nav_Logo.png" 
-            alt="Application">
+            alt="Wardrobe logo">
             </img>
             <p className="text-sm text-blue-700 my-8">LATEST NEWS</p>
             <p className="my-2 text-4xl font-bold mb-8">Keep up to date</p>
