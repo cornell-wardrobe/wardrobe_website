@@ -4,12 +4,17 @@ import { Link } from "react-router-dom";
 function Landingpage() {
   return (
     <div>
-      <div className="h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
+      <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 h-full items-center">
           <div className="ml-7 text-center md:text-left">
             <p className="text-xl text-blue-700">CORNELL WARDROBE</p>
             <p className="my-4 mr-4 text-4xl font-bold med:text-5xl xl:text-6xl">Pre-Professional Clothing For All Students</p>
             <p className="text-xl med:text-2xl">Helping any student pursue any opportunity</p>
+            <Link to="/rent">
+                <button type="button" className="bg-blue-600 mt-8">
+                  <p className="text-white text-sm my-4 mx-6">RENT NOW</p>
+                </button>
+              </Link>
           </div>
         </div>
         <div className="flex items-center justify-center bg-slate-100 h-full">
@@ -19,14 +24,14 @@ function Landingpage() {
           </img>
         </div>
       </div>
-      <div className="h-screen border-b">
+      <div className="sm:h-screen sm:py-auto py-8 border-b">
         <div className="h-1/3 flex justify-content items-center">
           <div className="text-center w-screen">
             <p className="text-xl text-blue-700">WHAT WE DO</p>
-            <p className="my-2 text-4xl font-bold">Our Two Fold Approach</p>
+            <p className="my-2 text-4xl font-bold sm:pb-auto pb-4">Our Two Fold Approach</p>
           </div>
         </div>
-        <div className="h-2/3 gap-0 columns-2">
+        <div className="sm:h-2/3 gap-0 grid grid-rows-2 sm:flex sm:columns-2">
             <div className="flex items-center justify-center h-full">
               <div className="text-center">
                 <img
@@ -55,13 +60,13 @@ function Landingpage() {
             </div>
         </div>
       </div>
-      <div className="h-[25vh] flex justify-content items-center">
+      <div className="h-[20vh] flex justify-content items-center sm:h-[20vh]">
           <div className="text-center w-screen">
             <p className="text-xl text-blue-700">THE PROCESS</p>
             <p className="my-2 text-4xl font-bold">How it Works</p>
           </div>
       </div>
-      <div className="h-[60vh] gap-0 columns-2">
+      <div className="h-[50vh] gap-0 columns-2 sm:h-[60vh]">
           <div className="flex items-center justify-center h-full">
             <div className="flex">
               <img
@@ -84,7 +89,7 @@ function Landingpage() {
             </div>
           </div>
       </div>
-      <div className="h-[60vh] gap-0 columns-2">
+      <div className="h-[50vh] gap-0 columns-2 sm:h-[60vh]">
           <div className="flex items-center justify-center h-full">
           <div className="flex">
             <div className="w-4/5">
@@ -107,7 +112,7 @@ function Landingpage() {
             </div>
           </div>
       </div>
-      <div className="h-[60vh] gap-0 columns-2">
+      <div className="h-[50vh] gap-0 columns-2 sm:h-[60vh]">
           <div className="flex items-center justify-center h-full">
             <div className="">
               <img
@@ -130,7 +135,7 @@ function Landingpage() {
             </div>
           </div>
       </div>
-      <div className="h-[70vh] gap-0 columns-2">
+      <div className="gap-0 grid grid-rows-2 sm:flex sm:columns-2 sm:h-[70vh]">
         <div className="flex bg-slate-100 h-full items-center">
           <div className="ml-7 w-2/3">
             <p className="text-lg text-blue-700">JOIN THE TEAM</p>
@@ -146,7 +151,7 @@ function Landingpage() {
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-center bg-slate-100 h-full">
+        <div className="pb-8 w-full flex items-center justify-center bg-slate-100 h-full sm:pb-auto">
           <img
           className="h-96 w-96 pr-3 med:pr-0"
           src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613bfc96c3d4908a8ee0e2a6_undraw_Resume_re_hkth.svg" 
