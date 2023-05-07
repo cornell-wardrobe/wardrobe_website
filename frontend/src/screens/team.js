@@ -82,14 +82,14 @@ function Team() {
         "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63178eb66fb5950326b75333_Richard%20Kang-p-500.jpg",
     },
     {
-      netID: "ao274",
+      netID: "jcj59",
       name: "Jack Jansons",
       position: "Full Stack Software Engineer",
       image:
         "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c7306169da912bff8bf16a_JackJansons_Headshot-p-500.jpg",
     },
     {
-      netID: "ao274",
+      netID: "ja688",
       name: "Javohir Abdurazzakov",
       position: "Full Stack Software Engineer",
       image:
@@ -103,28 +103,28 @@ function Team() {
         "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c73071749216d525bb676c_AidanO_ConnorHeadshot-p-500.jpg",
     },
     {
-      netID: "ao274",
+      netID: "ars387",
       name: "Alyssa Serebrenik",
       position: "Full Stack Software Engineer",
       image:
         "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c730c8347c21785e4a0925_AlyssaSerebrenik_Headshot-p-500.jpg",
     },
     {
-      netID: "ao274",
+      netID: "pc523",
       name: "Patrick Chen",
       position: "Technology Director",
       image:
         "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/61a84072664c923fdd5ae4ef_Patrick%20Chen-p-500.jpeg",
     },
     {
-      netID: "ao274",
+      netID: "jc2676",
       name: "Jenny Chen",
       position: "Full Stack Software Engineer",
       image:
         "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63178e941e65ba1c27732188_Jenny%20Chen-p-500.jpg",
     },
     {
-      netID: "ao274",
+      netID: "med279",
       name: "Matthew DeSousa",
       position: "Full Stack Software Engineer",
       image:
@@ -134,31 +134,157 @@ function Team() {
 
   const MARKETING = [
     {
-      netID: "ao274",
-      name: "Aidan O'Connor",
-      position: "Full Stack Software Engineer",
+      netID: "cs855",
+      name: "Chris Song",
+      position: "Marketing Director",
       image:
-        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c73071749216d525bb676c_AidanO_ConnorHeadshot-p-500.jpg",
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/61a83dae0b73d5e7fbf4cd65_Chris%20Song-p-500.jpeg",
+    },
+    {
+      netID: "jc2887",
+      name: "Joanna Chen",
+      position: "Graphic Designer",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c7309ee38f8f11700970fb_JoannaChen_Headshot-p-500.jpg",
+    },
+    {
+      netID: "asp235",
+      name: "Amanda Pinto",
+      position: "Graphic Designer",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/61a83d00a3d9e64387c19af8_Amanda%20Pinto-p-500.jpeg",
+    },
+    {
+      netID: "ma878",
+      name: "Maryam Albakry",
+      position: "Graphic Designer",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63f67e6386067558b8a4805d_Maryam_Albakry_Headshot%20Large-p-500.jpeg",
+    },
+    {
+      netID: "yl3577",
+      name: "Irene Lee",
+      position: "Marketing Associate",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63f67ee7893f253702078680_Irene_Lee_Headshot%20Large-p-500.jpeg",
+    },
+    {
+      netID: "mfb227",
+      name: "Molly Beucler",
+      position: "Social Media Associate",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c730a34b4eb951d7261877_MollyBeucler_Headshot-p-500.jpg",
+    },
+    {
+      netID: "so429",
+      name: "Serina Oh",
+      position: "Social Media Associate",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63178ec2659ecadf756316cf_Serina%20Oh-p-500.jpg",
+    },
+    {
+      netID: "kfh34",
+      name: "Kylie Huber",
+      position: "Feedback Strategist",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63178ea2bc5cdea3feea648d_Kylie%20Huber%20final-p-500.jpg",
+    },
+    {
+      netID: "sap244",
+      name: "Sophia Papanicolaou",
+      position: "Media Associate",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63d6d7fc6b5cd1bd718c1d28_SophiaPapanicolaou_headshot-p-500.jpg",
     },
   ];
 
   const FINANCE = [
     {
-      netID: "ao274",
-      name: "Aidan O'Connor",
+      netID: "lci3",
+      name: "Louis Izawa",
       position: "Full Stack Software Engineer",
       image:
-        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c73071749216d525bb676c_AidanO_ConnorHeadshot-p-500.jpg",
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/61a83f9b9aefa941d8beee40_Louis%20Izawa-p-500.jpg",
+    },
+    {
+      netID: "nam96",
+      name: "Nevin Motto",
+      position: "Financial Analyst",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63178eadb370461d97f46cdd_Nevin%20Motto-p-500.jpg",
+    },
+    {
+      netID: "aqz2",
+      name: "Andrew Zhang",
+      position: "Financial Analyst",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c730930930fc1fe877b667_AndrewZhang_Headshot-p-500.jpg",
+    },
+    {
+      netID: "cg553",
+      name: "Carly Granda",
+      position: "Financial Analyst",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c73099e38f8ff1680970e6_CarlyGranda_Headshot-p-500.jpg",
+    },
+    {
+      netID: "rdl66",
+      name: "Rachel Liu",
+      position: "Financial Analyst",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63f67e96c2b5899c8a18cfd9_Rachel_Liu_Headshot%20Large-p-500.jpeg",
+    },
+    {
+      netID: "adr62",
+      name: "Arya Ramkumar",
+      position: "Financial Analyst",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/61a83d3e0b73d5be3cf4cb49_Arya%20Ramkumar-p-500.jpeg",
+    },
+    {
+      netID: "yh459",
+      name: "Yudai Higuchi",
+      position: "Financial Analyst",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/61a840d29bc1082baad36a6d_Yudai%20Higuchi-p-800.jpeg",
     },
   ];
 
   const EVENTS = [
     {
-      netID: "ao274",
-      name: "Aidan O'Connor",
-      position: "Full Stack Software Engineer",
+      netID: "jh2429",
+      name: "Jennifer Herrera",
+      position: "Events Team Director",
       image:
-        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63c73071749216d525bb676c_AidanO_ConnorHeadshot-p-500.jpg",
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/61a83ed0f5228265d8dda230_Jennifer%20Herrera-p-800.jpeg",
+    },
+    {
+      netID: "vk283",
+      name: "Vindhya Kathuria",
+      position: "Events Coordinator",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63f67ead47b99f44053b4e67_Vindhya_Kathuria_Headshot%20Large-p-500.jpeg",
+    },
+    {
+      netID: "ajs573",
+      name: "Ashley Sosa",
+      position: "Events Coordinator",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/63f67ecd83535f735fa8d123_Ashley_Sosa_Headshot%20Large-p-500.jpeg",
+    },
+    {
+      netID: "jpi7",
+      name: "Julia Isko",
+      position: "Programming Coordinator",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/641d3b81afa8dabc1ba0319d_JuliaIsko_Headshot-p-500.jpg",
+    },
+    {
+      netID: "jbe49",
+      name: "Julia Edelman",
+      position: "Programming Coordinator",
+      image:
+        "https://uploads-ssl.webflow.com/613b882ec820216cd28b3046/61a83f09ff38c67dff444481_Julia%20Edelman-p-800.jpeg",
     },
   ];
 
