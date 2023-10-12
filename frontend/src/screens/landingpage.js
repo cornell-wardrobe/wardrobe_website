@@ -10,7 +10,7 @@ function Landingpage() {
             <p className="text-xl text-blue-700">CORNELL WARDROBE</p>
             <p className="my-4 mr-4 text-4xl font-bold med:text-5xl xl:text-6xl">Pre-Professional Clothing For All Students</p>
             <p className="text-xl med:text-2xl">Helping any student pursue any opportunity</p>
-            <Link to="/rent">
+              <Link to="/rent">
                 <button type="button" className="bg-blue-600 mt-8">
                   <p className="text-white text-sm my-4 mx-6">RENT NOW</p>
                 </button>
