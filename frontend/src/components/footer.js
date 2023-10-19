@@ -5,7 +5,7 @@ import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
 
 function SocialMediaComponent({ icon, platform, text }) {
   return (
-    <div className="text-center">
+    <div className="text-center w-[200px]">
       <FontAwesomeIcon className="text-5xl" icon={icon} />
       <p className="font-bold mb-4">{platform}</p>
       <p className="text-sm font-bold text-gray-500">{text}</p>
