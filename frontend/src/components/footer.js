@@ -17,10 +17,10 @@ function Footer() {
   return (
     <div className="py-24 bg-gray-50">
       <p className="text-4xl font-bold text-center mb-4">WARDROBE</p>
-      <p className="text-center font-bold text-sm mb-12 text-gray-500">
+      <p className="text-center font-bold text-sm mb-16 text-gray-500">
         Helping any student pursue any opportunity
       </p>
-      <div className="md:flex md:justify-around md:flex-row">
+      <div className="md:flex justify-around">
         <SocialMediaComponent
           icon={faEnvelope}
           platform="EMAIL"
