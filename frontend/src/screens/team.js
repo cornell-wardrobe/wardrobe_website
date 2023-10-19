@@ -296,12 +296,12 @@ function Team() {
 
   return (
     <div className="flex flex-col ">
-      <div className="w-full ml-[17%]">
-        <p className="text-3xl font-bold ">Meet The Team</p>
-        <p className="text-1xl ">The faces behind the Wardrobe</p>
-      </div>
-      <div className="w-full">
-        <div className="tabs flex ml-[17%] space-x-4 ">
+      <div className=" ml-[17%]">
+        <div className="w-full ">
+          <p className="text-3xl font-bold ">Meet The Team</p>
+          <p className="text-1xl ">The faces behind the Wardrobe</p>
+        </div>
+        <div className="tabs flex space-x-4 flex-wrap">
           <button
             className={
               activeTab === 0 ? "tab active border-b-2 border-blue-500" : "tab"
@@ -352,36 +352,12 @@ function Team() {
           </button>
         </div>
         <div className="tab-content ">
-          {activeTab === 0 && (
-            <div>
-              <People items={MANAGEMENT} />
-            </div>
-          )}
-          {activeTab === 1 && (
-            <div>
-              <People items={OPS} />
-            </div>
-          )}
-          {activeTab === 2 && (
-            <div>
-              <People items={TECH} />
-            </div>
-          )}
-          {activeTab === 3 && (
-            <div>
-              <People items={MARKETING} />
-            </div>
-          )}
-          {activeTab === 4 && (
-            <div>
-              <People items={FINANCE} />
-            </div>
-          )}
-          {activeTab === 5 && (
-            <div>
-              <People items={EVENTS} />
-            </div>
-          )}
+          {activeTab === 0 && <People items={MANAGEMENT} />}
+          {activeTab === 1 && <People items={OPS} />}
+          {activeTab === 2 && <People items={TECH} />}
+          {activeTab === 3 && <People items={MARKETING} />}
+          {activeTab === 4 && <People items={FINANCE} />}
+          {activeTab === 5 && <People items={EVENTS} />}
         </div>
       </div>
     </div>

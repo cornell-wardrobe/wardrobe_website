@@ -3,7 +3,7 @@ import PersonItem from "./personItem";
 
 function People(props) {
   return (
-    <div className="flex flex-wrap justify-start items-center max-w-screen-lg mx-auto">
+    <div className="flex flex-wrap justify-start items-center max-w-screen-lg">
       {props.items.map((person) => (
         <PersonItem
           netID={person.netID}

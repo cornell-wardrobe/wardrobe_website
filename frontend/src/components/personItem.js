@@ -2,7 +2,7 @@ import React from "react";
 
 function PersonItem({ image, name, netID, position }) {
   return (
-    <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md w-48 h-96 mx-4 my-4 flex flex-col justify-end">
+    <div className="bg-gray-100 rounded-lg overflow-hidden shadow-md w-48 h-96 mx-4 my-4 flex flex-col justify-end transition-transform duration-300 ease-in-out transform hover:rotate-3">
       <img src={image} alt={name} className="w-full h-96 object-cover" />
       <div className="p-2">
         <div className="flex justify-between items-center mb-1">
