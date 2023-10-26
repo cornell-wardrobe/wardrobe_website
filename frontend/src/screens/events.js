@@ -9,7 +9,7 @@ function Events() {
             <p className="text-xl text-blue-700">GET EXCITED FOR</p>
             <p className="my-4 mr-4 text-4xl font-bold med:text-5xl xl:text-6xl">Pop-Up Shop</p>
             <p className="text-xl med:text-2xl">Look out for more info</p>
-            <p className="text-xl med:text-2xl">this semester</p>
+            <p className="text-xl med:text-2xl">this semester!</p>
           </div>
         </div>
         <div className="flex grow-0 lg:ml-56 lg:mr-28 items-center justify-center bg-slate-100 lg:h-full h-3/6 lg:my-0 my-16">
