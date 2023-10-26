@@ -19,7 +19,7 @@ function Media() {
             <a href="https://www.linkedin.com/pulse/wardrobe-mailbox-summer-internships-the-wardrobe-cornell/?trackingId=ETu4fr49%2BH%2BdcUsNWODfUQ%3D%3D">
               <p className="mb-10 text-blue-600">View Questions</p>
             </a>
-              <Link to="/rent">
+              <Link to="https://docs.google.com/forms/d/e/1FAIpQLSdSdPmkrGiVeUxDRotWtvVKNC1814ItInOwU58YSmuJLLvn8Q/viewform">
                 <button type="button" className="bg-blue-600 mt-4">
                   <p className="text-white text-sm my-4 mx-6">ASK AWAY</p>
                 </button>
