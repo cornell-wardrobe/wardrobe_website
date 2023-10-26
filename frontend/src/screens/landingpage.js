@@ -136,11 +136,11 @@ function Landingpage() {
           </div>
       </div>
       <div className="gap-0 grid grid-rows-2 sm:flex sm:columns-2 sm:h-[70vh]">
-        <div className="flex bg-slate-100 h-full items-center">
+        <div className="flex bg-slate-100 h-full items-center justify-center">
           <div className="ml-7 w-2/3">
             <p className="text-lg text-blue-700">JOIN THE TEAM</p>
             <p className="my-2 mr-4 text-4xl font-bold">Interested in joining?</p>
-            <p className="text-xl">Applications are currently closed but will be open again starting Fall 2023. 
+            <p className="text-xl">Applications are currently closed but will be open again starting Spring 2023. 
             We look forward to hearing from you!</p>
             <div>
               <Link to="/apply">
@@ -168,7 +168,12 @@ function Landingpage() {
             </img>
             <p className="text-sm text-blue-700 my-8">LATEST NEWS</p>
             <p className="my-2 text-4xl font-bold mb-8">Keep up to date</p>
-            <input type="text" placeholder="Enter your email" className="border p-1 pr-24 my-12 border-black"></input>
+            <div className="flex justify-center align-middle mt-12">
+              <input type="text" placeholder="Enter your email" className="border p-1 pr-24 border-gray"></input>
+              <button type="button" className="bg-blue-600">
+                <p className="text-white text-sm my-auto mx-8">Submit</p>
+              </button>
+            </div>
           </div>
         </div>
     </div>
