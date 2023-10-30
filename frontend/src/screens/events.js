@@ -5,14 +5,14 @@ function Events() {
     <div>
       <div className="h-screen grid grid-rows-2 gap-0 bg-slate-100 lg:flex lg:columns-2">
         <div className="flex h-full items-center justify-center lg:justify-normal">
-          <div className="lg:ml-56 text-center lg:text-left">
+          <div className="lg:ml-32 xl:ml-56 text-center lg:text-left">
             <p className="text-xl text-blue-700">GET EXCITED FOR</p>
             <p className="my-4 mr-4 text-4xl font-bold med:text-5xl lg:text-6xl">Pop-Up Shop</p>
             <p className="text-xl med:text-2xl">Look out for more info</p>
             <p className="text-xl med:text-2xl">this semester!</p>
           </div>
         </div>
-        <div className="flex grow-0 lg:ml-56 lg:mr-28 items-center justify-center bg-slate-100 lg:h-full h-3/6 lg:my-0 my-16">
+        <div className="flex grow-0 lg:ml-32 xl:ml-56 lg:mr-28 items-center justify-center bg-slate-100 lg:h-full h-3/6 lg:my-0 my-16">
           <img
             src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/6420d3c27894bfdc9e319c0f_Suit.svg"
             alt="Women standing with her suit">
