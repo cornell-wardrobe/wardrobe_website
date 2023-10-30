@@ -28,7 +28,7 @@ function Media() {
         </div>
       </div>
       <div className="w-screen">
-        <div className="pt-10 pb-10 flex w-full ml-[17%]">
+        <div className="pt-10 pb-10 flex ml-[17%]">
           <div className="pl-2.5 pr-2.5 w-4/12 float-left">
             <p className="text-3xl font-bold mt-5 mb-3">Featured on Cornell Chronicle</p>
             <div >
@@ -39,7 +39,6 @@ function Media() {
             <a href="https://news.cornell.edu/stories/2023/01/wardrobe-provides-attire-any-student-any-opportunity">
               <p className="mb-10 text-blue-600"> Read More</p>
             </a>
-            
           </div>
           <iframe width="460" 
             height="259" 
@@ -52,7 +51,7 @@ function Media() {
         </div>
 
       </div>
-      <div className="w-full ml-[17%]">
+      <div className="ml-[17%]">
         <p className="text-2xl md:text-3xl font-bold ">Styling in Motion</p>
         <p className="text-1xl ">Witness Wardrobe's Work in Action</p>
       </div>
@@ -60,7 +59,7 @@ function Media() {
         <div className="mx-auto w-4/5 md:w-2/3">
           <img
             src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/640145141131157ded7e4ea1_Wardrobe%20Lookbook%20FINAL.png"
-            alt="Wardrobe Image">
+            alt="Wardrobe Infographic">
           </img>
         </div>
       </div>

@@ -20,14 +20,16 @@ function Apply() {
         </div>
         <div className="flex items-center justify-center bg-slate-100">
           <img
-            className="p-10 pt-20 pb-0 md:p-0 lg:scale-75 lg:pr-20" src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613d3750c3defc990e271119_undraw_social_friends_nsbv.svg"
+            className="p-10 pt-20 pb-0 md:p-0 lg:scale-75 lg:pr-20" 
+            src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613d3750c3defc990e271119_undraw_social_friends_nsbv.svg"
+            alt="People sitting on computer"
           />
         </div>
       </div>
-      <div className="flex justify-center items-center">
-        <div className="text-center w-screen">
-          <p className="text-3xl font-bold pt-10">Want to know more?</p>
-          <p className="my-2 text-xl pt-2 pr-4 pl-4 pb-10">Coffee chat with us! You can find the NetID’s of Wardrobe members on the Team Page. Feel free to reach out to anyone, we would all be thrilled to meet you!</p>
+      <div className="h-[50vh] text-center flex justify-content items-center">
+        <div className="text-center w-screen mx-10">
+          <p className="text-3xl font-bold">Want to know more?</p>
+          <p className="my-4 text-xl">Coffee chat with us! You can find the NetID’s of Wardrobe members on the Team Page. Feel free to reach out to anyone, we would all be thrilled to meet you!</p>
         </div>
       </div>
     </div>
