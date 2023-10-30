@@ -1,7 +1,10 @@
 import React from "react";
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Disclosure } from "@headlessui/react";
+import {
+  Bars3Icon,
+  XMarkIcon,
+  ShoppingCartIcon,
+} from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
@@ -9,16 +12,25 @@ const navigation = [
   { name: "Team", href: "team", current: false },
   { name: "Media", href: "media", current: false },
   { name: "Apply", href: "apply", current: false },
-  { name: "Rent", href: "rent", current: false },
 ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
+const path = window.location.pathname;
+for (let i = 0; i < navigation.length; i++) {
+  if (
+    (path === "/" && navigation[i].href === "/") ||
+    path === "/" + navigation[i].href
+  ) {
+    navigation[i].current = true;
+  }
+}
+
 function NavBar() {
   return (
-    <Disclosure as="nav" className="bg-white-800">
+    <Disclosure as="nav" className="bg-white shadow sm:sticky sm:top-0 z-10">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-5 sm:px-9 lg:px-15">
@@ -34,36 +46,49 @@ function NavBar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="block h-14 w-auto lg:hidden"
-                    src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613b88e3d1d6425d8987647f_Nav_Logo.png"
-                    alt="Your Company"
-                  />
-                  <img
-                    className="hidden h-14 w-auto lg:block"
-                    src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613b88e3d1d6425d8987647f_Nav_Logo.png"
-                    alt="Your Company"
-                  />
+                  <a href={"/"}>
+                    <img
+                      className="block h-14 w-auto lg:hidden"
+                      src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613b88e3d1d6425d8987647f_Nav_Logo.png"
+                      alt="Your Company"
+                    />
+                    <img
+                      className="hidden h-14 w-auto lg:block"
+                      src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613b88e3d1d6425d8987647f_Nav_Logo.png"
+                      alt="Your Company"
+                    />
+                  </a>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="space-x-4 p-8 ml-[38rem]">
+                  <div className="flex items-center space-x-4 p-8">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current
-                            ? "bg-gray-900 text-white"
-                            : "text-black-300 hover:bg-gray-700 hover:text-white",
-                          "rounded-md px-3 py-2 text-sm font-medium"
+                          "text-gray-500 hover:text-black text-md font-medium px-3 py-2",
+                          item.current ? "text-blue-600" : ""
                         )}
-                        aria-current={item.current ? "page" : undefined}
                       >
                         {item.name}
                       </a>
                     ))}
+                    <div
+                      id="vertical bar"
+                      className="h-20 border-l-black border-[1px]"
+                    ></div>
+                    <a
+                      href={"rent"}
+                      className={classNames(
+                        "flex items-center text-gray-500 hover:text-black text-md font-medium px-3 py-2",
+                        path === "/rent" ? "text-blue-600" : ""
+                      )}
+                    >
+                      <ShoppingCartIcon className="h-6" />
+                      Rent
+                    </a>
                   </div>
                 </div>
               </div>
@@ -71,23 +96,30 @@ function NavBar() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pt-2 pb-3">
+            <div className="flex flex-col space-y-1 px-2 pt-2 pb-3">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-black-300 hover:bg-gray-700 hover:text-white",
-                    "block rounded-md px-3 py-2 text-base font-medium"
+                    "text-gray-500 hover:text-black text-md font-medium px-3 py-2",
+                    item.current ? "text-blue-600" : ""
                   )}
-                  aria-current={item.current ? "page" : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
               ))}
+              <a
+                href={"rent"}
+                className={classNames(
+                  "flex items-center text-gray-500 hover:text-black text-md font-medium px-3 py-2",
+                  path === "/rent" ? "text-blue-600" : ""
+                )}
+              >
+                <ShoppingCartIcon className="h-6" />
+                Rent
+              </a>
             </div>
           </Disclosure.Panel>
         </>
