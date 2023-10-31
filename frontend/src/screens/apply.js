@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Apply() {
   return (
     <div className="w-screen overflow-hidden">
-      <div className="h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
+      <div className="h-[65vh] xs:h-[75vh] md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 items-center h-full">
-          <div className="ml-7">
+          <div className="mx-4 mt-16 xs:mx-0 xs:mt-0 justify-center w-full md:ml-7 z-50">
             <p className="text-5xl pb-2 font-bold text-center md:text-left md:text-6xl">Nice to meet you!</p>
             <p className="text-2xl pb-4 mr-4 text-center md:text-left">Positions for FA23 are closed, join us next semester!</p>
             <div className="flex flex-col justify-center items-center md:justify-normal md:items-start">

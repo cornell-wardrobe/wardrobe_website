@@ -7,8 +7,8 @@ function Landingpage() {
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 h-full items-center">
           <div className="ml-7 text-center md:text-left">
-            <p className="text-xl text-blue-700">CORNELL WARDROBE</p>
-            <p className="my-4 mr-4 text-4xl font-bold med:text-5xl xl:text-6xl">Pre-Professional Clothing For All Students</p>
+            <p className="text-xl text-blue-700 mt-5 md:mt-0">CORNELL WARDROBE</p>
+            <p className="my-4 mr-4 text-4xl font-bold md:text-5xl xl:text-6xl">Pre-Professional Clothing For All Students</p>
             <p className="text-xl med:text-2xl">Helping any student pursue any opportunity</p>
               <Link to="/rent">
                 <button type="button" className="bg-blue-600 mt-8">
@@ -28,7 +28,7 @@ function Landingpage() {
         <div className="h-1/3 flex justify-content items-center">
           <div className="text-center w-screen">
             <p className="text-xl text-blue-700">WHAT WE DO</p>
-            <p className="my-2 text-4xl font-bold sm:pb-auto pb-4">Our Two Fold Approach</p>
+            <p className="my-2 text-4xl font-bold mx-4 sm:pb-auto pb-4">Our Two Fold Approach</p>
           </div>
         </div>
         <div className="sm:h-2/3 gap-0 grid grid-rows-2 sm:flex sm:columns-2">
@@ -66,7 +66,7 @@ function Landingpage() {
             <p className="my-2 text-4xl font-bold">How it Works</p>
           </div>
       </div>
-      <div className="h-[50vh] gap-0 columns-2 sm:h-[60vh]">
+      <div className="h-[30vh] gap-0 columns-2 sm:h-[60vh]">
           <div className="flex items-center justify-center h-full">
             <div className="flex">
               <img
@@ -89,13 +89,13 @@ function Landingpage() {
             </div>
           </div>
       </div>
-      <div className="h-[50vh] gap-0 columns-2 sm:h-[60vh]">
+      <div className="h-[30vh] gap-0 columns-2 sm:h-[60vh]">
           <div className="flex items-center justify-center h-full">
           <div className="flex">
             <div className="w-4/5">
                 <p className="text-5xl text-center text-blue-700 font-bold -rotate-90 hidden lg:flex">STEP TWO</p>
               </div>
-              <div className="-ml-16">
+              <div className="-ml-8 sm:-ml-16">
                 <p className="text-3xl mb-8 font-bold">Step Two: Wait</p>
                 <p className="">Wait for our team's response to your request. We'll get back to you within 48 hours.
                 </p>
@@ -112,7 +112,7 @@ function Landingpage() {
             </div>
           </div>
       </div>
-      <div className="h-[50vh] gap-0 columns-2 sm:h-[60vh]">
+      <div className="h-[30vh] gap-0 columns-2 sm:h-[60vh]">
           <div className="flex items-center justify-center h-full">
             <div className="">
               <img

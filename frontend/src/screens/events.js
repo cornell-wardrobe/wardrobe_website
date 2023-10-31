@@ -3,9 +3,9 @@ import React from "react";
 function Events() {
   return (
     <div>
-      <div className="h-screen grid grid-rows-2 gap-0 bg-slate-100 lg:flex lg:columns-2">
+      <div className="h-[75vh] xs:h-screen grid grid-rows-2 gap-0 bg-slate-100 lg:flex lg:columns-2">
         <div className="flex h-full items-center justify-center lg:justify-normal">
-          <div className="lg:ml-32 xl:ml-56 text-center lg:text-left">
+          <div className="md:mb-24 lg:mb-0 lg:ml-32 xl:ml-56 text-center lg:text-left">
             <p className="text-xl text-blue-700">GET EXCITED FOR</p>
             <p className="my-4 mr-4 text-4xl font-bold med:text-5xl lg:text-6xl">Pop-Up Shop</p>
             <p className="text-xl med:text-2xl">Look out for more info</p>
@@ -37,7 +37,7 @@ function Events() {
         </div>
         <div className="flex items-center justify-center h-full">
           <div className="flex">
-            <div className="mx-12 mt-32 lg:mt-0 lg:ml-80 -mr-14">
+            <div className="mx-12 mt-32 lg:mt-0 lg:ml-80 -mr-14 z-50">
               <p className="text-3xl mb-8 font-bold">WHAT is the Pop-Up Shop?</p>
               <p className="">Once a semester, we open a pop-up shop to give both used and new clothes to the student population.
               </p>
@@ -90,7 +90,7 @@ function Events() {
             </img>
           </div>
         </div>
-        <div className="flex items-center justify-center h-full">
+        <div className="pb-8 md:pb-0 flex items-center justify-center h-full">
           <div className="flex">
             <div className="mt-32 lg:mt-0 mx-12 lg:ml-72 -mr-14">
               <p className="text-3xl mb-8 font-bold">HOW does it work?</p>
