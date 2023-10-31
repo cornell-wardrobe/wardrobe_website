@@ -30,12 +30,12 @@ for (let i = 0; i < navigation.length; i++) {
 
 function NavBar() {
   return (
-    <Disclosure as="nav" className="bg-white shadow sm:sticky sm:top-0 z-10">
+    <Disclosure as="nav" className="bg-white shadow nav:sticky nav:top-0 z-10">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-5 sm:px-9 lg:px-15">
+          <div className="mx-auto max-w-7xl px-5 nav:px-9 lg:px-15">
             <div className="relative flex h-28 items-center justify-between">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <div className="absolute inset-y-0 left-0 flex items-center nav:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
@@ -46,7 +46,7 @@ function NavBar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
+              <div className="flex flex-1 items-center justify-center nav:items-stretch nav:justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   <a href={"/"}>
                     <img
@@ -61,7 +61,7 @@ function NavBar() {
                     />
                   </a>
                 </div>
-                <div className="hidden sm:ml-6 sm:block">
+                <div className="hidden nav:ml-6 nav:block">
                   <div className="flex items-center space-x-4 p-8">
                     {navigation.map((item) => (
                       <a
@@ -95,7 +95,7 @@ function NavBar() {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="nav:hidden">
             <div className="flex flex-col space-y-1 px-2 pt-2 pb-3">
               {navigation.map((item) => (
                 <Disclosure.Button
