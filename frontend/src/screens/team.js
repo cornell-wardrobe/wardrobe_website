@@ -298,12 +298,12 @@ function Team() {
       <div className=" ml-[17%]">
         <div className="w-full ">
           <p className="text-4xl font-bold mt-7">Meet The Team</p>
-          <p className="text-1xl mb-5">The faces behind the Wardrobe</p>
+          <p className="text-1xl mb-3">The faces behind the Wardrobe</p>
         </div>
         <div className="tabs flex space-x-4 flex-wrap">
           <button
             className={
-              activeTab === 0 ? "tab active border-b-2 border-blue-500 font-bold px-2" : "tab font-bold px-2"
+              activeTab === 0 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !mr-4" : "tab font-bold px-2 pt-2 !mr-4"
             }
             onClick={() => handleTabClick(0)}
           >
@@ -311,7 +311,7 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 1 ? "tab active border-b-2 border-blue-500 font-bold px-2" : "tab font-bold px-2"
+              activeTab === 1 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4" : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(1)}
           >
@@ -319,7 +319,7 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 2 ? "tab active border-b-2 border-blue-500 font-bold px-2" : "tab font-bold px-2"
+              activeTab === 2 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4" : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(2)}
           >
@@ -327,7 +327,7 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 3 ? "tab active border-b-2 border-blue-500 font-bold px-2" : "tab font-bold px-2"
+              activeTab === 3 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4" : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(3)}
           >
@@ -335,7 +335,7 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 4 ? "tab active border-b-2 border-blue-500 font-bold px-2" : "tab font-bold px-2"
+              activeTab === 4 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4" : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(4)}
           >
@@ -343,7 +343,7 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 5 ? "tab active border-b-2 border-blue-500 font-bold px-2" : "tab font-bold px-2"
+              activeTab === 5 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0" : "tab font-bold px-2 pt-2 !ml-0"
             }
             onClick={() => handleTabClick(5)}
           >
