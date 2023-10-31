@@ -68,8 +68,8 @@ function NavBar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          "text-gray-500 hover:text-black text-md font-medium px-3 py-2",
-                          item.current ? "text-blue-600" : ""
+                          "hover:text-black text-md font-medium px-3 py-2",
+                          item.current ? "text-blue-600" : "text-gray-500"
                         )}
                       >
                         {item.name}
@@ -82,8 +82,8 @@ function NavBar() {
                     <a
                       href={"rent"}
                       className={classNames(
-                        "flex items-center text-gray-500 hover:text-black text-md font-medium px-3 py-2",
-                        path === "/rent" ? "text-blue-600" : ""
+                        "flex items-center hover:text-black text-md font-medium px-3 py-2",
+                        path === "/rent" ? "text-blue-600" : "text-gray-500"
                       )}
                     >
                       <ShoppingCartIcon className="h-6" />
@@ -103,8 +103,8 @@ function NavBar() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    "text-gray-500 hover:text-black text-md font-medium px-3 py-2",
-                    item.current ? "text-blue-600" : ""
+                    "hover:text-black text-md font-medium px-3 py-2",
+                    item.current ? "text-blue-600" : "text-gray-500"
                   )}
                 >
                   {item.name}
@@ -113,8 +113,8 @@ function NavBar() {
               <a
                 href={"rent"}
                 className={classNames(
-                  "flex items-center text-gray-500 hover:text-black text-md font-medium px-3 py-2",
-                  path === "/rent" ? "text-blue-600" : ""
+                  "flex items-center hover:text-black text-md font-medium px-3 py-2",
+                  path === "/rent" ? "text-blue-600" : "text-gray-500"
                 )}
               >
                 <ShoppingCartIcon className="h-6" />
