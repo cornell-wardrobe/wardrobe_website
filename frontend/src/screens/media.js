@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import janetMi from "../components/images/media/janet-mi-headshot.png";
+import mediaInfographic from "../components/images/media/media-infographic.png";
 
 function Media() {
   return (
@@ -7,7 +9,7 @@ function Media() {
       <div className="w-screen md:h-[45vh] grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex items-center justify-center bg-slate-100 h-full md:w-2/5">
           <img class="h-48"
-            src="https://assets-global.website-files.com/613b882ec820210e858b303b/64591f1debcfe571fdc2441c_janet-p-500.png"
+            src={janetMi}
             alt="Janet Mi Headshot">
           </img>
         </div>
@@ -60,7 +62,7 @@ function Media() {
         <div className="h-auto w-auto flex items-center justify-center">
           <div className="md:w-4/5 lg:w-3/4">
             <img
-              src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/640145141131157ded7e4ea1_Wardrobe%20Lookbook%20FINAL.png"
+              src={mediaInfographic}
               alt="Wardrobe Infographic">
             </img>
           </div>

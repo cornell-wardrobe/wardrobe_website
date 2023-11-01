@@ -5,6 +5,7 @@ import {
   XMarkIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
+import Logo from "../components/images/wardrobe_logo.png"
 
 const navigation = [
   { name: "Home", href: "/", current: false },
@@ -51,12 +52,12 @@ function NavBar() {
                   <a href={"/"}>
                     <img
                       className="block h-14 w-auto lg:hidden"
-                      src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613b88e3d1d6425d8987647f_Nav_Logo.png"
+                      src={Logo}
                       alt="Your Company"
                     />
                     <img
                       className="hidden h-14 w-auto lg:block"
-                      src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613b88e3d1d6425d8987647f_Nav_Logo.png"
+                      src={Logo}
                       alt="Your Company"
                     />
                   </a>

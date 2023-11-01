@@ -1,5 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import homeMirror from "../components/images/landingPage/home_page_mirror.svg";
+import homeTie from "../components/images/landingPage/home_tie.svg"
+import homeShop from "../components/images/landingPage/home_shop.svg"
+import homeStepOne from "../components/images/landingPage/home_step_one.svg"
+import homeStepTwo from "../components/images/landingPage/home_step_two.svg"
+import homeStepThree from "../components/images/landingPage/home_step_three.svg"
+import homeApply from "../components/images/landingPage/home_apply.svg"
+import Logo from "../components/images/wardrobe_logo.png"
 
 function Landingpage() {
   return (
@@ -19,7 +27,7 @@ function Landingpage() {
         </div>
         <div className="flex items-center justify-center bg-slate-100 h-full">
           <img
-          src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613b88edce2b590457079f96_undraw_career_progress_ivdb%201.svg" 
+          src={homeMirror}
           alt="Man staring in mirror">
           </img>
         </div>
@@ -36,7 +44,7 @@ function Landingpage() {
               <div className="text-center">
                 <img
                 className="h-36 w-36 mx-auto"
-                src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613bedde01ad81cc7bbe98c9_user-tie-solid.svg" 
+                src={homeTie} 
                 alt="Man staring in mirror">
                 </img>
                 <p className="text-4xl font-bold mt-16 mb-8">Rental Model</p>
@@ -49,7 +57,7 @@ function Landingpage() {
               <div className="text-center">
                 <img
                 className="h-36 w-36 mx-auto"
-                src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613bede279fcdf1dfca1111f_store-solid.svg" 
+                src={homeShop} 
                 alt="Storefront">
                 </img>
                 <p className="text-4xl font-bold mt-16 mb-8">Pop-Up Shop</p>
@@ -71,7 +79,7 @@ function Landingpage() {
             <div className="flex">
               <img
               className="h-96 w-96"
-              src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613befefe28f9c8297a23022_undraw_Forms_re_pkrt.svg" 
+              src={homeStepOne} 
               alt="Man staring at clipboards">
               </img>
             </div>
@@ -106,7 +114,7 @@ function Landingpage() {
             <div className="">
               <img
               className="h-96 w-96"
-              src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613bf3c3f8a2495b1e279654_undraw_Chat_re_re1u.svg" 
+              src={homeStepTwo} 
               alt="Woman chatting">
               </img>
             </div>
@@ -117,7 +125,7 @@ function Landingpage() {
             <div className="">
               <img
               className="h-96 w-96"
-              src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613bf6fd540d8f91679f4c4d_undraw_Order_delivered_re_v4ab.svg" 
+              src={homeStepThree} 
               alt="Woman holding a package">
               </img>
             </div>
@@ -154,7 +162,7 @@ function Landingpage() {
         <div className="pb-8 w-full flex items-center justify-center bg-slate-100 h-full sm:pb-auto">
           <img
           className="h-96 w-96 pr-3 med:pr-0"
-          src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613bfc96c3d4908a8ee0e2a6_undraw_Resume_re_hkth.svg" 
+          src={homeApply} 
           alt="Application">
           </img>
         </div>
@@ -163,7 +171,7 @@ function Landingpage() {
           <div className="text-center w-screen">
             <img
             className="h-24 w-24 m-auto"
-            src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613b88e3d1d6425d8987647f_Nav_Logo.png" 
+            src={Logo}
             alt="Wardrobe logo">
             </img>
             <p className="text-sm text-blue-700 my-8">LATEST NEWS</p>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import applyFirst from "../components/images/apply/apply-first.svg";
 
 function Apply() {
   return (
@@ -21,7 +22,7 @@ function Apply() {
         <div className="flex items-center justify-center bg-slate-100">
           <img
             className="md:p-0 scale-75 sm:scale-50 md:scale-75 lg:pr-20" 
-            src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613d3750c3defc990e271119_undraw_social_friends_nsbv.svg"
+            src={applyFirst}
             alt="People sitting on computer"
           />
         </div>

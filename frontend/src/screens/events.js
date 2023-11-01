@@ -1,4 +1,8 @@
 import React from "react";
+import eventsStart from "../components/images/events/events-first.svg";
+import eventsStepOne from "../components/images/events/events-step-one.svg";
+import eventsStepTwo from "../components/images/events/events-step-two.svg";
+import eventsStepThree from "../components/images/events/events-step-three.svg";
 
 function Events() {
   return (
@@ -14,7 +18,7 @@ function Events() {
         </div>
         <div className="flex grow-0 lg:ml-32 xl:ml-56 lg:mr-28 items-center justify-center bg-slate-100 lg:h-full h-3/6 lg:my-0 my-16">
           <img
-            src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/6420d3c27894bfdc9e319c0f_Suit.svg"
+            src={eventsStart}
             alt="Women standing with her suit">
           </img>
         </div>
@@ -30,7 +34,7 @@ function Events() {
           <div className="flex">
             <img
               className="mt-16 lg:mt-0 lg:ml-56 h-96 w-96"
-              src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/613c2d7b4fc605c931ee8d24_undraw_Lost_re_xqjt.svg"
+              src={eventsStepOne}
               alt="Man looking at newspaper">
             </img>
           </div>
@@ -53,7 +57,7 @@ function Events() {
           <div className="">
             <img
               className="mt-16 lg:mt-0 lg:mr-56 h-96 w-96"
-              src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/6420d77ef2602a3429f567c3_undraw_breaking_barriers_vnf3%201.svg"
+              src={eventsStepTwo}
               alt="Woman looking down at sun">
             </img>
           </div>
@@ -74,7 +78,7 @@ function Events() {
           <div className="">
             <img
               className="mt-40 lg:mt-0 h-96 w-96"
-              src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/6420d77ef2602a3429f567c3_undraw_breaking_barriers_vnf3%201.svg"
+              src={eventsStepTwo}
               alt="Woman looking down at sun">
             </img>
           </div>
@@ -85,7 +89,7 @@ function Events() {
           <div className="">
             <img
               className="mt-16 lg:mt-0 lg:ml-56 h-96 w-96"
-              src="https://uploads-ssl.webflow.com/613b882ec820210e858b303b/6420d77ee6ce558cf8105a48_undraw_interview_rmcf%201.svg"
+              src={eventsStepThree}
               alt="Two people handshake">
             </img>
           </div>
