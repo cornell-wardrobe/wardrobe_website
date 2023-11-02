@@ -5,7 +5,8 @@ import {
   XMarkIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
-import Logo from "../components/images/wardrobe_logo.png"
+import Logo from "../components/images/wardrobe_logo.png";
+import { useLocation } from "react-router-dom";
 
 const navigation = [
   { name: "Home", href: "/", current: false },
@@ -19,17 +20,21 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const path = window.location.pathname;
-for (let i = 0; i < navigation.length; i++) {
-  if (
-    (path === "/" && navigation[i].href === "/") ||
-    path === "/" + navigation[i].href
-  ) {
-    navigation[i].current = true;
-  }
-}
-
 function NavBar() {
+  const location = useLocation();
+
+  const path = location.pathname;
+  for (let i = 0; i < navigation.length; i++) {
+    if (
+      (path === "/" && navigation[i].href === "/") ||
+      path === "/" + navigation[i].href
+    ) {
+      navigation[i].current = true;
+    } else {
+      navigation[i].current = false;
+    }
+  }
+
   return (
     <Disclosure as="nav" className="bg-white shadow nav:sticky nav:top-0 z-10">
       {({ open }) => (
