@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b207d671.css",
-    "main.js": "/static/js/main.d3fd2055.js",
+    "main.css": "/static/css/main.701261ba.css",
+    "main.js": "/static/js/main.78778eab.js",
     "static/media/media-infographic.png": "/static/media/media-infographic.e5dbfb20e28a0827c75d.png",
     "static/media/Luke_Huang.png": "/static/media/Luke_Huang.d0d3697e38cb05c189aa.png",
     "static/media/Jenny_Chen.png": "/static/media/Jenny_Chen.df097eaad0d15827990f.png",
@@ -31,7 +31,7 @@
     "static/media/Patrick_Chen.png": "/static/media/Patrick_Chen.07dd290b9cfdf06ddb55.png",
     "static/media/Kylie_Huber.png": "/static/media/Kylie_Huber.34956eba6ea1ad9d15b5.png",
     "static/media/Aidan_O'Connor.png": "/static/media/Aidan_O'Connor.5f72f8d3a841a1d2ac28.png",
-    "static/media/Julia_Edelman.jpg": "/static/media/Julia_Edelman.8b512740139cd96a870e.jpg",
+    "static/media/Julia_Edelman.JPG": "/static/media/Julia_Edelman.e3aebcb6353b79464aab.JPG",
     "static/media/Yudai_Higuchi.jpg": "/static/media/Yudai_Higuchi.d2ae2ff8c71bd81b0520.jpg",
     "static/media/rent-find-your-fit.png": "/static/media/rent-find-your-fit.8494816e6fb3950a02e6.png",
     "static/media/janet-mi-headshot.png": "/static/media/janet-mi-headshot.836714d317759484776a.png",
@@ -55,11 +55,11 @@
     "static/media/home_shop.svg": "/static/media/home_shop.cd77102d394f732a523525def851ffe0.svg",
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
-    "main.b207d671.css.map": "/static/css/main.b207d671.css.map",
-    "main.d3fd2055.js.map": "/static/js/main.d3fd2055.js.map"
+    "main.701261ba.css.map": "/static/css/main.701261ba.css.map",
+    "main.78778eab.js.map": "/static/js/main.78778eab.js.map"
   },
   "entrypoints": [
-    "static/css/main.b207d671.css",
-    "static/js/main.d3fd2055.js"
+    "static/css/main.701261ba.css",
+    "static/js/main.78778eab.js"
   ]
 }
