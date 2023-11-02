@@ -67,7 +67,7 @@ function Events() {
             <div className="w-4/5">
               <p className="lg:ml-56 lg:mt-4 text-5xl text-center text-blue-700 font-bold -rotate-90 hidden lg:flex">PEOPLE</p>
             </div>
-            <div className="mt-32 lg:mt-0 -ml-14 lg:w-96 mx-12">
+            <div className="mt-32 lg:mt-0 -ml-14 lg:w-96 mx-12 z-40">
               <p className="text-3xl mb-8 font-bold">WHO can attend?</p>
               <p className="">Our Pop-up Shop is no exception to our mission, providing free professional clothing for ALL students to pursue ANY opportunity.
               </p>
@@ -88,7 +88,7 @@ function Events() {
         <div className="flex items-center justify-center h-full">
           <div className="">
             <img
-              className="mt-16 lg:mt-0 lg:ml-56 h-96 w-96"
+              className="mt-32 lg:mt-0 lg:ml-56 h-96 w-96 z-0"
               src={eventsStepThree}
               alt="Two people handshake">
             </img>

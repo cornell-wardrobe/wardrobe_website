@@ -3,7 +3,7 @@ import { useState } from "react";
 import People from "../components/people";
 import markGambeski from "../components/headshots/Mark_Gambeski.jpeg";
 import juliaIsko from "../components/headshots/Julia_Isko.png";
-import juliaEdelman from "../components/headshots/Julia_Edelman.jpg";
+import juliaEdelman from "../components/headshots/Julia_Edelman.JPG";
 import adamSenzon from "../components/headshots/Adam_Senzon.png";
 import alexChen from "../components/headshots/Alex_Chen.png";
 import sarahKim from "../components/headshots/Sarah_Kim.png";

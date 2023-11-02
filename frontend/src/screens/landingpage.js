@@ -74,7 +74,7 @@ function Landingpage() {
             <p className="my-2 text-4xl font-bold">How it Works</p>
           </div>
       </div>
-      <div className="h-[30vh] gap-0 columns-2 sm:h-[60vh]">
+      <div className="h-[35vh] gap-0 columns-2 sm:h-[60vh]">
           <div className="flex items-center justify-center h-full">
             <div className="flex">
               <img
@@ -97,7 +97,7 @@ function Landingpage() {
             </div>
           </div>
       </div>
-      <div className="h-[30vh] gap-0 columns-2 sm:h-[60vh]">
+      <div className="h-[35vh] gap-0 columns-2 sm:h-[60vh]">
           <div className="flex items-center justify-center h-full">
           <div className="flex">
             <div className="w-4/5">
@@ -120,7 +120,7 @@ function Landingpage() {
             </div>
           </div>
       </div>
-      <div className="h-[30vh] gap-0 columns-2 sm:h-[60vh]">
+      <div className="h-[35vh] gap-0 columns-2 sm:h-[60vh]">
           <div className="flex items-center justify-center h-full">
             <div className="">
               <img
@@ -134,7 +134,7 @@ function Landingpage() {
           <div className="flex">
               <div className="">
                 <p className="text-3xl mb-8 font-bold">Step Three: Pick Up</p>
-                <p className="">Pick up your items at our Barnes Hall location and enjoy your professional attire!
+                <p className="">Pick up your items at our Barnes Hall location and enjoy your attire!
                 </p>
               </div>
               <div className="w-3/5">
