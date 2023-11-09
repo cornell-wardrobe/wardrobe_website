@@ -3,7 +3,7 @@ import { useState } from "react";
 import People from "../components/people";
 import markGambeski from "../components/headshots/Mark_Gambeski.jpeg";
 import juliaIsko from "../components/headshots/Julia_Isko.png";
-import juliaEdelman from "../components/headshots/Julia_Edelman.JPG";
+import juliaEdelman from "../components/headshots/Julia_Edelman.jpg";
 import adamSenzon from "../components/headshots/Adam_Senzon.png";
 import alexChen from "../components/headshots/Alex_Chen.png";
 import sarahKim from "../components/headshots/Sarah_Kim.png";
@@ -275,7 +275,9 @@ function Team() {
         <div className="tabs flex space-x-4 flex-wrap">
           <button
             className={
-              activeTab === 0 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !mr-4" : "tab font-bold px-2 pt-2 !mr-4"
+              activeTab === 0
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !mr-4"
+                : "tab font-bold px-2 pt-2 !mr-4"
             }
             onClick={() => handleTabClick(0)}
           >
@@ -283,7 +285,9 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 1 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4" : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
+              activeTab === 1
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(1)}
           >
@@ -291,7 +295,9 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 2 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4" : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
+              activeTab === 2
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(2)}
           >
@@ -299,7 +305,9 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 3 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4" : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
+              activeTab === 3
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(3)}
           >
@@ -307,7 +315,9 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 4 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4" : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
+              activeTab === 4
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(4)}
           >
@@ -315,7 +325,9 @@ function Team() {
           </button>
           <button
             className={
-              activeTab === 5 ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0" : "tab font-bold px-2 pt-2 !ml-0"
+              activeTab === 5
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0"
+                : "tab font-bold px-2 pt-2 !ml-0"
             }
             onClick={() => handleTabClick(5)}
           >
