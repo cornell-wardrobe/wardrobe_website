@@ -2,9 +2,6 @@ import React from "react";
 import EmailInput from "../components/formInputs/emailInput";
 import RegularInput from "../components/formInputs/regularInput";
 
-// TODO(connor):
-// - colors?
-
 export default function TempRentPage() {
   const [email, setEmail] = React.useState("");
   const [fullName, setFullName] = React.useState("");
