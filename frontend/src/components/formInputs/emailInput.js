@@ -1,4 +1,4 @@
-export default function EmailInput({ email, setEmail }) {
+export default function EmailInput({ email, setEmail, form }) {
   return (
     <div>
       <label
@@ -26,7 +26,7 @@ export default function EmailInput({ email, setEmail }) {
           class="block w-full rounded-md border-0 py-1.5 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-700 sm:text-sm sm:leading-6"
           placeholder="abc123@cornell.edu"
           value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          onChange={(e) => setEmail({...form, email: e.target.value})}
         />
       </div>
     </div>
