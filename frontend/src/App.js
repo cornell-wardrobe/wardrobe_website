@@ -7,6 +7,8 @@ import Team from "./screens/team";
 import Media from "./screens/media";
 import Apply from "./screens/apply";
 import Rent from "./screens/rent";
+import Sizing from "./screens/sizing";
+import DressCode from "./screens/dressCode";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
             <Route path="/media" element={<Media />} />
             <Route path="/apply" element={<Apply />} />
             <Route path="/rent" element={<Rent />} />
+            <Route path="/sizing" element={<Sizing />} />
+            <Route path="/dress-code" element={<DressCode />} />
           </Route>
         </Routes>
       </Router>
