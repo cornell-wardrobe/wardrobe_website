@@ -148,7 +148,7 @@ function Landingpage() {
           <div className="ml-7 w-2/3">
             <p className="text-lg text-blue-700">JOIN THE TEAM</p>
             <p className="my-2 mr-4 text-4xl font-bold">Interested in joining?</p>
-            <p className="text-xl">Applications are currently closed but will be open again starting Spring 2023. 
+            <p className="text-xl">Applications are currently open for the Spring 2024 season. 
             We look forward to hearing from you!</p>
             <div>
               <Link to="/apply">

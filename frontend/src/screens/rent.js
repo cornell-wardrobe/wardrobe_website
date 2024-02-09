@@ -11,13 +11,14 @@ function Rent() {
         <div className="pl-2.5 pr-2.5 w-6/12 float-left">
           <p className="text-3xl font-bold mt-5 mb-3">Looking for attire?</p>
           <div className="mb-10">
-            Fill out our rental form for the desired items at least 48 hours in advance. 
+            We will be up and running our rentals in early February 2024!
+            {/* Fill out our rental form for the desired items at least 48 hours in advance. 
             Our team will respond promptly with a pickup date, location, and return date. 
-            We look forward to hearing from you!
+            We look forward to hearing from you! */}
           </div>
-          <a className="bg-blue-700 text-white px-10 py-5" href="https://forms.gle/bvHDuMR7LcJPcgRo8">
+          {/* <a className="bg-blue-700 text-white px-10 py-5" href="https://forms.gle/bvHDuMR7LcJPcgRo8">
             RENT
-          </a>
+          </a> */}
         </div>
         <div className="pl-2.5 pr-2.5 w-6/12 float-left">
           <img className="max-w-full align-middle inline-block w-96" 
