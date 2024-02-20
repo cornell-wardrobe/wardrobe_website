@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e54c4216.css",
-    "main.js": "/static/js/main.eb6599ad.js",
+    "main.js": "/static/js/main.ec32fb87.js",
     "static/media/media-infographic.png": "/static/media/media-infographic.e5dbfb20e28a0827c75d.png",
     "static/media/Luke_Huang.png": "/static/media/Luke_Huang.d0d3697e38cb05c189aa.png",
     "static/media/Jenny_Chen.png": "/static/media/Jenny_Chen.df097eaad0d15827990f.png",
@@ -30,7 +30,7 @@
     "static/media/Talia-Perkins.jpeg": "/static/media/Talia-Perkins.a11f265a65d2e70eabe7.jpeg",
     "static/media/Yudai_Higuchi.jpg": "/static/media/Yudai_Higuchi.d2ae2ff8c71bd81b0520.jpg",
     "static/media/rent-find-your-fit.png": "/static/media/rent-find-your-fit.8494816e6fb3950a02e6.png",
-    "static/media/Nicolette_Gani.jpg": "/static/media/Nicolette_Gani.e617dfc755257891bb7e.jpg",
+    "static/media/Nicolette_Gani.jpg": "/static/media/Nicolette_Gani.3981651998cfa64d4a18.jpg",
     "static/media/janet-mi-headshot.png": "/static/media/janet-mi-headshot.836714d317759484776a.png",
     "static/media/Arya_Ramkumar.jpeg": "/static/media/Arya_Ramkumar.a0aa60c2c6cf3d606802.jpeg",
     "static/media/events-step-three.svg": "/static/media/events-step-three.537e33491a9f358e6df75bb74d42b677.svg",
@@ -52,10 +52,10 @@
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
     "main.e54c4216.css.map": "/static/css/main.e54c4216.css.map",
-    "main.eb6599ad.js.map": "/static/js/main.eb6599ad.js.map"
+    "main.ec32fb87.js.map": "/static/js/main.ec32fb87.js.map"
   },
   "entrypoints": [
     "static/css/main.e54c4216.css",
-    "static/js/main.eb6599ad.js"
+    "static/js/main.ec32fb87.js"
   ]
 }
