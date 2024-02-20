@@ -30,6 +30,7 @@ import vindhyaKathuria from "../components/headshots/Vindhya_Kathuria.png";
 import ashleySosa from "../components/headshots/Ashley_Sosa.jpeg";
 import emilyChen from "../components/headshots/Emily_Chen.png";
 import taliaPerkins from "../components/headshots/Talia-Perkins.jpeg";
+import nicoletteGani from "../components/headshots/Nicolette_Gani.jpg";
 
 function Team() {
   const MANAGEMENT = [
@@ -50,6 +51,12 @@ function Team() {
       name: "Maryam Albakry",
       position: "Vice President",
       image: maryamAlbakry,
+    },
+    {
+      netID: "nig22",
+      name: "Nicolette Gani",
+      position: "Director of Expansion",
+      image: nicoletteGani,
     },
   ];
 
