@@ -23,6 +23,7 @@ function Landingpage() {
                   <p className="text-white text-sm my-4 mx-6">RENT NOW</p>
                 </button>
               </Link>
+              {/* test */}
           </div>
         </div>
         <div className="flex items-center justify-center bg-slate-100 h-full">
