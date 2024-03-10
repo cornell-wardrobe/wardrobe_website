@@ -17,9 +17,29 @@ function Footer() {
   return (
     <div className="py-24 bg-gray-50">
       <p className="text-4xl font-bold text-center mb-4">WARDROBE</p>
-      <p className="text-center font-bold text-sm mb-16 text-gray-500">
+      <p className="text-center font-bold text-sm text-gray-500">
         Helping any student pursue any opportunity
       </p>
+      <p className="text-center font-bold text-sm mt-8">Join our listserv</p>
+      <div className="flex justify-center align-middle mt-4 mb-12">
+        <form action="https://www.list.cornell.edu/subscribe/subscribe.tml" method="POST" target="blank">
+          <input type="text" name="email" placeholder="Enter your email" className="border p-1 pr-24 border-gray"/>
+          <input type="hidden" NAME="name" VALUE=""/>
+          <input type="hidden" name="list" value="wardrobe-l"/>
+          <input type="hidden" name="lists" value="wardrobe-l"/>
+          <input type="hidden" name="demographics" value="" />
+          <input type="hidden" name="name_required" value="" />
+          <input type="hidden" name="pw_required" value="" />
+          <input type="hidden" name="confirm" value="one_hello" />
+          <input type="hidden" name="showconfirm" value="T" />
+          <input type="hidden" name="url" value="" />
+          <input type="hidden" name="appendsubinfotourl" value="" />
+          <input type="hidden" name="secx" value="e1e742b1" />
+          <button type="submit" value="subscribe" title="subscribe" alt="subscribe" name="subscribe" className="bg-blue-600 h-full">
+            <p className="text-white text-sm my-auto mx-8">Submit</p>
+          </button>
+        </form>
+      </div>
       <div className="md:flex justify-around">
         <SocialMediaComponent
           icon={faEnvelope}
