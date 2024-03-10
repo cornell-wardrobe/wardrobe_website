@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import rentFirst from "../components/images/rent/rent-first.svg";
 import rentFindYourFit from "../components/images/rent/rent-find-your-fit.png";
 import rentMensSize from "../components/images/rent/rent-mens-size.jpeg";
@@ -10,17 +11,16 @@ function Rent() {
       <div className="flex flex-row items-center ml-10 mr-10">
         <div className="pl-2.5 pr-2.5 w-6/12 float-left">
           <p className="text-3xl font-bold mt-5 mb-3">Looking for attire?</p>
-          <div className="mb-10">
-            Fill out our rental form for the desired items at least 48 hours in
-            advance. Our team will respond promptly with a pickup date,
-            location, and return date. We look forward to hearing from you!
+          <div className="mb-8">
+            Fill out our rental form for the desired items at least 48 hours in advance. 
+            Our team will respond promptly with a pickup date, location, and return date. 
+            We look forward to hearing from you!
           </div>
-          <a
-            className="bg-blue-700 text-white px-10 py-5"
-            href="https://forms.gle/K6redtsUJA3W45xYA"
-          >
-            RENT
-          </a>
+          <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeCC_OWC-30hTyYZxkoXHwruQOP2KY3IOJ0TtlsFflez9NxYg/viewform" target="blank">
+            <button type="button" className="bg-blue-700 text-white px-5 py-2">
+              <p className="text-white text-sm my-4 mx-6">RENT</p>
+            </button>
+          </Link>
         </div>
         <div className="pl-2.5 pr-2.5 w-6/12 float-left">
           <img
