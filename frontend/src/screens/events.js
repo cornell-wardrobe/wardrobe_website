@@ -41,7 +41,7 @@ function Events() {
         </div>
         <div className="flex items-center justify-center h-full">
           <div className="flex">
-            <div className="mx-12 mt-32 lg:mt-0 lg:ml-80 -mr-14 z-50">
+            <div className="mx-12 mt-32 lg:mt-0 lg:ml-80 -mr-14 z-30">
               <p className="text-3xl mb-8 font-bold">WHAT is the Pop-Up Shop?</p>
               <p className="">Once a semester, we open a pop-up shop to give both used and new clothes to the student population.
               </p>
@@ -67,7 +67,7 @@ function Events() {
             <div className="w-4/5">
               <p className="lg:ml-56 lg:mt-4 text-5xl text-center text-blue-700 font-bold -rotate-90 hidden lg:flex">PEOPLE</p>
             </div>
-            <div className="mt-32 lg:mt-0 -ml-14 lg:w-96 mx-12 z-40">
+            <div className="mt-32 lg:mt-0 -ml-14 lg:w-96 mx-12 z-30">
               <p className="text-3xl mb-8 font-bold">WHO can attend?</p>
               <p className="">Our Pop-up Shop is no exception to our mission, providing free professional clothing for ALL students to pursue ANY opportunity.
               </p>
@@ -96,7 +96,7 @@ function Events() {
         </div>
         <div className="pb-8 md:pb-0 flex items-center justify-center h-full">
           <div className="flex">
-            <div className="mt-32 lg:mt-0 mx-12 lg:ml-72 -mr-14">
+            <div className="mt-32 lg:mt-0 mx-12 lg:ml-72 -mr-14 z-30">
               <p className="text-3xl mb-8 font-bold">HOW does it work?</p>
               <p className="">Browse our extensive select, and pick out up to 2-3 pieces of clothing person, for FREE!
               </p>

@@ -36,7 +36,7 @@ function NavBar() {
   }
 
   return (
-    <Disclosure as="nav" className="bg-white shadow nav:sticky nav:top-0 z-10">
+    <Disclosure as="nav" className="bg-white shadow nav:sticky nav:top-0 z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-5 nav:px-9 lg:px-15">
