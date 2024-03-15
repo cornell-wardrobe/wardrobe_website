@@ -3,14 +3,14 @@ export default function EmailInput({ email, setEmail, form }) {
     <div>
       <label
         for="email"
-        class="block text-sm font-medium leading-6 text-gray-900"
+        className="block text-sm font-medium leading-6 text-gray-900"
       >
         Email
       </label>
-      <div class="relative mt-2 rounded-md shadow-sm">
-        <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+      <div className="relative mt-2 rounded-md shadow-sm">
+        <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
           <svg
-            class="h-5 w-5 text-gray-400"
+            className="h-5 w-5 text-gray-400"
             viewBox="0 0 20 20"
             fill="currentColor"
             aria-hidden="true"
@@ -23,7 +23,7 @@ export default function EmailInput({ email, setEmail, form }) {
           type="email"
           name="email"
           id="email"
-          class="block w-full rounded-md border-0 py-1.5 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-700 sm:text-sm sm:leading-6"
+          className="block w-full rounded-md border-0 py-1.5 pl-10 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-700 sm:text-sm sm:leading-6"
           placeholder="abc123@cornell.edu"
           value={email}
           onChange={(e) => setEmail({...form, email: e.target.value})}

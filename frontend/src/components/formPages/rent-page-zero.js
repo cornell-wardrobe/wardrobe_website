@@ -1,11 +1,13 @@
 import React from "react";
 import EmailInput from "../formInputs/emailInput";
 import RegularInput from "../formInputs/regularInput";
+import DropDownInput from "../formInputs/dropdownInput";
 
 export default function RentPageZero({setPage, formValues, setFormValues, errors, setErrors}) {
   const handleSubmit = () => {
     let errors = [];
     const fields = formValues;
+    console.log(fields);
 
     for (let i = 0; i < fields.length; i++) {
       if (fields[i] === "") {
@@ -51,6 +53,7 @@ export default function RentPageZero({setPage, formValues, setFormValues, errors
           label="NetID"
           id="netID"
           value={formValues.netID}
+          form={formValues}
           setValue={setFormValues}
           placeholder={"abc123"}
           />
@@ -58,6 +61,7 @@ export default function RentPageZero({setPage, formValues, setFormValues, errors
           label="Desired Date of Pickup"
           id="pickupDate"
           value={formValues.pickupDate}
+          form={formValues}
           setValue={setFormValues}
           placeholder={"MM/DD/YYYY"}
           />
@@ -65,6 +69,7 @@ export default function RentPageZero({setPage, formValues, setFormValues, errors
           label="Date of Event for Which Items are Requested"
           id="eventDate"
           value={formValues.eventDate}
+          form={formValues}
           setValue={setFormValues}
           placeholder={"MM/DD/YYYY"}
           />
@@ -72,6 +77,7 @@ export default function RentPageZero({setPage, formValues, setFormValues, errors
           label="Event Type"
           id="eventType"
           value={formValues.eventType}
+          form={formValues}
           setValue={setFormValues}
           placeholder={"Formal, Interview, etc."}
           />
@@ -79,6 +85,7 @@ export default function RentPageZero({setPage, formValues, setFormValues, errors
           label="College and Major"
           id="collegeMajor"
           value={formValues.collegeMajor}
+          form={formValues}
           setValue={setFormValues}
           placeholder={"Engineer / Computer Science"}
           />
@@ -86,8 +93,17 @@ export default function RentPageZero({setPage, formValues, setFormValues, errors
           label="Soonest Available Drop-off Date Following Event"
           id="dropOffDate"
           value={formValues.dropOffDate}
+          form={formValues}
           setValue={setFormValues}
           placeholder={"MM/DD/YYYY"}
+          />
+          <DropDownInput
+          label="Number of Items Requested"
+          id="numberOfItems"
+          value={formValues.numberOfItems}
+          form={formValues}
+          setValue={setFormValues}
+          options={["1","2","3"]}
           />
           {errors.map((error) => (
           <p class="mt-2 text-sm text-red-600">{error}</p>

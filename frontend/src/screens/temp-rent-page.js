@@ -13,6 +13,7 @@ export default function TempRentPage() {
       eventType: "",
       collegeMajor: "",
       dropOffDate: "",
+      numberOfItems: "1",
     }
   );
   const [errors, setErrors] = React.useState([]);
