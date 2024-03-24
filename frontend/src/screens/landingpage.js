@@ -148,15 +148,15 @@ function Landingpage() {
           <div className="ml-7 w-2/3">
             <p className="text-lg text-blue-700">JOIN THE TEAM</p>
             <p className="my-2 mr-4 text-4xl font-bold">Interested in joining?</p>
-            <p className="text-xl">Applications are currently open for the Spring 2024 season. 
-            We look forward to hearing from you!</p>
-            <div>
+            <p className="text-xl">Applications are currently closed for the Spring 2024 season. They will reopen next semester. 
+            We look forward to hearing from you then!</p>
+            {/* <div>
               <Link to="/apply">
                 <button type="button" className="bg-blue-600 mt-8">
                   <p className="text-white text-sm my-4 mx-6">APPLICATION INFO</p>
                 </button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="pb-8 w-full flex items-center justify-center bg-slate-100 h-full sm:pb-auto">
@@ -167,36 +167,6 @@ function Landingpage() {
           </img>
         </div>
       </div>
-      {/* <div className="h-[70vh] flex justify-content items-center">
-        <div className="text-center w-screen">
-          <img
-          className="h-24 w-24 m-auto"
-          src={Logo}
-          alt="Wardrobe logo">
-          </img>
-          <p className="text-sm text-blue-700 my-8">LATEST NEWS</p>
-          <p className="my-2 text-4xl font-bold mb-8">Keep up to date</p>
-          <div className="flex justify-center align-middle mt-12">
-            <form action="https://www.list.cornell.edu/subscribe/subscribe.tml" method="POST" target="blank">
-              <input type="text" name="email" placeholder="Enter your email" className="border p-1 pr-24 border-gray"/>
-              <input type="hidden" NAME="name" VALUE=""/>
-              <input type="hidden" name="list" value="wardrobe-l"/>
-              <input type="hidden" name="lists" value="wardrobe-l"/>
-              <input type="hidden" name="demographics" value="" />
-              <input type="hidden" name="name_required" value="" />
-              <input type="hidden" name="pw_required" value="" />
-              <input type="hidden" name="confirm" value="one_hello" />
-              <input type="hidden" name="showconfirm" value="T" />
-              <input type="hidden" name="url" value="" />
-              <input type="hidden" name="appendsubinfotourl" value="" />
-              <input type="hidden" name="secx" value="e1e742b1" />
-              <button type="submit" value="subscribe" title="subscribe" alt="subscribe" name="subscribe" className="bg-blue-600 h-full">
-                <p className="text-white text-sm my-auto mx-8">Submit</p>
-              </button>
-            </form>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }
