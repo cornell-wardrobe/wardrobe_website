@@ -5,7 +5,7 @@ function Apply() {
   return (
     <div className="w-screen overflow-hidden">
       <div className="h-[70vh] xs:h-[75vh] md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
-        <div className="flex bg-slate-100 items-center h-full w-[50vw]">
+        <div className="flex w-screen bg-slate-100 items-center h-full md:w-[50vw]">
           <div className="mx-4 mt-16 xs:mx-0 xs:mt-0 justify-center w-full md:ml-7">
             <p className="text-5xl pb-2 font-bold text-center md:text-left md:text-6xl">Nice to meet you!</p>
             <p className="text-2xl pb-2 mr-4 text-center md:text-left">Applications are now closed. They will reopen for FA24 early next semester, hope to see you then!</p>
