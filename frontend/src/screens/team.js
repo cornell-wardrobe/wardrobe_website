@@ -230,82 +230,170 @@ function Team() {
       image: emilyChen,
     },
   ];
+  const ALUM = [
+    {
+      netID: "ao274",
+      name: "Aidan O'Connor",
+      position: "Frontend Software Engineer",
+      image: aidanOConnor,
+    },
+    {
+      netID: "ao274",
+      name: "Aidan O'Connor",
+      position: "Frontend Software Engineer",
+      image: aidanOConnor,
+    },
+    {
+      netID: "ao274",
+      name: "Aidan O'Connor",
+      position: "Frontend Software Engineer",
+      image: aidanOConnor,
+    },
+    {
+      netID: "ao274",
+      name: "Aidan O'Connor",
+      position: "Frontend Software Engineer",
+      image: aidanOConnor,
+    },
+    {
+      netID: "ao274",
+      name: "Aidan O'Connor",
+      position: "Frontend Software Engineer",
+      image: aidanOConnor,
+    },
+    {
+      netID: "ao274",
+      name: "Aidan O'Connor",
+      position: "Frontend Software Engineer",
+      image: aidanOConnor,
+    },
+    {
+      netID: "ao274",
+      name: "Aidan O'Connor",
+      position: "Frontend Software Engineer",
+      image: aidanOConnor,
+    },
+  ];
 
   const [activeTab, setActiveTab] = useState(0);
+  const [previousTab, setPreviousTab] = useState(0);
+
+  const meetTheText = [
+    "Meet The Team",
+    "Meet The Team",
+    "Meet The Team",
+    "Meet The Team",
+    "Meet The Team",
+    "Meet The Team",
+    "Meet The Alumni",
+  ];
 
   const handleTabClick = (tabIndex) => {
-    setActiveTab(tabIndex);
+    if (tabIndex === 6) {
+      setPreviousTab(activeTab); // Save the previous active tab
+      setActiveTab(tabIndex);
+    } else {
+      setActiveTab(tabIndex);
+    }
+  };
+
+  const handleGoBackClick = () => {
+    setActiveTab(previousTab); // Set the active tab to the previous one
   };
 
   return (
     <div className="flex flex-col ">
-      <div className=" ml-[17%]">
-        <div className="w-full ">
-          <p className="text-4xl font-bold mt-7">Meet The Team</p>
-          <p className="text-1xl mb-3">The faces behind the Wardrobe</p>
+      <div className=" ml-[20%] ">
+        <div className="w-full flex justify-between">
+          <div>
+            <p className="text-4xl font-bold mt-7">{meetTheText[activeTab]}</p>
+            <p className="text-1xl mb-3">The faces behind the Wardrobe</p>
+          </div>
+          <div className="meet-alumni-button mt-10 mr-[27%]">
+            <button
+              className={
+                "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              }
+              onClick={
+                activeTab === 6 ? handleGoBackClick : () => handleTabClick(6)
+              }
+            >
+              {activeTab === 6 ? (
+                <>
+                  <span>&larr;</span> Go Back
+                </>
+              ) : (
+                <>
+                  Alumni <span>&rarr;</span>
+                </>
+              )}
+            </button>
+          </div>
         </div>
-        <div className="tabs flex space-x-4 flex-wrap">
-          <button
-            className={
-              activeTab === 0
-                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !mr-4"
-                : "tab font-bold px-2 pt-2 !mr-4"
-            }
-            onClick={() => handleTabClick(0)}
-          >
-            Management
-          </button>
-          <button
-            className={
-              activeTab === 1
-                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
-                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
-            }
-            onClick={() => handleTabClick(1)}
-          >
-            Operations
-          </button>
-          <button
-            className={
-              activeTab === 2
-                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
-                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
-            }
-            onClick={() => handleTabClick(2)}
-          >
-            Technology
-          </button>
-          <button
-            className={
-              activeTab === 3
-                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
-                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
-            }
-            onClick={() => handleTabClick(3)}
-          >
-            Marketing
-          </button>
-          <button
-            className={
-              activeTab === 4
-                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
-                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
-            }
-            onClick={() => handleTabClick(4)}
-          >
-            Finance
-          </button>
-          <button
-            className={
-              activeTab === 5
-                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0"
-                : "tab font-bold px-2 pt-2 !ml-0"
-            }
-            onClick={() => handleTabClick(5)}
-          >
-            Events
-          </button>
-        </div>
+        {activeTab !== 6 && (
+          <div className="tabs flex space-x-4 flex-wrap">
+            <button
+              className={
+                activeTab === 0
+                  ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !mr-4"
+                  : "tab font-bold px-2 pt-2 !mr-4"
+              }
+              onClick={() => handleTabClick(0)}
+            >
+              Management
+            </button>
+            <button
+              className={
+                activeTab === 1
+                  ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                  : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
+              }
+              onClick={() => handleTabClick(1)}
+            >
+              Operations
+            </button>
+            <button
+              className={
+                activeTab === 2
+                  ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                  : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
+              }
+              onClick={() => handleTabClick(2)}
+            >
+              Technology
+            </button>
+            <button
+              className={
+                activeTab === 3
+                  ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                  : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
+              }
+              onClick={() => handleTabClick(3)}
+            >
+              Marketing
+            </button>
+            <button
+              className={
+                activeTab === 4
+                  ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                  : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
+              }
+              onClick={() => handleTabClick(4)}
+            >
+              Finance
+            </button>
+            <button
+              className={
+                activeTab === 5
+                  ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0"
+                  : "tab font-bold px-2 pt-2 !ml-0"
+              }
+              onClick={() => handleTabClick(5)}
+            >
+              Events
+            </button>
+          </div>
+        )}
         <div className="tab-content ">
           {activeTab === 0 && <People items={MANAGEMENT} />}
           {activeTab === 1 && <People items={OPS} />}
@@ -313,6 +401,7 @@ function Team() {
           {activeTab === 3 && <People items={MARKETING} />}
           {activeTab === 4 && <People items={FINANCE} />}
           {activeTab === 5 && <People items={EVENTS} />}
+          {activeTab === 6 && <People items={ALUM} />}
         </div>
       </div>
     </div>
