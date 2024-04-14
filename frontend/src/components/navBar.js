@@ -8,6 +8,8 @@ import {
 import Logo from "../components/images/wardrobe_logo.png";
 import { useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -143,9 +145,9 @@ function NavBar() {
                         tabindex="-1"
                       >
                         <div class="py-1" role="none">
-                          <a href="rent" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Rental Form</a>
-                          <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Size Guide</a>
-                          <a href="#" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Dress Code Guide</a>
+                          <Link to="/rent" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-0">Rental Form</Link>
+                          <Link to="/sizing" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-1">Size Guide</Link>
+                          <Link to="/dressCode" class="text-gray-700 block px-4 py-2 text-sm" role="menuitem" tabindex="-1" id="menu-item-2">Dress Code Guide</Link>
                           <form method="POST" action="#" role="none">
                           </form>
                         </div>
