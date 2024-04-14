@@ -39,24 +39,28 @@ function Team() {
       name: "Julia Edelman",
       position: "Co-President",
       image: juliaEdelman,
+      description: "Testing the description part 1."
     },
     {
       netID: "sap244",
       name: "Sophia Papanicolaou",
       position: "Co-President",
       image: sophiaPapanicolaou,
+      description: "Testing the description part 2."
     },
     {
       netID: "ma878",
       name: "Maryam Albakry",
       position: "Vice President",
       image: maryamAlbakry,
+      description: "Testing the description part 3."
     },
     {
       netID: "nig22",
       name: "Nicolette Gani",
       position: "Director of Expansion",
       image: nicoletteGani,
+      description: "Testing the description part 4."
     },
   ];
 
