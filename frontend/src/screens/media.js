@@ -8,7 +8,7 @@ function Media() {
     <div>
       <div className="w-screen md:h-[45vh] grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex items-center justify-center bg-slate-100 h-full md:w-2/5">
-          <img class="h-48"
+          <img className="h-48"
             src={janetMi}
             alt="Janet Mi Headshot">
           </img>
@@ -48,9 +48,9 @@ function Media() {
             height="259" 
             src="https://www.youtube.com/embed/kT-vniQNyhE" 
             title="The Wardrobe helps students dress for success" 
-            frameborder="0" 
+            frameBorder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowfullscreen>
+            allowFullScreen>
           </iframe>
         </div>
       </div>

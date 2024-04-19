@@ -24,7 +24,7 @@ function Footer() {
       <div className="flex justify-center align-middle mt-4 mb-12">
         <form action="https://www.list.cornell.edu/subscribe/subscribe.tml" method="POST" target="blank">
           <input type="text" name="email" placeholder="Enter your email" className="border p-1 pr-24 border-gray"/>
-          <input type="hidden" NAME="name" VALUE=""/>
+          <input type="hidden" name="name" value=""/>
           <input type="hidden" name="list" value="wardrobe-l"/>
           <input type="hidden" name="lists" value="wardrobe-l"/>
           <input type="hidden" name="demographics" value="" />
