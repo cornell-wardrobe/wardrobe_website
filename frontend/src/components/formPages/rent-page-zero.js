@@ -3,14 +3,13 @@ import EmailInput from "../formInputs/emailInput";
 import RegularInput from "../formInputs/regularInput";
 import DropDownInput from "../formInputs/dropdownInput";
 
-export default function RentPageZero({setPage, formValues, setFormValues, errors, setErrors}) {
+export default function RentPageZero({page, setPage, formValues, setFormValues, errors, setErrors}) {
   const handleSubmit = () => {
     let errors = [];
     const fields = formValues;
-    console.log(fields);
 
-    for (let i = 0; i < fields.length; i++) {
-      if (fields[i] === "") {
+    for (let i = 0; i < 9; i++) {
+      if (fields[Object.keys(fields)[i]] === "") {
         errors.push("Please fill out all fields");
         break;
       }
@@ -33,8 +32,8 @@ export default function RentPageZero({setPage, formValues, setFormValues, errors
     setErrors(errors);
     if (errors.length === 0) {
       console.log("submitted form");
+      setPage(page+1)
     }
-    setPage(1)
   };
 
   return (
@@ -106,11 +105,11 @@ export default function RentPageZero({setPage, formValues, setFormValues, errors
           options={["1","2","3"]}
           />
           {errors.map((error) => (
-          <p class="mt-2 text-sm text-red-600">{error}</p>
+          <p className="mt-2 text-sm text-red-600">{error}</p>
           ))}
           <button
           type="button"
-          class="rounded-md bg-blue-700 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          className="rounded-md bg-blue-700 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           onClick={handleSubmit}
           >
           Next

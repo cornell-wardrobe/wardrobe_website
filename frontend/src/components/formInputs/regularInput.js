@@ -8,10 +8,10 @@ export default function RegularInput({
 }) {
   return (
     <div>
-      <label for={id} className="block text-sm font-medium leading-6 text-gray-900">
+      <label htmlFor={id} className="block text-sm font-medium leading-6 text-gray-900">
         {label}
       </label>
-      <div class="mt-2">
+      <div className="mt-2">
         <input
           type="text"
           name={id}

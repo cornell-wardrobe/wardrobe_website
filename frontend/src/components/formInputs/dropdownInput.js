@@ -8,10 +8,10 @@ export default function DropDownInput({
   }) {
     return (
       <div>
-        <label for={id} className="block text-sm font-medium leading-6 text-gray-900">
+        <label htmlFor={id} className="block text-sm font-medium leading-6 text-gray-900">
           {label}
         </label>
-        <div class="mt-2">
+        <div className="mt-2">
           <select
             type="select"
             name={id}
@@ -21,7 +21,7 @@ export default function DropDownInput({
             onChange={(e) => setValue({...form, [id]: e.target.value})}
           >
             {options.map((option)=> (
-                <option value={option}>{option}</option>
+                <option value={option} key={option}>{option}</option>
             ))}
           </select>
         </div>

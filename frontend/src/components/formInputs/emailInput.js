@@ -2,7 +2,7 @@ export default function EmailInput({ email, setEmail, form }) {
   return (
     <div>
       <label
-        for="email"
+        htmlFor="email"
         className="block text-sm font-medium leading-6 text-gray-900"
       >
         Email
