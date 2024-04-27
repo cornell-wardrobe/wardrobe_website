@@ -11,7 +11,7 @@ import claraKennedy from "../components/headshots/Clara_Kennedy.png";
 import patrickChen from "../components/headshots/Patrick_Chen.png";
 import jennyChen from "../components/headshots/Jenny_Chen.png";
 import richardKang from "../components/headshots/Richard_Kang.png";
-import javohirAbdurazzakov from "../components/headshots/Javohir_Abdurazzakov.png";
+import javohirAbdurazzakov from "../components/headshots/Javohir_Abdurazzakov.jpg"; 
 import aidanOConnor from "../components/headshots/Aidan_O'Connor.png";
 import maryamAlbakry from "../components/headshots/Maryam_Albakry.png";
 import allisonZheng from "../components/headshots/Allison_Zheng.png";
@@ -31,6 +31,15 @@ import ashleySosa from "../components/headshots/Ashley_Sosa.jpeg";
 import emilyChen from "../components/headshots/Emily_Chen.png";
 import taliaPerkins from "../components/headshots/Talia-Perkins.jpeg";
 import nicoletteGani from "../components/headshots/Nicolette_Gani.jpg";
+import annemarieEhrenreich from "../components/headshots/AnneMarie_Ehrenreich.jpg" 
+import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jpg"
+import carrieZheng from "../components/headshots/Carrie_Zheng.jpg" 
+import atkinsDube from "../components/headshots/Atkins_Dube.jpg" 
+import fannyZheng from "../components/headshots/Fanny_Zheng.jpg" 
+import helenLin from "../components/headshots/Helen_Lin.jpg" 
+import kathereenYang from "../components/headshots/Kathereen_Yang.jpg" 
+import kellyZeng from "../components/headshots/Kelly_Zeng.jpg" 
+import leonorRobalino from "../components/headshots/Leonor_Robalino.jpg" 
 
 function Team() {
   const MANAGEMENT = [
@@ -51,12 +60,6 @@ function Team() {
       name: "Maryam Albakry",
       position: "Vice President",
       image: maryamAlbakry,
-    },
-    {
-      netID: "nig22",
-      name: "Nicolette Gani",
-      position: "Director of Expansion",
-      image: nicoletteGani,
     },
   ];
 
@@ -97,6 +100,12 @@ function Team() {
       position: "Operations Associate",
       image: claraKennedy,
     },
+    {
+      netID: "kz268",
+      name: "Kelly Zeng",
+      position: "Operations Associate",
+      image: kellyZeng,
+    },
   ];
 
   const TECH = [
@@ -136,6 +145,12 @@ function Team() {
       position: "Frontend Software Engineer",
       image: allisonZheng,
     },
+    {
+      netID: "akd74",
+      name: "Atkins Dube",
+      position: "Full Stack Software Engineer",
+      image: atkinsDube,
+    },
   ];
 
   const MARKETING = [
@@ -162,6 +177,30 @@ function Team() {
       name: "Luke Huang",
       position: "Marketing Associate",
       image: lukeHuang,
+    },
+    {
+      netID: "aae43",
+      name: "Anne Marie Ehrenreich",
+      position: "Marketing Associate",
+      image: annemarieEhrenreich,
+    },
+    {
+      netID: "bgb66",
+      name: "Bernadette Batuncang",
+      position: "Social Media Associate",
+      image: bernadetteBatuncang,
+    },
+    {
+      netID: "hl2392",
+      name: "Helen Lin",
+      position: "Graphic Designer",
+      image: helenLin,
+    },
+    {
+      netID: "lr447",
+      name: "Leonor Robalino",
+      position: "Graphic Designer",
+      image: leonorRobalino,
     },
   ];
 
@@ -228,6 +267,33 @@ function Team() {
       name: "Emily Chen",
       position: "Events Coordinator",
       image: emilyChen,
+    },
+  ];
+
+  const EXPANSION = [
+    {
+      netID: "nig22",
+      name: "Nicolette Gani",
+      position: "Director of Expansion",
+      image: nicoletteGani,
+    },
+    {
+      netID: "cz376",
+      name: "Carrie Zheng",
+      position: "Expansion Finance",
+      image: carrieZheng,
+    },
+    {
+      netID: "fz268",
+      name: "Fanny Zheng",
+      position: "Expansion Events",
+      image: fannyZheng,
+    },
+    {
+      netID: "jky27",
+      name: "Kathereen Yang",
+      position: "Expansion",
+      image: kathereenYang,
     },
   ];
 
@@ -298,12 +364,22 @@ function Team() {
           <button
             className={
               activeTab === 5
-                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0"
-                : "tab font-bold px-2 pt-2 !ml-0"
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(5)}
           >
             Events
+          </button>
+          <button
+            className={
+              activeTab === 6
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0"
+                : "tab font-bold px-2 pt-2 !ml-0"
+            }
+            onClick={() => handleTabClick(6)}
+          >
+            Expansion
           </button>
         </div>
         <div className="tab-content ">
@@ -313,6 +389,7 @@ function Team() {
           {activeTab === 3 && <People items={MARKETING} />}
           {activeTab === 4 && <People items={FINANCE} />}
           {activeTab === 5 && <People items={EVENTS} />}
+          {activeTab === 6 && <People items={EXPANSION} />}
         </div>
       </div>
     </div>
