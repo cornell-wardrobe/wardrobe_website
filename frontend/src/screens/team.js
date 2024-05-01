@@ -11,7 +11,7 @@ import claraKennedy from "../components/headshots/Clara_Kennedy.png";
 import patrickChen from "../components/headshots/Patrick_Chen.png";
 import jennyChen from "../components/headshots/Jenny_Chen.png";
 import richardKang from "../components/headshots/Richard_Kang.png";
-import javohirAbdurazzakov from "../components/headshots/Javohir_Abdurazzakov.jpg"; 
+import javohirAbdurazzakov from "../components/headshots/Javohir_Abdurazzakov.jpg";
 import aidanOConnor from "../components/headshots/Aidan_O'Connor.png";
 import maryamAlbakry from "../components/headshots/Maryam_Albakry.png";
 import allisonZheng from "../components/headshots/Allison_Zheng.png";
@@ -29,17 +29,24 @@ import snehaSinghi from "../components/headshots/Sneha_Singhi.png";
 import vindhyaKathuria from "../components/headshots/Vindhya_Kathuria.png";
 import ashleySosa from "../components/headshots/Ashley_Sosa.jpeg";
 import emilyChen from "../components/headshots/Emily_Chen.png";
-import taliaPerkins from "../components/headshots/Talia-Perkins.jpeg";
+import taliaPerkins from "../components/headshots/Talia_Perkins.jpeg";
 import nicoletteGani from "../components/headshots/Nicolette_Gani.jpg";
-import annemarieEhrenreich from "../components/headshots/AnneMarie_Ehrenreich.jpg" 
+import annemarieEhrenreich from "../components/headshots/AnneMarie_Ehrenreich.jpg"
 import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jpg"
-import carrieZheng from "../components/headshots/Carrie_Zheng.jpg" 
-import atkinsDube from "../components/headshots/Atkins_Dube.jpg" 
-import fannyZheng from "../components/headshots/Fanny_Zheng.jpg" 
-import helenLin from "../components/headshots/Helen_Lin.jpg" 
-import kathereenYang from "../components/headshots/Kathereen_Yang.jpg" 
-import kellyZeng from "../components/headshots/Kelly_Zeng.jpg" 
-import leonorRobalino from "../components/headshots/Leonor_Robalino.jpg" 
+import carrieZheng from "../components/headshots/Carrie_Zheng.jpg"
+import atkinsDube from "../components/headshots/Atkins_Dube.jpg"
+import fannyZheng from "../components/headshots/Fanny_Zheng.jpg"
+import helenLin from "../components/headshots/Helen_Lin.jpg"
+import kathereenYang from "../components/headshots/Kathereen_Yang.jpg"
+import kellyZeng from "../components/headshots/Kelly_Zeng.jpg"
+import leonorRobalino from "../components/headshots/Leonor_Robalino.jpg"
+import natalieKaplan from "../components/headshots/Natalie_Kaplan.jpg"
+import nicoleParafati from "../components/headshots/Nicole_Parafati.jpg"
+import nicoleYan from "../components/headshots/Nicole_Yan.jpg"
+import oliviaKalu from "../components/headshots/Olivia_Kalu.jpg"
+import sinnyYe from "../components/headshots/Sinny_Ye.jpg"
+import stellaMuthoni from "../components/headshots/Stella_Muthoni.jpg"
+import stephanieDong from "../components/headshots/Stephanie_Dong.jpg"
 
 function Team() {
   const MANAGEMENT = [
@@ -106,6 +113,12 @@ function Team() {
       position: "Operations Associate",
       image: kellyZeng,
     },
+    {
+      netID: "ny228",
+      name: "Nicole Yan",
+      position: "Operations Associate",
+      image: nicoleYan,
+    },
   ];
 
   const TECH = [
@@ -150,6 +163,12 @@ function Team() {
       name: "Atkins Dube",
       position: "Full Stack Software Engineer",
       image: atkinsDube,
+    },
+    {
+      netID: "njk82",
+      name: "Natalie Kaplan",
+      position: "Full Stack Software Engineer",
+      image: natalieKaplan,
     },
   ];
 
@@ -241,6 +260,24 @@ function Team() {
       position: "Finance Analyst",
       image: snehaSinghi,
     },
+    {
+      netID: "sy544",
+      name: "Sinny Ye",
+      position: "Financial Analyst",
+      image: sinnyYe,
+    },
+    {
+      netID: "sm2493",
+      name: "Stella Muthoni",
+      position: "Financial Analyst",
+      image: stellaMuthoni,
+    },
+    {
+      netID: "sd946",
+      name: "Stephanie Dong",
+      position: "Financial Analyst",
+      image: stephanieDong,
+    },
   ];
 
   const EVENTS = [
@@ -267,6 +304,18 @@ function Team() {
       name: "Emily Chen",
       position: "Events Coordinator",
       image: emilyChen,
+    },
+    {
+      netID: "nmp68",
+      name: "Nicole Parafati",
+      position: "Events Coordinator",
+      image: nicoleParafati,
+    },
+    {
+      netID: "ok55",
+      name: "Olivia Kalu",
+      position: "Events Coordinator",
+      image: oliviaKalu,
     },
   ];
 
