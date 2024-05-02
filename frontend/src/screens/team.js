@@ -3,7 +3,6 @@ import { useState } from "react";
 import People from "../components/people";
 import juliaEdelman from "../components/headshots/Julia_Edelman.jpg";
 import alexChen from "../components/headshots/Alex_Chen.png";
-import elainePark from "../components/headshots/Elaine_Park.jpeg";
 import winnieLin from "../components/headshots/Winnie_Lin.png";
 import sorayahSmith from "../components/headshots/Sorayah_Smith.png";
 import laurenSong from "../components/headshots/Lauren_Song.png";
@@ -11,26 +10,34 @@ import claraKennedy from "../components/headshots/Clara_Kennedy.png";
 import patrickChen from "../components/headshots/Patrick_Chen.png";
 import jennyChen from "../components/headshots/Jenny_Chen.png";
 import richardKang from "../components/headshots/Richard_Kang.png";
-import javohirAbdurazzakov from "../components/headshots/Javohir_Abdurazzakov.png";
+import javohirAbdurazzakov from "../components/headshots/Javohir_Abdurazzakov.jpg";
 import aidanOConnor from "../components/headshots/Aidan_O'Connor.png";
 import maryamAlbakry from "../components/headshots/Maryam_Albakry.png";
 import allisonZheng from "../components/headshots/Allison_Zheng.png";
 import kylieHuber from "../components/headshots/Kylie_Huber.png";
-import ireneLee from "../components/headshots/Irene_Lee.png";
 import sophiaPapanicolaou from "../components/headshots/Sophia_Papanicolaou.png";
 import melanieKhan from "../components/headshots/Melanie_Khan.png";
-import lukeHuang from "../components/headshots/Luke_Huang.png";
-import nevinMotto from "../components/headshots/Nevin_Motto.png";
-import carlyGranda from "../components/headshots/Carly_Granda.png";
-import aryaRamkumar from "../components/headshots/Arya_Ramkumar.jpeg";
-import yudaiHiguchi from "../components/headshots/Yudai_Higuchi.jpg";
-import tylerHerridan from "../components/headshots/Tyler_Herridan.png";
 import snehaSinghi from "../components/headshots/Sneha_Singhi.png";
-import vindhyaKathuria from "../components/headshots/Vindhya_Kathuria.png";
 import ashleySosa from "../components/headshots/Ashley_Sosa.jpeg";
 import emilyChen from "../components/headshots/Emily_Chen.png";
-import taliaPerkins from "../components/headshots/Talia-Perkins.jpeg";
+import taliaPerkins from "../components/headshots/Talia_Perkins.jpg";
 import nicoletteGani from "../components/headshots/Nicolette_Gani.jpg";
+import annemarieEhrenreich from "../components/headshots/AnneMarie_Ehrenreich.jpg"
+import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jpg"
+import carrieZheng from "../components/headshots/Carrie_Zheng.jpg"
+import atkinsDube from "../components/headshots/Atkins_Dube.jpg"
+import fannyZheng from "../components/headshots/Fanny_Zheng.jpg"
+import helenLin from "../components/headshots/Helen_Lin.jpg"
+import kathereenYang from "../components/headshots/Kathereen_Yang.jpg"
+import kellyZeng from "../components/headshots/Kelly_Zeng.jpg"
+import leonorRobalino from "../components/headshots/Leonor_Robalino.jpg"
+import natalieKaplan from "../components/headshots/Natalie_Kaplan.jpg"
+import nicoleParafati from "../components/headshots/Nicole_Parafati.jpg"
+import nicoleYan from "../components/headshots/Nicole_Yan.jpg"
+import oliviaKalu from "../components/headshots/Olivia_Kalu.jpg"
+import sinnyYe from "../components/headshots/Sinny_Ye.jpg"
+import stellaMuthoni from "../components/headshots/Stella_Muthoni.jpg"
+import stephanieDong from "../components/headshots/Stephanie_Dong.jpg"
 
 function Team() {
   const MANAGEMENT = [
@@ -52,12 +59,6 @@ function Team() {
       position: "Vice President",
       image: maryamAlbakry,
     },
-    {
-      netID: "nig22",
-      name: "Nicolette Gani",
-      position: "Director of Expansion",
-      image: nicoletteGani,
-    },
   ];
 
   const OPS = [
@@ -66,12 +67,6 @@ function Team() {
       name: "Alex Chen",
       position: "Operations Director",
       image: alexChen,
-    },
-    {
-      netID: "ecp83",
-      name: "Elaine Park",
-      position: "Operations Associate",
-      image: elainePark,
     },
     {
       netID: "wl526",
@@ -96,6 +91,18 @@ function Team() {
       name: "Clara Kennedy",
       position: "Operations Associate",
       image: claraKennedy,
+    },
+    {
+      netID: "kz268",
+      name: "Kelly Zeng",
+      position: "Operations Associate",
+      image: kellyZeng,
+    },
+    {
+      netID: "ny228",
+      name: "Nicole Yan",
+      position: "Operations Associate",
+      image: nicoleYan,
     },
   ];
 
@@ -136,6 +143,18 @@ function Team() {
       position: "Frontend Software Engineer",
       image: allisonZheng,
     },
+    {
+      netID: "akd74",
+      name: "Atkins Dube",
+      position: "Full Stack Software Engineer",
+      image: atkinsDube,
+    },
+    {
+      netID: "njk82",
+      name: "Natalie Kaplan",
+      position: "Full Stack Software Engineer",
+      image: natalieKaplan,
+    },
   ];
 
   const MARKETING = [
@@ -152,55 +171,55 @@ function Team() {
       image: kylieHuber,
     },
     {
-      netID: "yl3577",
-      name: "Irene Lee",
+      netID: "aae43",
+      name: "Anne Marie Ehrenreich",
       position: "Marketing Associate",
-      image: ireneLee,
+      image: annemarieEhrenreich,
     },
     {
-      netID: "lh693",
-      name: "Luke Huang",
-      position: "Marketing Associate",
-      image: lukeHuang,
+      netID: "bgb66",
+      name: "Bernadette Batuncang",
+      position: "Social Media Associate",
+      image: bernadetteBatuncang,
+    },
+    {
+      netID: "hl2392",
+      name: "Helen Lin",
+      position: "Graphic Designer",
+      image: helenLin,
+    },
+    {
+      netID: "lr447",
+      name: "Leonor Robalino",
+      position: "Graphic Designer",
+      image: leonorRobalino,
     },
   ];
 
   const FINANCE = [
     {
-      netID: "nam96",
-      name: "Nevin Motto",
-      position: "Finance Director",
-      image: nevinMotto,
-    },
-    {
-      netID: "cg553",
-      name: "Carly Granda",
-      position: "Finance Analyst",
-      image: carlyGranda,
-    },
-    {
-      netID: "adr62",
-      name: "Arya Ramkumar",
-      position: "Finance Analyst",
-      image: aryaRamkumar,
-    },
-    {
-      netID: "yh459",
-      name: "Yudai Higuchi",
-      position: "Finance Analyst",
-      image: yudaiHiguchi,
-    },
-    {
-      netID: "tch84",
-      name: "Tyler Herridan",
-      position: "Finance Analyst",
-      image: tylerHerridan,
-    },
-    {
       netID: "ss3298",
       name: "Sneha Singhi",
-      position: "Finance Analyst",
+      position: "Finance Director",
       image: snehaSinghi,
+    },
+    {
+      netID: "sy544",
+      name: "Sinny Ye",
+      position: "Financial Analyst",
+      image: sinnyYe,
+    },
+    {
+      netID: "sm2493",
+      name: "Stella Muthoni",
+      position: "Financial Analyst",
+      image: stellaMuthoni,
+    },
+    {
+      netID: "sd946",
+      name: "Stephanie Dong",
+      position: "Financial Analyst",
+      image: stephanieDong,
     },
   ];
 
@@ -210,12 +229,6 @@ function Team() {
       name: "Talia Perkins",
       position: "Events Director",
       image: taliaPerkins,
-    },
-    {
-      netID: "vk283",
-      name: "Vindhya Kathuria",
-      position: "Events Coordinator",
-      image: vindhyaKathuria,
     },
     {
       netID: "ajs573",
@@ -228,6 +241,45 @@ function Team() {
       name: "Emily Chen",
       position: "Events Coordinator",
       image: emilyChen,
+    },
+    {
+      netID: "nmp68",
+      name: "Nicole Parafati",
+      position: "Events Coordinator",
+      image: nicoleParafati,
+    },
+    {
+      netID: "ok55",
+      name: "Olivia Kalu",
+      position: "Events Coordinator",
+      image: oliviaKalu,
+    },
+  ];
+
+  const EXPANSION = [
+    {
+      netID: "nig22",
+      name: "Nicolette Gani",
+      position: "Director of Expansion",
+      image: nicoletteGani,
+    },
+    {
+      netID: "cz376",
+      name: "Carrie Zheng",
+      position: "Expansion Finance",
+      image: carrieZheng,
+    },
+    {
+      netID: "fz268",
+      name: "Fanny Zheng",
+      position: "Expansion Events",
+      image: fannyZheng,
+    },
+    {
+      netID: "jky27",
+      name: "Kathereen Yang",
+      position: "Expansion",
+      image: kathereenYang,
     },
   ];
 
@@ -298,12 +350,22 @@ function Team() {
           <button
             className={
               activeTab === 5
-                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0"
-                : "tab font-bold px-2 pt-2 !ml-0"
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0 !mr-4"
+                : "tab font-bold px-2 pt-2 !ml-0 !mr-4"
             }
             onClick={() => handleTabClick(5)}
           >
             Events
+          </button>
+          <button
+            className={
+              activeTab === 6
+                ? "tab active border-b-2 border-blue-500 font-bold px-2 pt-2 !ml-0"
+                : "tab font-bold px-2 pt-2 !ml-0"
+            }
+            onClick={() => handleTabClick(6)}
+          >
+            Expansion
           </button>
         </div>
         <div className="tab-content ">
@@ -313,6 +375,7 @@ function Team() {
           {activeTab === 3 && <People items={MARKETING} />}
           {activeTab === 4 && <People items={FINANCE} />}
           {activeTab === 5 && <People items={EVENTS} />}
+          {activeTab === 6 && <People items={EXPANSION} />}
         </div>
       </div>
     </div>
