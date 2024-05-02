@@ -38,6 +38,10 @@ import oliviaKalu from "../components/headshots/Olivia_Kalu.jpg"
 import sinnyYe from "../components/headshots/Sinny_Ye.jpg"
 import stellaMuthoni from "../components/headshots/Stella_Muthoni.jpg"
 import stephanieDong from "../components/headshots/Stephanie_Dong.jpg"
+import juliaKundu from "../components/headshots/Julia_Kundu.jpg"
+import timmyXi from "../components/headshots/Timmy_Xi.jpg"
+import manrajSingh from "../components/headshots/Manraj_Singh.jpg"
+import advikaPrasad from "../components/headshots/Advika_Prasad.JPG"
 
 function Team() {
   const MANAGEMENT = [
@@ -194,6 +198,12 @@ function Team() {
       position: "Graphic Designer",
       image: leonorRobalino,
     },
+    {
+      netID: "tjx2",
+      name: "Timmy Xi",
+      position: "Photographer",
+      image: timmyXi,
+    },
   ];
 
   const FINANCE = [
@@ -220,6 +230,18 @@ function Team() {
       name: "Stephanie Dong",
       position: "Financial Analyst",
       image: stephanieDong,
+    },
+    {
+      netID: "ms3263",
+      name: "Manraj Singh",
+      position: "Financial Analyst",
+      image: manrajSingh,
+    },
+    {
+      netID: "ap2373",
+      name: "Advika Prasad",
+      position: "Financial Analyst",
+      image: advikaPrasad,
     },
   ];
 
@@ -270,16 +292,22 @@ function Team() {
       image: carrieZheng,
     },
     {
+      netID: "jky27",
+      name: "Kathereen Yang",
+      position: "Expansion Finance",
+      image: kathereenYang,
+    },
+    {
       netID: "fz268",
       name: "Fanny Zheng",
       position: "Expansion Events",
       image: fannyZheng,
     },
     {
-      netID: "jky27",
-      name: "Kathereen Yang",
-      position: "Expansion",
-      image: kathereenYang,
+      netID: "jk2578",
+      name: "Julia Kundu",
+      position: "Expansion Tech",
+      image: juliaKundu,
     },
   ];
 
