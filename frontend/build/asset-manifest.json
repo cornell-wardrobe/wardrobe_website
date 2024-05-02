@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.11a19afc.css",
-    "main.js": "/static/js/main.3af43d43.js",
+    "main.js": "/static/js/main.01ed5aad.js",
     "static/media/media-infographic.png": "/static/media/media-infographic.e5dbfb20e28a0827c75d.png",
     "static/media/Stella_Muthoni.jpg": "/static/media/Stella_Muthoni.0585fb69d1338bb9a85d.jpg",
     "static/media/Atkins_Dube.jpg": "/static/media/Atkins_Dube.461482b860107939db35.jpg",
@@ -33,12 +33,16 @@
     "static/media/Talia_Perkins.jpg": "/static/media/Talia_Perkins.1aaf4ab7819793d73f89.jpg",
     "static/media/Nicole_Parafati.jpg": "/static/media/Nicole_Parafati.ead5459ccca4ad3593a5.jpg",
     "static/media/Fanny_Zheng.jpg": "/static/media/Fanny_Zheng.162052f5dc75c83b2012.jpg",
+    "static/media/Timmy_Xi.jpg": "/static/media/Timmy_Xi.0281a71268bf4235d8c7.jpg",
     "static/media/Sinny_Ye.jpg": "/static/media/Sinny_Ye.bdad028cfef5c4b80fc0.jpg",
+    "static/media/Julia_Kundu.jpg": "/static/media/Julia_Kundu.2d25ce8611b05f6a357e.jpg",
     "static/media/Nicolette_Gani.jpg": "/static/media/Nicolette_Gani.82fd6091e104abbcbf53.jpg",
     "static/media/Carrie_Zheng.jpg": "/static/media/Carrie_Zheng.2f50916983370d953707.jpg",
     "static/media/Nicole_Yan.jpg": "/static/media/Nicole_Yan.218f66a613fe698d2f1e.jpg",
     "static/media/Stephanie_Dong.jpg": "/static/media/Stephanie_Dong.a1f172c93b8bb01f8f27.jpg",
     "static/media/Kathereen_Yang.jpg": "/static/media/Kathereen_Yang.a7000fcf29f9e9fe944c.jpg",
+    "static/media/Manraj_Singh.jpg": "/static/media/Manraj_Singh.81dfaa9ef5c7507890a4.jpg",
+    "static/media/Advika_Prasad.JPG": "/static/media/Advika_Prasad.7aeed17afab2f72aa8a7.JPG",
     "static/media/rent-find-your-fit.png": "/static/media/rent-find-your-fit.8494816e6fb3950a02e6.png",
     "static/media/janet-mi-headshot.png": "/static/media/janet-mi-headshot.836714d317759484776a.png",
     "static/media/events-step-three.svg": "/static/media/events-step-three.537e33491a9f358e6df75bb74d42b677.svg",
@@ -59,10 +63,10 @@
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
     "main.11a19afc.css.map": "/static/css/main.11a19afc.css.map",
-    "main.3af43d43.js.map": "/static/js/main.3af43d43.js.map"
+    "main.01ed5aad.js.map": "/static/js/main.01ed5aad.js.map"
   },
   "entrypoints": [
     "static/css/main.11a19afc.css",
-    "static/js/main.3af43d43.js"
+    "static/js/main.01ed5aad.js"
   ]
 }
