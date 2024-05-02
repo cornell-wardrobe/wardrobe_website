@@ -3,7 +3,6 @@ import { useState } from "react";
 import People from "../components/people";
 import juliaEdelman from "../components/headshots/Julia_Edelman.jpg";
 import alexChen from "../components/headshots/Alex_Chen.png";
-import elainePark from "../components/headshots/Elaine_Park.jpeg";
 import winnieLin from "../components/headshots/Winnie_Lin.png";
 import sorayahSmith from "../components/headshots/Sorayah_Smith.png";
 import laurenSong from "../components/headshots/Lauren_Song.png";
@@ -16,20 +15,12 @@ import aidanOConnor from "../components/headshots/Aidan_O'Connor.png";
 import maryamAlbakry from "../components/headshots/Maryam_Albakry.png";
 import allisonZheng from "../components/headshots/Allison_Zheng.png";
 import kylieHuber from "../components/headshots/Kylie_Huber.png";
-import ireneLee from "../components/headshots/Irene_Lee.png";
 import sophiaPapanicolaou from "../components/headshots/Sophia_Papanicolaou.png";
 import melanieKhan from "../components/headshots/Melanie_Khan.png";
-import lukeHuang from "../components/headshots/Luke_Huang.png";
-import nevinMotto from "../components/headshots/Nevin_Motto.png";
-import carlyGranda from "../components/headshots/Carly_Granda.png";
-import aryaRamkumar from "../components/headshots/Arya_Ramkumar.jpeg";
-import yudaiHiguchi from "../components/headshots/Yudai_Higuchi.jpg";
-import tylerHerridan from "../components/headshots/Tyler_Herridan.png";
 import snehaSinghi from "../components/headshots/Sneha_Singhi.png";
-import vindhyaKathuria from "../components/headshots/Vindhya_Kathuria.png";
 import ashleySosa from "../components/headshots/Ashley_Sosa.jpeg";
 import emilyChen from "../components/headshots/Emily_Chen.png";
-import taliaPerkins from "../components/headshots/Talia_Perkins.jpeg";
+import taliaPerkins from "../components/headshots/Talia_Perkins.jpg";
 import nicoletteGani from "../components/headshots/Nicolette_Gani.jpg";
 import annemarieEhrenreich from "../components/headshots/AnneMarie_Ehrenreich.jpg"
 import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jpg"
@@ -76,12 +67,6 @@ function Team() {
       name: "Alex Chen",
       position: "Operations Director",
       image: alexChen,
-    },
-    {
-      netID: "ecp83",
-      name: "Elaine Park",
-      position: "Operations Associate",
-      image: elainePark,
     },
     {
       netID: "wl526",
@@ -186,18 +171,6 @@ function Team() {
       image: kylieHuber,
     },
     {
-      netID: "yl3577",
-      name: "Irene Lee",
-      position: "Marketing Associate",
-      image: ireneLee,
-    },
-    {
-      netID: "lh693",
-      name: "Luke Huang",
-      position: "Marketing Associate",
-      image: lukeHuang,
-    },
-    {
       netID: "aae43",
       name: "Anne Marie Ehrenreich",
       position: "Marketing Associate",
@@ -225,39 +198,9 @@ function Team() {
 
   const FINANCE = [
     {
-      netID: "nam96",
-      name: "Nevin Motto",
-      position: "Finance Director",
-      image: nevinMotto,
-    },
-    {
-      netID: "cg553",
-      name: "Carly Granda",
-      position: "Finance Analyst",
-      image: carlyGranda,
-    },
-    {
-      netID: "adr62",
-      name: "Arya Ramkumar",
-      position: "Finance Analyst",
-      image: aryaRamkumar,
-    },
-    {
-      netID: "yh459",
-      name: "Yudai Higuchi",
-      position: "Finance Analyst",
-      image: yudaiHiguchi,
-    },
-    {
-      netID: "tch84",
-      name: "Tyler Herridan",
-      position: "Finance Analyst",
-      image: tylerHerridan,
-    },
-    {
       netID: "ss3298",
       name: "Sneha Singhi",
-      position: "Finance Analyst",
+      position: "Finance Director",
       image: snehaSinghi,
     },
     {
@@ -286,12 +229,6 @@ function Team() {
       name: "Talia Perkins",
       position: "Events Director",
       image: taliaPerkins,
-    },
-    {
-      netID: "vk283",
-      name: "Vindhya Kathuria",
-      position: "Events Coordinator",
-      image: vindhyaKathuria,
     },
     {
       netID: "ajs573",
