@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faInstagram, faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 function SocialMediaComponent({ icon, platform, text }) {
   return (
