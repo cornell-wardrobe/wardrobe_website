@@ -15,7 +15,7 @@ function Landingpage() {
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 h-full items-center">
           <div className="ml-7 text-center md:text-left">
-            <p className="text-xl text-blue-700 mt-5 md:mt-0">CORNELL WARDROBE</p>
+            <p className="text-xl text-blue-700 mt-5 md:mt-0">THE WARDROBE AT CORNELL</p>
             <p className="my-4 mr-4 text-4xl font-bold md:text-5xl xl:text-6xl">Pre-Professional Clothing For All Students</p>
             <p className="text-xl med:text-2xl">Helping any student pursue any opportunity</p>
             <Link to="/rent">
