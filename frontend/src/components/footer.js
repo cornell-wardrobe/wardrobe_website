@@ -16,12 +16,9 @@ function SocialMediaComponent({ icon, platform, text }) {
 function Footer() {
   return (
     <div className="py-24 bg-gray-50">
-      <p className="text-4xl font-bold text-center mb-4">THE WARDROBE</p>
+      <p className="text-4xl font-bold text-center mb-4">WARDROBE</p>
       <p className="text-center font-bold text-sm text-gray-500">
         Helping any student pursue any opportunity
-      </p>
-      <p className="text-center text-sm text-gray-500">
-      This organization is a registered student organization at Cornell University
       </p>
       <p className="text-center font-bold text-sm mt-8">Join our listserv</p>
       <div className="flex justify-center align-middle mt-4 mb-12">
@@ -54,11 +51,11 @@ function Footer() {
           platform="INSTAGRAM"
           text="@cornellwardrobe"
         />
-        {/* <SocialMediaComponent
+        <SocialMediaComponent
           icon={faFacebookF}
           platform="FACEBOOK"
           text="@cornellwardrobe"
-        /> */}
+        />
       </div>
     </div>
   );
