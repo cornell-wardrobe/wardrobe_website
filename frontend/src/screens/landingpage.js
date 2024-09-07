@@ -12,6 +12,20 @@ import homeApply from "../components/images/landingPage/home_apply.svg"
 function Landingpage() {
   return (
     <div>
+      <div className="p-2 bg-yellow-200 flex justify-center items-centerflex justify-center items-center bg-slate-100">
+        <p className="text-center text-xl med:text-2xl">
+          Applications are now {" "}
+          <a
+            href="https://docs.google.com/forms/d/1Uc2fvgIQuLscxT1cA9MHq6uPjJV5wJheH7uyNU6l8mo/viewform?edit_requested=true"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline"
+          >
+            opened
+          </a>
+          !
+        </p>
+      </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 h-full items-center">
           <div className="ml-7 text-center md:text-left">

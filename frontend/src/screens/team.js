@@ -1,21 +1,14 @@
 import React from "react";
 import { useState } from "react";
 import People from "../components/people";
-import juliaEdelman from "../components/headshots/Julia_Edelman.jpg";
 import alexChen from "../components/headshots/Alex_Chen.png";
-import winnieLin from "../components/headshots/Winnie_Lin.png";
-import sorayahSmith from "../components/headshots/Sorayah_Smith.png";
 import laurenSong from "../components/headshots/Lauren_Song.png";
 import claraKennedy from "../components/headshots/Clara_Kennedy.png";
-import patrickChen from "../components/headshots/Patrick_Chen.png";
 import jennyChen from "../components/headshots/Jenny_Chen.png";
-import richardKang from "../components/headshots/Richard_Kang.png";
 import javohirAbdurazzakov from "../components/headshots/Javohir_Abdurazzakov.jpg";
-import aidanOConnor from "../components/headshots/Aidan_O'Connor.png";
 import maryamAlbakry from "../components/headshots/Maryam_Albakry.png";
 import allisonZheng from "../components/headshots/Allison_Zheng.png";
 import kylieHuber from "../components/headshots/Kylie_Huber.png";
-import sophiaPapanicolaou from "../components/headshots/Sophia_Papanicolaou.png";
 import melanieKhan from "../components/headshots/Melanie_Khan.png";
 import snehaSinghi from "../components/headshots/Sneha_Singhi.png";
 import ashleySosa from "../components/headshots/Ashley_Sosa.jpeg";
@@ -46,22 +39,16 @@ import advikaPrasad from "../components/headshots/Advika_Prasad.JPG"
 function Team() {
   const MANAGEMENT = [
     {
-      netID: "jbe49",
-      name: "Julia Edelman",
-      position: "Co-President",
-      image: juliaEdelman,
-    },
-    {
-      netID: "sap244",
-      name: "Sophia Papanicolaou",
-      position: "Co-President",
-      image: sophiaPapanicolaou,
-    },
-    {
       netID: "ma878",
       name: "Maryam Albakry",
-      position: "Vice President",
+      position: "President",
       image: maryamAlbakry,
+    },
+    {
+      netID: "twp46",
+      name: "Talia Perkins",
+      position: "Vice President",
+      image: taliaPerkins,
     },
   ];
 
@@ -71,18 +58,6 @@ function Team() {
       name: "Alex Chen",
       position: "Operations Director",
       image: alexChen,
-    },
-    {
-      netID: "wl526",
-      name: "Winnie Lin",
-      position: "Operations Associate",
-      image: winnieLin,
-    },
-    {
-      netID: "sbs324",
-      name: "Sorayah Smith",
-      position: "Operations Associate",
-      image: sorayahSmith,
     },
     {
       netID: "lqs2",
@@ -112,34 +87,16 @@ function Team() {
 
   const TECH = [
     {
-      netID: "pc523",
-      name: "Patrick Chen",
-      position: "Technology Director",
-      image: patrickChen,
-    },
-    {
       netID: "jc2676",
       name: "Jenny Chen",
-      position: "Product Lead & UI/UX Engineer",
+      position: "Technology Director",
       image: jennyChen,
-    },
-    {
-      netID: "rk695",
-      name: "Richard Kang",
-      position: "Frontend Software Engineer",
-      image: richardKang,
     },
     {
       netID: "ja688",
       name: "Javohir Abdurazzakov",
       position: "Frontend Software Engineer",
       image: javohirAbdurazzakov,
-    },
-    {
-      netID: "ao274",
-      name: "Aidan O'Connor",
-      position: "Frontend Software Engineer",
-      image: aidanOConnor,
     },
     {
       netID: "axz5",
@@ -210,8 +167,14 @@ function Team() {
     {
       netID: "ss3298",
       name: "Sneha Singhi",
-      position: "Finance Director",
+      position: "Finance Co-Director",
       image: snehaSinghi,
+    },
+    {
+      netID: "ms3263",
+      name: "Manraj Singh",
+      position: "Financial Co-Director",
+      image: manrajSingh,
     },
     {
       netID: "sy544",
@@ -232,12 +195,6 @@ function Team() {
       image: stephanieDong,
     },
     {
-      netID: "ms3263",
-      name: "Manraj Singh",
-      position: "Financial Analyst",
-      image: manrajSingh,
-    },
-    {
       netID: "ap2373",
       name: "Advika Prasad",
       position: "Financial Analyst",
@@ -247,10 +204,10 @@ function Team() {
 
   const EVENTS = [
     {
-      netID: "twp46",
-      name: "Talia Perkins",
+      netID: "ok55",
+      name: "Olivia Kalu",
       position: "Events Director",
-      image: taliaPerkins,
+      image: oliviaKalu,
     },
     {
       netID: "ajs573",
@@ -269,12 +226,6 @@ function Team() {
       name: "Nicole Parafati",
       position: "Events Coordinator",
       image: nicoleParafati,
-    },
-    {
-      netID: "ok55",
-      name: "Olivia Kalu",
-      position: "Events Coordinator",
-      image: oliviaKalu,
     },
   ];
 
