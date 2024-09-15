@@ -14,7 +14,16 @@ function Landingpage() {
     <div>
       <div className="p-2 bg-yellow-200 flex justify-center items-centerflex justify-center items-center bg-slate-100">
         <p className="text-center text-xl med:text-2xl">
-          Applications are now {" "}
+        Info session - Sept 16 {" "}
+          <a
+            href="https://cornell.zoom.us/j/93087004298?pwd=dxFm9lHAJWVDQrZ9J5IMStTV7bh7BF.1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 underline"
+          >
+            here
+          </a>
+          .{" "} Resume drop applications {" "}
           <a
             href="https://docs.google.com/forms/d/1Uc2fvgIQuLscxT1cA9MHq6uPjJV5wJheH7uyNU6l8mo/viewform?edit_requested=true"
             target="_blank"
