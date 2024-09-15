@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.04819fb6.css",
-    "main.js": "/static/js/main.9b64a834.js",
+    "main.js": "/static/js/main.f9abbf77.js",
     "static/media/media-infographic.png": "/static/media/media-infographic.e5dbfb20e28a0827c75d.png",
     "static/media/Stella_Muthoni.jpg": "/static/media/Stella_Muthoni.0585fb69d1338bb9a85d.jpg",
     "static/media/Atkins_Dube.jpg": "/static/media/Atkins_Dube.461482b860107939db35.jpg",
@@ -58,10 +58,10 @@
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
     "main.04819fb6.css.map": "/static/css/main.04819fb6.css.map",
-    "main.9b64a834.js.map": "/static/js/main.9b64a834.js.map"
+    "main.f9abbf77.js.map": "/static/js/main.f9abbf77.js.map"
   },
   "entrypoints": [
     "static/css/main.04819fb6.css",
-    "static/js/main.9b64a834.js"
+    "static/js/main.f9abbf77.js"
   ]
 }

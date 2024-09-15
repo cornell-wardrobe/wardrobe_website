@@ -34,10 +34,10 @@ function Apply() {
       </div> 
       <div className="h-[60vh] xs:h-[65vh] md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2 px-4 md:px-8">
         <div className="flex w-screen items-center h-full md:w-[50vw]">
-          <img src={recruitment_1} alt="Image 1" className="object-contain h-full w-full" />
+          <img src={recruitment_1} alt="Recruitment 1" className="object-contain h-full w-full" />
         </div>
         <div className="flex w-screen items-center h-full md:w-[50vw]">
-          <img src={recruitment_2} alt="Image 1" className="object-contain h-full w-full" />
+          <img src={recruitment_2} alt="Recruitment 2" className="object-contain h-full w-full" />
         </div>
       </div>
     </div>
