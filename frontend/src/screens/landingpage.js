@@ -14,16 +14,7 @@ function Landingpage() {
     <div>
       <div className="p-2 bg-yellow-200 flex justify-center items-centerflex justify-center items-center bg-slate-100">
         <p className="text-center text-xl med:text-2xl">
-          Applications are now {" "}
-          <a
-            href="https://docs.google.com/forms/d/1Uc2fvgIQuLscxT1cA9MHq6uPjJV5wJheH7uyNU6l8mo/viewform?edit_requested=true"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 underline"
-          >
-            opened
-          </a>
-          !
+          Rentals are now opened!
         </p>
       </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
@@ -63,7 +54,7 @@ function Landingpage() {
               </img>
               <p className="text-4xl font-bold mt-16 mb-8">Rental Model</p>
               <p className="mx-6">We provide free rental professional attire for any occasion to students throughout the semester. Take what you need
-                and return it when you're done. We'll handle the cleaning!
+                and return it when you&apos;re done. We&apos;ll handle the cleaning!
               </p>
             </div>
           </div>
@@ -119,7 +110,7 @@ function Landingpage() {
             </div>
             <div className="-ml-8 sm:-ml-16">
               <p className="text-3xl mb-8 font-bold">Step Two: Wait</p>
-              <p className="">Wait for our team's response to your request. We'll get back to you within 48 hours.
+              <p className="">Wait for our team&apos;s response to your request. We&apos;ll get back to you within 48 hours.
               </p>
             </div>
           </div>

@@ -60,6 +60,12 @@ function Team() {
       image: alexChen,
     },
     {
+      netID: "kfh34",
+      name: "Kylie Huber",
+      position: "Operations Associate",
+      image: kylieHuber,
+    },
+    {
       netID: "lqs2",
       name: "Lauren Song",
       position: "Operations Associate",
@@ -105,6 +111,12 @@ function Team() {
       image: allisonZheng,
     },
     {
+      netID: "jk2578",
+      name: "Julia Kundu",
+      position: "Frontend Software Engineer",
+      image: juliaKundu,
+    },
+    {
       netID: "akd74",
       name: "Atkins Dube",
       position: "Full Stack Software Engineer",
@@ -126,16 +138,22 @@ function Team() {
       image: melanieKhan,
     },
     {
-      netID: "kfh34",
-      name: "Kylie Huber",
-      position: "Marketing Associate",
-      image: kylieHuber,
+      netID: "nmp68",
+      name: "Nicole Parafati",
+      position: "Marketing Director",
+      image: nicoleParafati,
     },
     {
       netID: "aae43",
       name: "Anne Marie Ehrenreich",
       position: "Marketing Associate",
       image: annemarieEhrenreich,
+    },
+    {
+      netID: "jky27",
+      name: "Kathereen Yang",
+      position: "Marketing Associate",
+      image: kathereenYang,
     },
     {
       netID: "bgb66",
@@ -183,6 +201,12 @@ function Team() {
       image: sinnyYe,
     },
     {
+      netID: "cz376",
+      name: "Carrie Zheng",
+      position: "Financial Analyst",
+      image: carrieZheng,
+    },
+    {
       netID: "sm2493",
       name: "Stella Muthoni",
       position: "Financial Analyst",
@@ -222,10 +246,10 @@ function Team() {
       image: emilyChen,
     },
     {
-      netID: "nmp68",
-      name: "Nicole Parafati",
+      netID: "fz268",
+      name: "Fanny Zheng",
       position: "Events Coordinator",
-      image: nicoleParafati,
+      image: fannyZheng,
     },
   ];
 
@@ -233,32 +257,8 @@ function Team() {
     {
       netID: "nig22",
       name: "Nicolette Gani",
-      position: "Director of Expansion",
+      position: "Expansion Director",
       image: nicoletteGani,
-    },
-    {
-      netID: "cz376",
-      name: "Carrie Zheng",
-      position: "Expansion Finance",
-      image: carrieZheng,
-    },
-    {
-      netID: "jky27",
-      name: "Kathereen Yang",
-      position: "Expansion Finance",
-      image: kathereenYang,
-    },
-    {
-      netID: "fz268",
-      name: "Fanny Zheng",
-      position: "Expansion Events",
-      image: fannyZheng,
-    },
-    {
-      netID: "jk2578",
-      name: "Julia Kundu",
-      position: "Expansion Tech",
-      image: juliaKundu,
     },
   ];
 
