@@ -1,5 +1,7 @@
 import React from "react";
 import applyFirst from "../components/images/apply/apply-first.svg";
+import recruitment_1 from "../components/images/apply/recruitment_1.png"
+import recruitment_2 from "../components/images/apply/recruitment_2.png"
 
 function Apply() {
   return (
@@ -22,6 +24,14 @@ function Apply() {
             src={applyFirst}
             alt="People sitting on computer"
           />
+        </div>
+      </div> 
+      <div className="h-[60vh] xs:h-[65vh] md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2 px-4 md:px-8">
+        <div className="flex w-screen items-center h-full md:w-[50vw]">
+          <img src={recruitment_1} alt="Recruitment 1" className="object-contain h-full w-full" />
+        </div>
+        <div className="flex w-screen items-center h-full md:w-[50vw]">
+          <img src={recruitment_2} alt="Recruitment 2" className="object-contain h-full w-full" />
         </div>
       </div>
     </div>
