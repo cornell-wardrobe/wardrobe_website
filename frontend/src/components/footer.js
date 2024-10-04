@@ -1,17 +1,36 @@
 import React from "react";
+import PropTypes from "prop-types"; // Import PropTypes
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faInstagram} from "@fortawesome/free-brands-svg-icons";
 
 function SocialMediaComponent({ icon, platform, text }) {
+  const generateLink = () => {
+    if (platform === "EMAIL") {
+      return `mailto:${text}`;
+    } else if (platform === "INSTAGRAM") {
+      return `https://instagram.com/${text.replace('@', '')}`;
+    }
+    return "#";
+  };
+
   return (
     <div className="mt-4 text-center md:basis-1/3">
       <FontAwesomeIcon className="text-5xl" icon={icon} />
       <p className="font-bold mb-4">{platform}</p>
-      <p className="text-sm font-bold text-gray-500">{text}</p>
+      <p className="text-sm font-bold text-gray-500 underline">
+        <a href={generateLink()} target="_blank" rel="noopener noreferrer">
+          {text}
+        </a></p>
     </div>
   );
 }
+
+SocialMediaComponent.propTypes = {
+  icon: PropTypes.object.isRequired,
+  platform: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};
 
 function Footer() {
   return (
@@ -27,7 +46,7 @@ function Footer() {
       <div className="flex justify-center align-middle mt-4 mb-12">
         <form action="https://www.list.cornell.edu/subscribe/subscribe.tml" method="POST" target="blank">
           <input type="text" name="email" placeholder="Enter your email" className="border p-1 pr-24 border-gray"/>
-          <input type="hidden" NAME="name" VALUE=""/>
+          <input type="hidden" name="name" value=""/>
           <input type="hidden" name="list" value="wardrobe-l"/>
           <input type="hidden" name="lists" value="wardrobe-l"/>
           <input type="hidden" name="demographics" value="" />

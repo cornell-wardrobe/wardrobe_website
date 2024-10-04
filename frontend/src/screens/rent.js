@@ -36,7 +36,7 @@ function Rent() {
             Unsure of size?
           </p>
           <p className="text-center">
-            Use our fitting guide to help find what's most comfortable for you.
+            Use our fitting guide to help find what&apos;s most comfortable for you.
           </p>
           <div className="mt-10 text-center">
             <img
@@ -49,7 +49,7 @@ function Rent() {
         <div>
           <div className="text-center max-w-screen-md px-3 mx-auto">
             <p className="text-center text-2xl font-semibold mt-5 mb-3">
-              Men's Sizes
+              Men&apos;s Sizes
             </p>
             <img
               className="text-center align-middle inline-block"
@@ -59,7 +59,7 @@ function Rent() {
           </div>
           <div className="text-center max-w-screen-md px-3 mx-auto">
             <p className="text-center text-2xl font-semibold mt-5 mb-3">
-              Women's Sizes
+              Women&apos;s Sizes
             </p>
             <img
               className="text-center align-middle inline-block"
