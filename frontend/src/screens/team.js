@@ -13,28 +13,37 @@ import melanieKhan from "../components/headshots/Melanie_Khan.png";
 import snehaSinghi from "../components/headshots/Sneha_Singhi.png";
 import ashleySosa from "../components/headshots/Ashley_Sosa.jpeg";
 import emilyChen from "../components/headshots/Emily_Chen.png";
-import taliaPerkins from "../components/headshots/Talia_Perkins.jpg";
+import taliaPerkins from "../components/headshots/Talia_Perkins.JPG";
 import nicoletteGani from "../components/headshots/Nicolette_Gani.jpg";
-import annemarieEhrenreich from "../components/headshots/AnneMarie_Ehrenreich.jpg"
-import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jpg"
-import carrieZheng from "../components/headshots/Carrie_Zheng.jpg"
-import atkinsDube from "../components/headshots/Atkins_Dube.jpg"
-import fannyZheng from "../components/headshots/Fanny_Zheng.jpg"
-import helenLin from "../components/headshots/Helen_Lin.jpg"
-import kathereenYang from "../components/headshots/Kathereen_Yang.jpg"
-import kellyZeng from "../components/headshots/Kelly_Zeng.jpg"
-import leonorRobalino from "../components/headshots/Leonor_Robalino.jpg"
-import natalieKaplan from "../components/headshots/Natalie_Kaplan.jpg"
-import nicoleParafati from "../components/headshots/Nicole_Parafati.jpg"
-import nicoleYan from "../components/headshots/Nicole_Yan.jpg"
-import oliviaKalu from "../components/headshots/Olivia_Kalu.jpg"
-import sinnyYe from "../components/headshots/Sinny_Ye.jpg"
-import stellaMuthoni from "../components/headshots/Stella_Muthoni.jpg"
-import stephanieDong from "../components/headshots/Stephanie_Dong.jpg"
-import juliaKundu from "../components/headshots/Julia_Kundu.jpg"
-import timmyXi from "../components/headshots/Timmy_Xi.jpg"
-import manrajSingh from "../components/headshots/Manraj_Singh.jpg"
-import advikaPrasad from "../components/headshots/Advika_Prasad.JPG"
+import annemarieEhrenreich from "../components/headshots/AnneMarie_Ehrenreich.jpg";
+import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jpg";
+import carrieZheng from "../components/headshots/Carrie_Zheng.jpg";
+import atkinsDube from "../components/headshots/Atkins_Dube.jpg";
+import fannyZheng from "../components/headshots/Fanny_Zheng.jpg";
+import helenLin from "../components/headshots/Helen_Lin.jpg";
+import kathereenYang from "../components/headshots/Kathereen_Yang.jpg";
+import kellyZeng from "../components/headshots/Kelly_Zeng.jpg";
+import leonorRobalino from "../components/headshots/Leonor_Robalino.jpg";
+import natalieKaplan from "../components/headshots/Natalie_Kaplan.jpg";
+import nicoleParafati from "../components/headshots/Nicole_Parafati.JPG";
+import nicoleYan from "../components/headshots/Nicole_Yan.jpg";
+import oliviaKalu from "../components/headshots/Olivia_Kalu.jpg";
+import sinnyYe from "../components/headshots/Sinny_Ye.jpg";
+import stellaMuthoni from "../components/headshots/Stella_Muthoni.jpg";
+import stephanieDong from "../components/headshots/Stephanie_Dong.jpg";
+import juliaKundu from "../components/headshots/Julia_Kundu.jpg";
+import timmyXi from "../components/headshots/Timmy_Xi.jpg";
+import manrajSingh from "../components/headshots/Manraj_Singh.jpg";
+import advikaPrasad from "../components/headshots/Advika_Prasad.JPG";
+import erikaChin from "../components/headshots/Erika_Chin.JPG";
+import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
+import jennyHuang from "../components/headshots/Jenny_Huang.JPG";
+import benCornejo from "../components/headshots/Carlos_Ben_Cornejo.JPG";
+import avaTafreshi from "../components/headshots/Ava_Tafreshi.JPG";
+import miaLopez from "../components/headshots/Mia_Lopez.JPG";
+import nikitaChavan from "../components/headshots/Nikita_Chavan.JPG";
+import lindsayWang from "../components/headshots/Lindsay_Wang.JPG";
+import cindyXu from "../components/headshots/Cindy_Xu.JPG";
 
 function Team() {
   const MANAGEMENT = [
@@ -88,6 +97,12 @@ function Team() {
       name: "Nicole Yan",
       position: "Operations Associate",
       image: nicoleYan,
+    },
+    {
+      netID: "llw65",
+      name: "Lindsay Wang",
+      position: "Operations Associate",
+      image: lindsayWang,
     },
   ];
 
@@ -179,6 +194,30 @@ function Team() {
       position: "Photographer",
       image: timmyXi,
     },
+    {
+      netID: "ant63",
+      name: "Ava Tafreshi",
+      position: "Marketing Associate",
+      image: avaTafreshi,
+    },
+    {
+      netID: "mgl89",
+      name: "Mia Lopez",
+      position: "Marketing Associate",
+      image: miaLopez,
+    },
+    {
+      netID: "nmc92",
+      name: "Nikita Chavan",
+      position: "Marketing Associate",
+      image: nikitaChavan,
+    },
+    {
+      netID: "cx79",
+      name: "Cindy Xu",
+      position: "Marketing Associate",
+      image: cindyXu,
+    },
   ];
 
   const FINANCE = [
@@ -224,6 +263,18 @@ function Team() {
       position: "Financial Analyst",
       image: advikaPrasad,
     },
+    {
+      netID: "ejc245",
+      name: "Erika Chin",
+      position: "Financial Analyst",
+      image: erikaChin,
+    },
+    {
+      netID: "cbc96",
+      name: "Ben Cornejo",
+      position: "Financial Analyst",
+      image: benCornejo,
+    },
   ];
 
   const EVENTS = [
@@ -250,6 +301,18 @@ function Team() {
       name: "Fanny Zheng",
       position: "Events Coordinator",
       image: fannyZheng,
+    },
+    {
+      netID: "jmc689",
+      name: "Jessica Caivano",
+      position: "Events Coordinator",
+      image: jessicaCaivano,
+    },
+    {
+      netID: "jh2894",
+      name: "Jenny Huang",
+      position: "Events Coordinator",
+      image: jennyHuang,
     },
   ];
 
