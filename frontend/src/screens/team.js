@@ -15,6 +15,38 @@ import ashleySosa from "../components/headshots/Ashley_Sosa.jpeg";
 import emilyChen from "../components/headshots/Emily_Chen.png";
 import taliaPerkins from "../components/headshots/Talia_Perkins.JPG";
 import nicoletteGani from "../components/headshots/Nicolette_Gani.jpg";
+import annemarieEhrenreich from "../components/headshots/AnneMarie_Ehrenreich.jpg"
+import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jpg"
+import carrieZheng from "../components/headshots/Carrie_Zheng.jpg"
+import atkinsDube from "../components/headshots/Atkins_Dube.jpg"
+import fannyZheng from "../components/headshots/Fanny_Zheng.jpg"
+import helenLin from "../components/headshots/Helen_Lin.jpg"
+import kathereenYang from "../components/headshots/Kathereen_Yang.jpg"
+import kellyZeng from "../components/headshots/Kelly_Zeng.jpg"
+import leonorRobalino from "../components/headshots/Leonor_Robalino.jpg"
+import natalieKaplan from "../components/headshots/Natalie_Kaplan.jpg"
+import nicoleParafati from "../components/headshots/Nicole_Parafati.jpg"
+import nicoleYan from "../components/headshots/Nicole_Yan.jpg"
+import oliviaKalu from "../components/headshots/Olivia_Kalu.jpg"
+import sinnyYe from "../components/headshots/Sinny_Ye.jpg"
+import stellaMuthoni from "../components/headshots/Stella_Muthoni.jpg"
+import stephanieDong from "../components/headshots/Stephanie_Dong.jpg"
+import juliaKundu from "../components/headshots/Julia_Kundu.jpg"
+import timmyXi from "../components/headshots/Timmy_Xi.jpg"
+import manrajSingh from "../components/headshots/Manraj_Singh.jpg"
+import advikaPrasad from "../components/headshots/Advika_Prasad.JPG"
+import emilyEng from "../components/headshots/Emily_Eng.png"
+import victoriaMocarski from "../components/headshots/Victoria_Mocarski.JPG"
+import katherineSon from "../components/headshots/Katherine_Son.JPG"
+import rileyAuman from "../components/headshots/Riley_Auman.JPG"
+import edenDaniel from "../components/headshots/Eden_Daniel.JPG"
+import mohammedBari from "../components/headshots/Mohammed_Bari.JPG"
+import melKhan from "../components/headshots/Mel_Khan.JPG"
+import synaSony from "../components/headshots/Syna_Sony.JPG"
+import nataliaOstapowicz from "../components/headshots/Natalia_Ostapowicz.JPG"
+import catherineDisque from "../components/headshots/Catherine_Disque.JPG"
+import lauraTwizere from "../components/headshots/Laura_Twizere.JPG"
+
 import annemarieEhrenreich from "../components/headshots/AnneMarie_Ehrenreich.jpg";
 import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jpg";
 import carrieZheng from "../components/headshots/Carrie_Zheng.jpg";
@@ -93,6 +125,12 @@ function Team() {
       image: kellyZeng,
     },
     {
+      netID: "vpm29",
+      name: "Victoria Mocarski",
+      position: "Operations Associate",
+      image: victoriaMocarski,
+    },
+    {
       netID: "ny228",
       name: "Nicole Yan",
       position: "Operations Associate",
@@ -142,6 +180,13 @@ function Team() {
       name: "Natalie Kaplan",
       position: "Full Stack Software Engineer",
       image: natalieKaplan,
+    },
+
+    {
+      netID: "mb2753",
+      name: "Mohammed Bari",
+      position: "Full Stack Software Engineer",
+      image: mohammedBari,
     },
   ];
 
@@ -262,6 +307,12 @@ function Team() {
       name: "Advika Prasad",
       position: "Financial Analyst",
       image: advikaPrasad,
+    },
+    {
+      netID: "ege25",
+      name: "Emily Eng",
+      position: "Financial Analyst",
+      image: emilyEng,
     },
     {
       netID: "ejc245",
