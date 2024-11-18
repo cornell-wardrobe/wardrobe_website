@@ -35,6 +35,18 @@ import juliaKundu from "../components/headshots/Julia_Kundu.jpg"
 import timmyXi from "../components/headshots/Timmy_Xi.jpg"
 import manrajSingh from "../components/headshots/Manraj_Singh.jpg"
 import advikaPrasad from "../components/headshots/Advika_Prasad.JPG"
+import emilyEng from "../components/headshots/Emily_Eng.png"
+import victoriaMocarski from "../components/headshots/Victoria_Mocarski.JPG"
+import katherineSon from "../components/headshots/Katherine_Son.JPG"
+import rileyAuman from "../components/headshots/Riley_Auman.JPG"
+import edenDaniel from "../components/headshots/Eden_Daniel.JPG"
+import mohammedBari from "../components/headshots/Mohammed_Bari.JPG"
+import melKhan from "../components/headshots/Mel_Khan.JPG"
+import synaSony from "../components/headshots/Syna_Sony.JPG"
+import nataliaOstapowicz from "../components/headshots/Natalia_Ostapowicz.JPG"
+import catherineDisque from "../components/headshots/Catherine_Disque.JPG"
+import lauraTwizere from "../components/headshots/Laura_Twizere.JPG"
+
 
 function Team() {
   const MANAGEMENT = [
@@ -84,6 +96,12 @@ function Team() {
       image: kellyZeng,
     },
     {
+      netID: "vpm29",
+      name: "Victoria Mocarski",
+      position: "Operations Associate",
+      image: victoriaMocarski,
+    },
+    {
       netID: "ny228",
       name: "Nicole Yan",
       position: "Operations Associate",
@@ -127,6 +145,13 @@ function Team() {
       name: "Natalie Kaplan",
       position: "Full Stack Software Engineer",
       image: natalieKaplan,
+    },
+
+    {
+      netID: "mb2753",
+      name: "Mohammed Bari",
+      position: "Full Stack Software Engineer",
+      image: mohammedBari,
     },
   ];
 
@@ -223,6 +248,12 @@ function Team() {
       name: "Advika Prasad",
       position: "Financial Analyst",
       image: advikaPrasad,
+    },
+    {
+      netID: "ege25",
+      name: "Emily Eng",
+      position: "Financial Analyst",
+      image: emilyEng,
     },
   ];
 
