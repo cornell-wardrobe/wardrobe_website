@@ -12,7 +12,7 @@ import melanieKhan from "../components/headshots/Mel_Khan.JPG";
 import snehaSinghi from "../components/headshots/Sneha_Singhi.png";
 import ashleySosa from "../components/headshots/Ashley_Sosa.jpeg";
 import emilyChen from "../components/headshots/Emily_Chen.png";
-import taliaPerkins from "../components/headshots/Talia_Perkins.jpg";
+import taliaPerkins from "../components/headshots/Talia_Perkins.JPG";
 import nicoletteGani from "../components/headshots/Nicolette_Gani.jpg";
 import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jpg";
 import carrieZheng from "../components/headshots/Carrie_Zheng.jpg";
@@ -97,6 +97,12 @@ function Team() {
       name: "Syna Sony",
       position: "Operations Associate",
       image: synaSony,
+    },
+    {
+      netID: "llw65",
+      name: "Lindsay Wang",
+      position: "Operations Associate",
+      image: lindsayWang,
     },
   ];
 
@@ -314,6 +320,18 @@ function Team() {
       name: "Laura Twizere",
       position: "Events Coordinator",
       image: lauraTwizere,
+    },
+    {
+      netID: "jmc689",
+      name: "Jessica Caivano",
+      position: "Events Coordinator",
+      image: jessicaCaivano,
+    },
+    {
+      netID: "jh2894",
+      name: "Jenny Huang",
+      position: "Events Coordinator",
+      image: jennyHuang,
     },
   ];
 
