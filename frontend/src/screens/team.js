@@ -43,7 +43,10 @@ import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 import nikitaChavan from "../components/headshots/Nikita_Chavan.JPG";
 import lindsayWang from "../components/headshots/Lindsay_Wang.JPG";
 import cindyXu from "../components/headshots/Cindy_Xu.JPG";
-import melKhan from "../components/headshots/Mel_Khan.JPG"
+import melKhan from "../components/headshots/Mel_Khan.JPG";
+import alexChou from "../components/headshots/Alex_Chou.JPG";
+import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
+
 
 function Team() {
   const MANAGEMENT = [
@@ -99,16 +102,10 @@ function Team() {
       image: synaSony,
     },
     {
-      netID: "llw65",
-      name: "Lindsay Wang",
+      netID: "apc97",
+      name: "Alex Chou",
       position: "Operations Associate",
-      image: lindsayWang,
-    },
-    {
-      netID: "ss4352",
-      name: "Syna Sony",
-      position: "Operations Associate",
-      image: synaSony,
+      image: alexChou,
     },
   ];
 
@@ -206,6 +203,12 @@ function Team() {
       position: "Marketing Associate",
       image: cindyXu,
     },
+    {
+      netID: "gcc77",
+      name: "Grace Carlson",
+      position: "Social Media Associate",
+      image: graceCarlson,
+    },
   ];
 
   const FINANCE = [
@@ -295,42 +298,6 @@ function Team() {
       name: "Emily Chen",
       position: "Events Coordinator",
       image: emilyChen,
-    },
-    {
-      netID: "jmc689",
-      name: "Jessica Caivano",
-      position: "Events Coordinator",
-      image: jessicaCaivano,
-    },
-    {
-      netID: "jh2894",
-      name: "Jenny Huang",
-      position: "Events Coordinator",
-      image: jennyHuang,
-    },
-    {
-      netID: "rca78",
-      name: "Riley Auman",
-      position: "Events Coordinator",
-      image: rileyAuman,
-    },
-    {
-      netID: "etd32",
-      name: "Eden Daniel",
-      position: "Events Coordinator",
-      image: edenDaniel,
-    },
-    {
-      netID: "cad285",
-      name: "Catherine Disque",
-      position: "Events Coordinator",
-      image: catherineDisque,
-    },
-    {
-      netID: "lat95",
-      name: "Laura Twizere",
-      position: "Events Coordinator",
-      image: lauraTwizere,
     },
     {
       netID: "jmc689",

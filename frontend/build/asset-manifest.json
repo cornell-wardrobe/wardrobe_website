@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.d2ec9d0d.css",
+<<<<<<< HEAD
     "main.js": "/static/js/main.ecb205a9.js",
+=======
+    "main.js": "/static/js/main.6ec63c8b.js",
+>>>>>>> dev
     "static/media/Victoria_Mocarski.JPG": "/static/media/Victoria_Mocarski.6db6cdc5c5e8d687214f.JPG",
     "static/media/Mel_Khan.JPG": "/static/media/Mel_Khan.2d70adaf810c254377e1.JPG",
     "static/media/Laura_Twizere.JPG": "/static/media/Laura_Twizere.a373bbe1901640fcdf16.JPG",
@@ -19,12 +23,20 @@
     "static/media/Katherine_Son.JPG": "/static/media/Katherine_Son.2f7893527800ec2b60f4.JPG",
     "static/media/Catherine_Disque.JPG": "/static/media/Catherine_Disque.b767e8342990781e3430.JPG",
     "static/media/Jenny_Huang.JPG": "/static/media/Jenny_Huang.96884f8562ff739b6ee6.JPG",
+<<<<<<< HEAD
+=======
+    "static/media/Grace_Carlson.JPG": "/static/media/Grace_Carlson.810b3746d5f91292b963.JPG",
+>>>>>>> dev
     "static/media/Nikita_Chavan.JPG": "/static/media/Nikita_Chavan.1f3315aec0e13d216890.JPG",
     "static/media/Mia_Lopez.JPG": "/static/media/Mia_Lopez.e6d66ff1280dea8974ce.JPG",
     "static/media/Erika_Chin.JPG": "/static/media/Erika_Chin.875afc3d831f0f4e17c3.JPG",
     "static/media/Emily_Eng.png": "/static/media/Emily_Eng.e3e82696baf035e0e721.png",
     "static/media/Syna_Sony.JPG": "/static/media/Syna_Sony.4059d63ade684aaf5e5b.JPG",
     "static/media/Ava_Tafreshi.JPG": "/static/media/Ava_Tafreshi.326a0e319b3b7f5e06e9.JPG",
+<<<<<<< HEAD
+=======
+    "static/media/Alex_Chou.JPG": "/static/media/Alex_Chou.3c6a3a274b5344d4afc7.JPG",
+>>>>>>> dev
     "static/media/media-infographic.png": "/static/media/media-infographic.e5dbfb20e28a0827c75d.png",
     "static/media/Stella_Muthoni.jpg": "/static/media/Stella_Muthoni.0585fb69d1338bb9a85d.jpg",
     "static/media/Jenny_Chen.png": "/static/media/Jenny_Chen.df097eaad0d15827990f.png",
@@ -67,10 +79,18 @@
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
     "main.d2ec9d0d.css.map": "/static/css/main.d2ec9d0d.css.map",
+<<<<<<< HEAD
     "main.ecb205a9.js.map": "/static/js/main.ecb205a9.js.map"
   },
   "entrypoints": [
     "static/css/main.d2ec9d0d.css",
     "static/js/main.ecb205a9.js"
+=======
+    "main.6ec63c8b.js.map": "/static/js/main.6ec63c8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2ec9d0d.css",
+    "static/js/main.6ec63c8b.js"
+>>>>>>> dev
   ]
 }
