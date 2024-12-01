@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import eventsStart from "../components/images/events/events-first.svg";
 import eventsStepOne from "../components/images/events/events-step-one.svg";
 import eventsStepTwo from "../components/images/events/events-step-two.svg";
@@ -14,6 +15,11 @@ function Events() {
             <p className="my-4 mr-4 text-4xl font-bold med:text-5xl lg:text-6xl">Pop-Up Shop</p>
             <p className="text-xl  med:text-2xl">Thursday, December 5th </p>
             <p className="text-lg med:text-2xl italic">Willard Memorial Room @11</p>
+            <Link to="https://cornell.campusgroups.com/Wardrobe/rsvp_boot?id=2277144" target="blank">
+              <button type="button" className="bg-blue-600 mt-8">
+                <p className="text-white text-sm my-4 mx-6">REGISTER</p>
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex grow-0 lg:ml-32 xl:ml-56 lg:mr-28 items-center justify-center bg-slate-100 lg:h-full h-3/6 lg:my-0 my-16">

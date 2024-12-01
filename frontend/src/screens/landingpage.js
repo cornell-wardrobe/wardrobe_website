@@ -15,14 +15,14 @@ function Landingpage() {
       <div className="p-2 bg-yellow-200 flex justify-center items-centerflex justify-center items-center bg-slate-100">
         <p className="text-center text-xl med:text-2xl">
         <a 
-          href="https://docs.google.com/forms/d/e/1FAIpQLSeCC_OWC-30hTyYZxkoXHwruQOP2KY3IOJ0TtlsFflez9NxYg/viewform" 
+          href="https://cornell.campusgroups.com/Wardrobe/rsvp_boot?id=2277144" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-blue-500 underline"
           >
-          Rentals 
+          Pop-up 
           </a>  
-          &nbsp;are now opened!
+          &nbsp;sign ups are now opened!
         </p>
       </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
@@ -31,11 +31,16 @@ function Landingpage() {
             <p className="text-xl text-blue-700 mt-5 md:mt-0">THE WARDROBE AT CORNELL</p>
             <p className="my-4 mr-4 text-4xl font-bold md:text-5xl xl:text-6xl">Pre-Professional Clothing For All Students</p>
             <p className="text-xl med:text-2xl">Helping any student pursue any opportunity</p>
-            <Link to="/rent">
+            {/* <Link to="/rent">
               <button type="button" className="bg-blue-600 mt-8">
                 <p className="text-white text-sm my-4 mx-6">RENT NOW</p>
               </button>
-            </Link>
+            </Link> */}
+            <Link to="https://cornell.campusgroups.com/Wardrobe/rsvp_boot?id=2277144" target="blank">
+              <button type="button" className="bg-blue-600 mt-8">
+                <p className="text-white text-sm my-4 mx-6">POP UP</p>
+              </button>
+          </Link>
           </div>
         </div>
         <div className="flex items-center justify-center bg-slate-100 h-full">
