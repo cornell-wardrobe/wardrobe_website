@@ -1,7 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.d2ec9d0d.css",
-    "main.js": "/static/js/main.d9253a7f.js",
+<<<<<<< HEAD
+    "main.js": "/static/js/main.ecb205a9.js",
+=======
+    "main.js": "/static/js/main.6ec63c8b.js",
+>>>>>>> dev
+    "main.js": "/static/js/main.5d822f47.js",
     "static/media/Victoria_Mocarski.JPG": "/static/media/Victoria_Mocarski.6db6cdc5c5e8d687214f.JPG",
     "static/media/Mel_Khan.JPG": "/static/media/Mel_Khan.2d70adaf810c254377e1.JPG",
     "static/media/Laura_Twizere.JPG": "/static/media/Laura_Twizere.a373bbe1901640fcdf16.JPG",
@@ -69,10 +74,18 @@
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
     "main.d2ec9d0d.css.map": "/static/css/main.d2ec9d0d.css.map",
-    "main.d9253a7f.js.map": "/static/js/main.d9253a7f.js.map"
+    "main.5d822f47.js.map": "/static/js/main.5d822f47.js.map"
+<<<<<<< HEAD
+    "main.ecb205a9.js.map": "/static/js/main.ecb205a9.js.map"
   },
   "entrypoints": [
     "static/css/main.d2ec9d0d.css",
-    "static/js/main.d9253a7f.js"
+    "static/js/main.ecb205a9.js"
+=======
+    "main.6ec63c8b.js.map": "/static/js/main.6ec63c8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2ec9d0d.css",
+    "static/js/main.5d822f47.js"
   ]
 }
