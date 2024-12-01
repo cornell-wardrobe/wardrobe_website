@@ -225,6 +225,12 @@ function Team() {
       image: snehaSinghi,
     },
     {
+      netID: "no235",
+      name: "Natalia Ostapowicz",
+      position: "Finance Co-Director",
+      image: nataliaOstapowicz,
+    },
+    {
       netID: "ms3263",
       name: "Manraj Singh",
       position: "Financial Co-Director",
