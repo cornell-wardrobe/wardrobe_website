@@ -22,7 +22,7 @@ function Landingpage() {
           >
           Pop-up 
           </a>  
-          &nbsp;sign ups are now opened!
+          &nbsp;registeration is now opened!
         </p>
       </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
