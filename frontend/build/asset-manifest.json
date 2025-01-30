@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d2ec9d0d.css",
-    "main.js": "/static/js/main.d5c42d67.js",
+    "main.css": "/static/css/main.67117c86.css",
+    "main.js": "/static/js/main.b9cec23b.js",
     "static/media/Victoria_Mocarski.JPG": "/static/media/Victoria_Mocarski.6db6cdc5c5e8d687214f.JPG",
     "static/media/Mel_Khan.JPG": "/static/media/Mel_Khan.2d70adaf810c254377e1.JPG",
     "static/media/Laura_Twizere.JPG": "/static/media/Laura_Twizere.a373bbe1901640fcdf16.JPG",
@@ -47,9 +47,7 @@
     "static/media/Carrie_Zheng.jpg": "/static/media/Carrie_Zheng.2f50916983370d953707.jpg",
     "static/media/Kathereen_Yang.jpg": "/static/media/Kathereen_Yang.a7000fcf29f9e9fe944c.jpg",
     "static/media/Manraj_Singh.jpg": "/static/media/Manraj_Singh.81dfaa9ef5c7507890a4.jpg",
-    "static/media/recruitment_1.png": "/static/media/recruitment_1.e244e3eca62e57407015.png",
     "static/media/rent-find-your-fit.png": "/static/media/rent-find-your-fit.8494816e6fb3950a02e6.png",
-    "static/media/recruitment_2.png": "/static/media/recruitment_2.789318dc26cf22abbfe6.png",
     "static/media/janet-mi-headshot.png": "/static/media/janet-mi-headshot.836714d317759484776a.png",
     "static/media/events-step-three.svg": "/static/media/events-step-three.537e33491a9f358e6df75bb74d42b677.svg",
     "static/media/rent-mens-size.jpeg": "/static/media/rent-mens-size.41c74c5b5300f1b081f3.jpeg",
@@ -68,11 +66,11 @@
     "static/media/home_shop.svg": "/static/media/home_shop.cd77102d394f732a523525def851ffe0.svg",
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
-    "main.d2ec9d0d.css.map": "/static/css/main.d2ec9d0d.css.map",
-    "main.d5c42d67.js.map": "/static/js/main.d5c42d67.js.map"
+    "main.67117c86.css.map": "/static/css/main.67117c86.css.map",
+    "main.b9cec23b.js.map": "/static/js/main.b9cec23b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2ec9d0d.css",
-    "static/js/main.d5c42d67.js"
+    "static/css/main.67117c86.css",
+    "static/js/main.b9cec23b.js"
   ]
 }

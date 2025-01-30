@@ -8,7 +8,7 @@ function Media() {
     <div>
       <div className="w-screen md:h-[45vh] grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex items-center justify-center bg-slate-100 h-full md:w-2/5">
-          <img class="h-48"
+          <img className="h-48"
             src={janetMi}
             alt="Janet Mi Headshot">
           </img>
@@ -34,9 +34,7 @@ function Media() {
           <div className="text-center mx-8 md:text-start md:w-2/3 md:mr-8">
             <p className="text-3xl font-bold mt-5 mb-3">Featured on Cornell Chronicle</p>
             <div >
-            "Hundreds of students borrow professional 
-            clothes from the Wardrobe each semester, for 
-            reasons ranging from convenience to financial need."
+            {"Hundreds of students borrow professional clothes from the Wardrobe each semester, for reasons ranging from convenience to financial need."}
             </div>
             <a href="https://news.cornell.edu/stories/2023/01/wardrobe-provides-attire-any-student-any-opportunity">
               <p className="mb-10 text-blue-600"> Read More</p>
@@ -48,7 +46,7 @@ function Media() {
             height="259" 
             src="https://www.youtube.com/embed/kT-vniQNyhE" 
             title="The Wardrobe helps students dress for success" 
-            frameborder="0" 
+            frameBorder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
             allowfullscreen>
           </iframe>
@@ -57,7 +55,7 @@ function Media() {
       <div>
         <div className="ml-[17%] mt-8">
           <p className="text-4xl font-bold ">Styling in Motion</p>
-          <p className="text-1xl ">Witness Wardrobe's Work in Action</p>
+          <p className="text-xl">{"Witness Wardrobe's Work in Action"}</p>
         </div>
         <div className="h-auto w-auto flex items-center justify-center">
           <div className="md:w-4/5 lg:w-3/4">

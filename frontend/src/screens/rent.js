@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 import rentFirst from "../components/images/rent/rent-first.svg";
 import rentFindYourFit from "../components/images/rent/rent-find-your-fit.png";
 import rentMensSize from "../components/images/rent/rent-mens-size.jpeg";
@@ -16,11 +16,17 @@ function Rent() {
             Our team will respond promptly with a pickup date, location, and return date. 
             We look forward to hearing from you!
           </div>
-          <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeCC_OWC-30hTyYZxkoXHwruQOP2KY3IOJ0TtlsFflez9NxYg/viewform" target="blank">
+          <div className="mb-8">
+            Rentals will open the week of February 3rd.
+          </div>
+          {/* <Link to="https://docs.google.com/forms/d/e/1FAIpQLSeCC_OWC-30hTyYZxkoXHwruQOP2KY3IOJ0TtlsFflez9NxYg/viewform" target="blank">
             <button type="button" className="bg-blue-700 text-white px-5 py-2">
               <p className="text-white text-sm my-4 mx-6">RENT</p>
             </button>
-          </Link>
+          </Link> */}
+          <button type="button" className="bg-gray-400 text-white px-5 py-2">
+              <p className="text-white text-sm my-4 mx-6">RENT</p>
+          </button>
         </div>
         <div className="pl-2.5 pr-2.5 w-6/12 float-left">
           <img
