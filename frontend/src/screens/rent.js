@@ -17,7 +17,7 @@ function Rent() {
             We look forward to hearing from you!
           </div>
           <div className="mb-8">
-            Rentals will open the week of February 3rd.
+            Rentals are now opened for Spring 2025!
           </div>
           <Link to="https://docs.google.com/forms/d/1FOT_pIRk2B3cBnwKnemBGdFVbWrBuAgzCTTQ13uoc54/viewform" target="blank">
             <button type="button" className="bg-blue-700 text-white px-5 py-2">

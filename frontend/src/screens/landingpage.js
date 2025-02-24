@@ -15,12 +15,12 @@ function Landingpage() {
       <div className="p-2 bg-yellow-200 flex justify-center items-centerflex justify-center items-center bg-slate-100">
         <p className="text-center text-xl med:text-2xl">
         <a 
-          href="https://forms.gle/4tpbZeifT4AWom7x9" 
+          href="https://docs.google.com/forms/d/1FOT_pIRk2B3cBnwKnemBGdFVbWrBuAgzCTTQ13uoc54/viewform" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-blue-500 underline"
           >
-          Applications 
+          Rentals
           </a>  
           &nbsp;are now opened!
         </p>

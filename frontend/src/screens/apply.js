@@ -10,13 +10,13 @@ function Apply() {
         <div className="flex w-screen bg-slate-100 items-center h-full md:w-[50vw]">
           <div className="mx-4 mt-16 xs:mx-0 xs:mt-0 justify-center w-full md:ml-7">
             <p className="text-5xl pb-2 font-bold text-center md:text-left md:text-6xl">Nice to meet you!</p>
-            <p className="text-2xl pb-2 mr-4 text-center md:text-left">The Wardrobe&apos;s Spring 2025 application is now opened. We look forward to receiving your application!</p>
+            <p className="text-2xl pb-2 mr-4 text-center md:text-left">The Wardrobe&apos;s Spring 2025 applications are now closed. We look forward to receiving your application next semester!</p>
             <div className="flex flex-col justify-center items-center md:justify-normal md:items-start">
-                <a href="https://forms.gle/4tpbZeifT4AWom7x9" target="_blank" rel="noopener noreferrer">
-                <button type="button" className="bg-blue-600 text-white-600 px-4 py-2 mt-4">
+                {/* <a href="" target="_blank" rel="noopener noreferrer"> */}
+                <button type="button" className="bg-gray-400 text-white-600 px-4 py-2 mt-4">
                   <p className="text-white text-sm my-4 mx-6">APPLY</p>
                 </button>
-                </a>
+                {/* </a> */}
             </div>
           </div>
         </div>
