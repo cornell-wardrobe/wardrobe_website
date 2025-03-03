@@ -112,12 +112,15 @@ function Team() {
       name: "Jenny Chen",
       position: "Technology Director",
       image: jennyChen,
+      description: "Testing description 1"
     },
     {
       netID: "ja688",
       name: "Javohir Abdurazzakov",
       position: "Frontend Software Engineer",
       image: javohirAbdurazzakov,
+      description: "Testing description 2",
+      linkedin: "https://www.linkedin.com/in/javohir1"
     },
     {
       netID: "axz5",
