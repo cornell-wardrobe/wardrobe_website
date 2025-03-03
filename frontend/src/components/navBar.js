@@ -12,7 +12,7 @@ const navigation = [
   { name: "Home", href: "/", current: false },
   { name: "Events", href: "events", current: false },
   { name: "Team", href: "team", current: false },
-  { name: "Media", href: "media", current: false },
+  { name: "Community", href: "media", current: false },
   { name: "Apply", href: "apply", current: false },
 ];
 
