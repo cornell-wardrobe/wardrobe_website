@@ -17,7 +17,7 @@ import bernadetteBatuncang from "../components/headshots/Bernadette_Batuncang.jp
 import carrieZheng from "../components/headshots/Carrie_Zheng.jpg"
 import helenLin from "../components/headshots/Helen_Lin.jpg"
 import kathereenYang from "../components/headshots/Kathereen_Yang.jpg"
-import nicoleParafati from "../components/headshots/Nicole_Parafati.jpg"
+import nicoleParafati from "../components/headshots/Nicole_Parafati.JPG"
 import oliviaKalu from "../components/headshots/Olivia_Kalu.jpg"
 import stellaMuthoni from "../components/headshots/Stella_Muthoni.jpg"
 import juliaKundu from "../components/headshots/Julia_Kundu.jpg"
