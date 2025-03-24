@@ -22,7 +22,7 @@ function Landingpage() {
           >
           Rentals
           </a>  
-          &nbsp;are now opened!
+          &nbsp;will be re-opened after Spring Break!
         </p>
       </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
