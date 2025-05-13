@@ -14,7 +14,7 @@ function Landingpage() {
     <div>
       <div className="p-2 bg-yellow-200 flex justify-center items-centerflex justify-center items-center bg-slate-100">
         <p className="text-center text-xl med:text-2xl">
-        <a 
+        {/* <a 
           href="https://docs.google.com/forms/d/1FOT_pIRk2B3cBnwKnemBGdFVbWrBuAgzCTTQ13uoc54/viewform" 
           target="_blank" 
           rel="noopener noreferrer" 
@@ -22,7 +22,8 @@ function Landingpage() {
           >
           Rentals
           </a>  
-          &nbsp;are opened!
+          &nbsp;are opened! */}
+          Thank you for a great semester!
         </p>
       </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">

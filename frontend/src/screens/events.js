@@ -13,7 +13,7 @@ function Events() {
           <div className="md:mb-24 lg:mb-0 lg:ml-32 xl:ml-56 text-center lg:text-left">
             <p className="text-xl text-blue-700">GET EXCITED FOR</p>
             <p className="my-4 mr-4 text-4xl font-bold med:text-5xl lg:text-6xl">Pop-Up Shop</p>
-            <p className="text-xl  med:text-2xl">Stay tuned for details about the Spring 2025 Pop-Up Shop!</p>
+            <p className="text-xl  med:text-2xl">Stay tuned for details about the Fall 2025 Pop-Up Shop!</p>
             {/* <p className="text-lg med:text-2xl italic">Willard Memorial Room @1 - 3</p> */}
             {/* <Link to="https://cornell.campusgroups.com/Wardrobe/rsvp_boot?id=2277144" target="blank">
               <button type="button" className="bg-blue-600 mt-8">
