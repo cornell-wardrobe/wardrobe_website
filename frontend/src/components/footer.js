@@ -42,6 +42,9 @@ function Footer() {
       <p className="text-center text-sm text-gray-500">
       This organization is a registered student organization at Cornell University
       </p>
+      <p className="text-center text-sm text-gray-500">
+      Equal Education and Employment
+      </p>
       <p className="text-center font-bold text-sm mt-8">Join our listserv</p>
       <div className="flex justify-center align-middle mt-4 mb-12">
         <form action="https://www.list.cornell.edu/subscribe/subscribe.tml" method="POST" target="blank">
