@@ -43,7 +43,7 @@ function Footer() {
       This organization is a registered student organization at Cornell University
       </p>
       <p className="text-center text-sm text-gray-500">
-      Equal Education and Employment
+      <a href="https://hr.cornell.edu/about/workplace-rights/equal-education-and-employment">Equal Education and Employment</a>
       </p>
       <p className="text-center font-bold text-sm mt-8">Join our listserv</p>
       <div className="flex justify-center align-middle mt-4 mb-12">
