@@ -22,8 +22,8 @@ function Landingpage() {
           >
           Rentals
           </a>  
-          &nbsp;are opened! */}
-          Thank you for a great semester!
+          &nbsp;are opened! 
+          Thank you for a great semester!*/}
         </p>
       </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
@@ -165,10 +165,10 @@ function Landingpage() {
       <div className="gap-0 grid grid-rows-2 sm:flex sm:columns-2 sm:h-[70vh]">
         <div className="flex bg-slate-100 h-full items-center justify-center">
           <div className="ml-7 w-2/3">
-            <p className="text-lg text-blue-700">JOIN THE TEAM</p>
+            {/*<p className="text-lg text-blue-700">JOIN THE TEAM</p>
             <p className="my-2 mr-4 text-4xl font-bold">Interested in joining?</p>
             <p className="text-xl">Applications are currently closed for the Spring 2025 season. They will reopen next semester. 
-            We look forward to hearing from you then!</p>
+            We look forward to hearing from you then!</p>*/}
             {/* <div>
               <Link to="/apply">
                 <button type="button" className="bg-blue-600 mt-8">
