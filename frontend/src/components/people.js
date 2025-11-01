@@ -10,6 +10,7 @@ function People(props) {
           name={person.name}
           position={person.position}
           image={person.image}
+          description={person.description}
         />
       ))}
     </div>

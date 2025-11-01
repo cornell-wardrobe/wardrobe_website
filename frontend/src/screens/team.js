@@ -51,6 +51,7 @@ import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
 function Team() {
   const MANAGEMENT = [
     {
+<<<<<<< HEAD
       netID: "ejc245",
       name: "Erika Chin",
       position: "President",
@@ -61,6 +62,34 @@ function Team() {
       name: "Jessica Caivano",
       position: "Vice President",
       image: jessicaCaivano,
+=======
+      netID: "jbe49",
+      name: "Julia Edelman",
+      position: "Co-President",
+      image: juliaEdelman,
+      description: "Testing the description part 1."
+    },
+    {
+      netID: "sap244",
+      name: "Sophia Papanicolaou",
+      position: "Co-President",
+      image: sophiaPapanicolaou,
+      description: "Testing the description part 2."
+    },
+    {
+      netID: "ma878",
+      name: "Maryam Albakry",
+      position: "Vice President",
+      image: maryamAlbakry,
+      description: "Testing the description part 3."
+    },
+    {
+      netID: "nig22",
+      name: "Nicolette Gani",
+      position: "Director of Expansion",
+      image: nicoletteGani,
+      description: "Testing the description part 4."
+>>>>>>> 1bcb314f07da3695f00a14e646753dd2f5d96986
     },
   ];
 
