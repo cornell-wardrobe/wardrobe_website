@@ -51,16 +51,16 @@ import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
 function Team() {
   const MANAGEMENT = [
     {
-      netID: "ma878",
-      name: "Maryam Albakry",
+      netID: "ejc245",
+      name: "Erika Chin",
       position: "President",
-      image: maryamAlbakry,
+      image: erikaChin,
     },
     {
-      netID: "twp46",
-      name: "Talia Perkins",
+      netID: "jc2676",
+      name: "Jessica Caivano",
       position: "Vice President",
-      image: taliaPerkins,
+      image: jessicaCaivano,
     },
   ];
 
@@ -282,46 +282,22 @@ function Team() {
 
   const EVENTS = [
     {
-      netID: "ok55",
-      name: "Olivia Kalu",
+      netID: "lat95",
+      name: "Laura Twizere",
       position: "Events Director",
-      image: oliviaKalu,
+      image: lauraTwizere,
     },
     {
-      netID: "ajs573",
-      name: "Ashley Sosa",
+      netID: "sl2964",
+      name: "Sophie Li",
       position: "Events Coordinator",
-      image: ashleySosa,
+      image: sophieLi, //missing image
     },
     {
-      netID: "ec879",
-      name: "Emily Chen",
+      netID: "twp46",
+      name: "Talia Perkins",
       position: "Events Coordinator",
-      image: emilyChen,
-    },
-    {
-      netID: "jmc689",
-      name: "Jessica Caivano",
-      position: "Events Coordinator",
-      image: jessicaCaivano,
-    },
-    {
-      netID: "jh2894",
-      name: "Jenny Huang",
-      position: "Events Coordinator",
-      image: jennyHuang,
-    },
-    {
-      netID: "rca78",
-      name: "Riley Auman",
-      position: "Events Coordinator",
-      image: rileyAuman,
-    },
-    {
-      netID: "etd32",
-      name: "Eden Daniel",
-      position: "Events Coordinator",
-      image: edenDaniel,
+      image: taliaPerkins,
     },
     {
       netID: "cad285",
@@ -329,12 +305,32 @@ function Team() {
       position: "Events Coordinator",
       image: catherineDisque,
     },
+    
     {
-      netID: "lat95",
-      name: "Laura Twizere",
+      netID: "esf77",
+      name: "Ethan Frank",
       position: "Events Coordinator",
-      image: lauraTwizere,
+      image: ethanFrank,
     },
+    {
+      netID: "mnd48",
+      name: "Member Naomi Dagma",
+      position: "Events Coordinator",
+      image: naomiDagma,
+    },
+    {
+      netID: "ehs98",
+      name: "Emily Savedoff",
+      position: "Events Coordinator",
+      image: emilySavedoff,
+    },
+    {
+      netID: "sni9",
+      name: "Safowana Islam",
+      position: "Events Coordinator",
+      image: safowanaIslam,
+    },
+    
   ];
 
   const EXPANSION = [
