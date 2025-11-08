@@ -12,20 +12,6 @@ import homeApply from "../components/images/landingPage/home_apply.svg"
 function Landingpage() {
   return (
     <div>
-      <div className="p-2 bg-yellow-200 flex justify-center items-centerflex justify-center items-center bg-slate-100">
-        <p className="text-center text-xl med:text-2xl">
-        {/* <a 
-          href="https://docs.google.com/forms/d/1FOT_pIRk2B3cBnwKnemBGdFVbWrBuAgzCTTQ13uoc54/viewform" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="text-blue-500 underline"
-          >
-          Rentals
-          </a>  
-          &nbsp;are opened! */}
-          Thank you for a great semester!
-        </p>
-      </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 h-full items-center">
           <div className="ml-7 text-center md:text-left">
@@ -165,8 +151,10 @@ function Landingpage() {
       <div className="gap-0 grid grid-rows-2 sm:flex sm:columns-2 sm:h-[70vh]">
         <div className="flex bg-slate-100 h-full items-center justify-center">
           <div className="ml-7 w-2/3">
+            {/*
             <p className="text-lg text-blue-700">JOIN THE TEAM</p>
             <p className="my-2 mr-4 text-4xl font-bold">Interested in joining?</p>
+            */}
             <p className="text-xl">Applications are currently closed for the Spring 2025 season. They will reopen next semester. 
             We look forward to hearing from you then!</p>
             {/* <div>
