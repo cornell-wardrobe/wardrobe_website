@@ -26,6 +26,12 @@ function Team() {
       position: "Vice President",
       image: jessicaCaivano,
     },
+
+    {
+      netID: "esf77",
+      name: "Ethan Frank",
+      position: "VP External Affairs",
+    },
   ];
 
   const OPS = [
@@ -187,12 +193,17 @@ function Team() {
     {
       netID: "ehs98",
       name: "Emily Savedoff",
-      position: "Events Coordinator",
+      position: "Events Director",
     },
     {
       netID: "sni9",
       name: "Safowana Islam",
       position: "Events Coordinator",
+    },
+    {
+      netID: "ehs98",
+      name: "Laura Twizere",
+      position: "Events Director",
     },
   ];
 ;

@@ -6,7 +6,7 @@ import homeShop from "../components/images/landingPage/home_shop.svg"
 import homeStepOne from "../components/images/landingPage/home_step_one.svg"
 import homeStepTwo from "../components/images/landingPage/home_step_two.svg"
 import homeStepThree from "../components/images/landingPage/home_step_three.svg"
-import homeApply from "../components/images/landingPage/home_apply.svg"
+// import homeApply from "../components/images/landingPage/home_apply.svg"
 // import Logo from "../components/images/wardrobe_logo.png"
 
 function Landingpage() {
@@ -146,32 +146,6 @@ function Landingpage() {
               <p className="text-5xl text-center text-blue-700 font-bold -rotate-90 hidden lg:flex">STEP THREE</p>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="gap-0 grid grid-rows-2 sm:flex sm:columns-2 sm:h-[70vh]">
-        <div className="flex bg-slate-100 h-full items-center justify-center">
-          <div className="ml-7 w-2/3">
-            {/*
-            <p className="text-lg text-blue-700">JOIN THE TEAM</p>
-            <p className="my-2 mr-4 text-4xl font-bold">Interested in joining?</p>
-            */}
-            <p className="text-xl">Applications are currently closed for the Spring 2025 season. They will reopen next semester. 
-            We look forward to hearing from you then!</p>
-            {/* <div>
-              <Link to="/apply">
-                <button type="button" className="bg-blue-600 mt-8">
-                  <p className="text-white text-sm my-4 mx-6">APPLICATION INFO</p>
-                </button>
-              </Link>
-            </div> */}
-          </div>
-        </div>
-        <div className="pb-8 w-full flex items-center justify-center bg-slate-100 h-full sm:pb-auto">
-          <img
-            className="h-96 w-96 pr-3 med:pr-0"
-            src={homeApply}
-            alt="Application">
-          </img>
         </div>
       </div>
     </div>
