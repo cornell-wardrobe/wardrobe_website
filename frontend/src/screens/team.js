@@ -9,6 +9,7 @@ import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
 import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 import melKhan from "../components/headshots/Mel_Khan.JPG";
 import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
+import ethanFrank from "../components/headshots/Ethan_Frank.JPG";
 
 
 function Team() {
@@ -31,6 +32,7 @@ function Team() {
       netID: "esf77",
       name: "Ethan Frank",
       position: "VP External Affairs",
+      image: ethanFrank,
     },
   ];
 
