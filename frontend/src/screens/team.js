@@ -9,8 +9,18 @@ import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
 import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 import melKhan from "../components/headshots/Mel_Khan.JPG";
 import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
-import ethanFrank from "../components/headshots/Ethan_Frank.JPG";
-
+import ethanFrank from "../components/headshots/Ethan_Frank.jpg";
+import elaineHong from "../components/headshots/Elaine_Hong.JPG";
+import rachelEisenhart from "../components/headshots/Rachel_Eisenhart.jpg";
+import estelleDalessio from "../components/headshots/Estelle_D'Alessio.jpeg";
+import sofiaBonilla from "../components/headshots/Sofia_Bonilla.jpeg";
+import yalaHuangFeng from "../components/headshots/Yala_Huang _Feng.png";
+import memberdagba from "../components/headshots/Member_Dagba.png";
+import senecasun from "../components/headshots/Seneca_Sun.JPG";
+import suanchoi from "../components/headshots/Suan_Choi.jpg";
+import alexweibly from "../components/headshots/Alex_Weibly.jpeg";
+import sherrychen from "../components/headshots/Sherry_Chen.jpg";
+import alexahan from "../components/headshots/Alexa_Hen.JPG";
 
 function Team() {
   const MANAGEMENT = [
@@ -47,18 +57,18 @@ function Team() {
       netID: "kcw57",
       name: "Kain Wang",
       position: "Operations Director",
-
     },
     {
       netID: "sb2677",
       name: "Sofia Bonilla",
       position: "Operations Associate",
+      image: sofiaBonilla,
     },
     {
       netID: "eh698",
       name: "Elaine Hong",
       position: "Operations Associate",
-
+      image: elaineHong,
     }
   ];
 
@@ -78,6 +88,7 @@ function Team() {
       netID: "yh2293",
       name: "Yala Huang Feng",
       position: "Frontend Software Engineer",
+      image: yalaHuangFeng,
     },
   ];
 
@@ -109,16 +120,19 @@ function Team() {
       netID: "sc3498",
       name: "Sherry Chen",
       position: "Marketing Associate",
+      image: sherrychen,
     },
     {
       netID: "ash293",
       name: "Alexa Han",
       position: "Marketing Associate",
+      image: alexahan,
     },
     {
       netID: "rse53",
       name: "Rachel Eisenhart",
       position: "Marketing Associate",
+      image: rachelEisenhart,
     },
   ];
 
@@ -138,30 +152,30 @@ function Team() {
       netID: "ed549",
       name: "Estelle D’Alessio",
       position: "Finance Analyst",
+      image: estelleDalessio,
     },
     {
       netID: "sc3365",
       name: "Suan Choi",
       position: "Financial Analyst",
-
+      image: suanchoi
     },
     {
       netID: "asw259",
       name: "Alex Weibly",
       position: "Financial Analyst",
-
+      image: alexweibly
     },
     {
       netID: "is448",
       name: "Seneca Sun",
       position: "Financial Analyst",
-
+      image: senecasun
     },
     {
       netID: "mfa52",
       name: "Michael Atteritano",
       position: "Financial Analyst",
-
     },
   ];
 
@@ -183,14 +197,10 @@ function Team() {
       position: "Events Coordinator",
     },
     {
-      netID: "esf77",
-      name: "Ethan Frank",
-      position: "Events Coordinator",
-    },
-    {
       netID: "mnd48",
       name: "Naomi Dagba",
       position: "Events Coordinator",
+      image: memberdagba,
     },
     {
       netID: "ehs98",
