@@ -191,16 +191,17 @@ function Team() {
   const EVENTS = [
     {
       netID: "ehs98",
-      name: "Emily Savedoff",
-      position: "Events Director",
-      image: emilysavedoff,
-    },
-    {
-      netID: "ehs98",
       name: "Laura Twizere",
       position: "Events Director",
       image: lauratwizere,
     },
+    {
+      netID: "ehs98",
+      name: "Emily Savedoff",
+      position: "Events Director",
+      image: emilysavedoff,
+    },
+    
     {
       netID: "sl2964",
       name: "Sophie Li",
