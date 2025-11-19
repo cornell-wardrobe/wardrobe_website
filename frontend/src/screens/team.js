@@ -24,6 +24,8 @@ import alexahan from "../components/headshots/Alexa_Hen.JPG";
 import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
 import kainwang from "../components/headshots/Kain_Wang.JPG";
 import benjaminloong from "../components/headshots/Benjamin_Loong.JPG";
+import lauratwizere from "../components/headshots/Laura_Twizere.JPG";
+import emilysavedoff from "../components/headshots/Emily_Savedoff.JPG";
 
 function Team() {
   const MANAGEMENT = [
@@ -185,17 +187,31 @@ function Team() {
     },
   ];
 
+
   const EVENTS = [
-    
+    {
+      netID: "ehs98",
+      name: "Emily Savedoff",
+      position: "Events Director",
+      image: emilysavedoff,
+    },
+    {
+      netID: "ehs98",
+      name: "Laura Twizere",
+      position: "Events Director",
+      image: lauratwizere,
+    },
     {
       netID: "sl2964",
       name: "Sophie Li",
       position: "Events Coordinator",
+      image: sophieli,
     },
     {
       netID: "cad285",
       name: "Catherine Disque",
       position: "Events Coordinator",
+      image: catherinedisque,
     },
     {
       netID: "mnd48",
@@ -204,22 +220,13 @@ function Team() {
       image: memberdagba,
     },
     {
-      netID: "ehs98",
-      name: "Emily Savedoff",
-      position: "Events Director",
-    },
-    {
       netID: "sni9",
       name: "Safowana Islam",
       position: "Events Coordinator",
+      image: safowanaIslam,
     },
-    {
-      netID: "ehs98",
-      name: "Laura Twizere",
-      position: "Events Director",
-    },
+    
   ];
-;
 
   const [activeTab, setActiveTab] = useState(0);
 
