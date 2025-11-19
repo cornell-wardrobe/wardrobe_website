@@ -23,6 +23,7 @@ import sherrychen from "../components/headshots/Sherry_Chen.jpg";
 import alexahan from "../components/headshots/Alexa_Hen.JPG";
 import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
 import kainwang from "../components/headshots/Kain_Wang.JPG";
+import benjaminloong from "../components/headshots/Benjamin_Loong.JPG";
 
 function Team() {
   const MANAGEMENT = [
@@ -145,6 +146,7 @@ function Team() {
       netID: "bjl99",
       name: "Benjamin Loong",
       position: "Financial Director",
+      image: benjaminloong,
     },
     {
       netID: "ks2395",
