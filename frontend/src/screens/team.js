@@ -186,12 +186,7 @@ function Team() {
   ];
 
   const EVENTS = [
-    {
-      netID: "jmc689",
-      name: "Jessica Caivano",
-      position: "Events Coordinator",
-      image: jessicaCaivano,
-    },
+    
     {
       netID: "sl2964",
       name: "Sophie Li",
