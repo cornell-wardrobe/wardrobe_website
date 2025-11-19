@@ -21,6 +21,8 @@ import suanchoi from "../components/headshots/Suan_Choi.jpg";
 import alexweibly from "../components/headshots/Alex_Weibly.jpeg";
 import sherrychen from "../components/headshots/Sherry_Chen.jpg";
 import alexahan from "../components/headshots/Alexa_Hen.JPG";
+import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
+import kainwang from "../components/headshots/Kain_Wang.JPG";
 
 function Team() {
   const MANAGEMENT = [
@@ -57,6 +59,7 @@ function Team() {
       netID: "kcw57",
       name: "Kain Wang",
       position: "Operations Director",
+      image: kainwang,
     },
     {
       netID: "sb2677",
@@ -83,6 +86,7 @@ function Team() {
       netID: "zt276",
       name: "Zahin Tasnin",
       position: "Frontend Software Engineer",
+      image: zahintasnin,
     },
     {
       netID: "yh2293",
