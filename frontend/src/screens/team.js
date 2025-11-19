@@ -26,6 +26,7 @@ import kainwang from "../components/headshots/Kain_Wang.JPG";
 import benjaminloong from "../components/headshots/Benjamin_Loong.JPG";
 import lauratwizere from "../components/headshots/Laura_Twizere.JPG";
 import emilysavedoff from "../components/headshots/Emily_Savedoff.JPG";
+import catherinedisque from "../components/headshots/Catherine_Disque.JPG";
 
 function Team() {
   const MANAGEMENT = [
@@ -206,7 +207,7 @@ function Team() {
       netID: "sl2964",
       name: "Sophie Li",
       position: "Events Coordinator",
-      image: sophieli,
+      // image: sophieli,
     },
     {
       netID: "cad285",
@@ -224,7 +225,7 @@ function Team() {
       netID: "sni9",
       name: "Safowana Islam",
       position: "Events Coordinator",
-      image: safowanaIslam,
+      // image: safowanaIslam,
     },
     
   ];
