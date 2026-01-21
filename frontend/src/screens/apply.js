@@ -13,7 +13,7 @@ function Apply() {
             <p className="text-2xl pb-2 mr-4 text-center md:text-left">The Wardrobe&apos;s Spring 2026 applications are now open!</p>
             <div className="flex flex-col justify-center items-center md:justify-normal md:items-start">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfu70YdKax8xVE5IrhFGF0XwQEk7N3HZuBgMk0tnFGCkycnWw/viewform" target="_blank" rel="noopener noreferrer">
-                <button type="button" className="bg-gray-400 text-white px-5 py-2 cursor-default">
+                <button type="button" className="bg-blue-600 text-white px-5 py-2 cursor-default">
                   <p className="text-white text-sm my-4 mx-6">APPLY</p>
                 </button>
               </a> 
