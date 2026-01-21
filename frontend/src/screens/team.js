@@ -29,6 +29,8 @@ import emilysavedoff from "../components/headshots/template.jpg";
 import catherinedisque from "../components/headshots/Catherine_Disque.JPG";
 import safowanaislam from "../components/headshots/template.jpg";
 import michaelatteritano from "../components/headshots/template.jpg";
+import sophieli from "../components/headshots/template.jpg";
+import yunapark from "../components/headshots/template.jpg"; 
 
 
 
@@ -127,6 +129,7 @@ function Team() {
       netID: "yp468",
       name: "Yuna Park",
       position: "Marketing Associate",
+      image: yunapark,
     },
     {
       netID: "sc3498",
@@ -212,7 +215,7 @@ function Team() {
       netID: "sl2964",
       name: "Sophie Li",
       position: "Events Coordinator",
-      // image: sophieli,
+      image: sophieli,
     },
     {
       netID: "cad285",
