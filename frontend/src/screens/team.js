@@ -25,8 +25,12 @@ import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
 import kainwang from "../components/headshots/Kain_Wang.JPG";
 import benjaminloong from "../components/headshots/Benjamin_Loong.JPG";
 import lauratwizere from "../components/headshots/Laura_Twizere.JPG";
-import emilysavedoff from "../components/headshots/Emily_Savedoff.JPG";
+import emilysavedoff from "../components/headshots/template.jpg";
 import catherinedisque from "../components/headshots/Catherine_Disque.JPG";
+import safowanaislam from "../components/headshots/template.jpg";
+import michaelatteritano from "../components/headshots/template.jpg";
+
+
 
 function Team() {
   const MANAGEMENT = [
@@ -185,6 +189,7 @@ function Team() {
       netID: "mfa52",
       name: "Michael Atteritano",
       position: "Financial Analyst",
+      image: michaelatteritano
     },
   ];
 
@@ -225,7 +230,7 @@ function Team() {
       netID: "sni9",
       name: "Safowana Islam",
       position: "Events Coordinator",
-      // image: safowanaIslam,
+      image: safowanaislam,
     },
     
   ];
