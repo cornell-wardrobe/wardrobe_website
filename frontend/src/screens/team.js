@@ -87,16 +87,16 @@ function Team() {
 
   const TECH = [
     {
-      netID: "mb2753",
-      name: "Mohammed Bari",
-      position: "Technology Director",
-      image: mohammedBari,
-    },
-    {
       netID: "zt276",
       name: "Zahin Tasnin",
-      position: "Frontend Software Engineer",
+      position: "Technology Director",
       image: zahintasnin,
+    },
+    {
+      netID: "mb2753",
+      name: "Mohammed Bari",
+      position: "Frontend Software Engineer",
+      image: mohammedBari,
     },
     {
       netID: "yh2293",
@@ -109,7 +109,7 @@ function Team() {
   const MARKETING = [
     {
       netID: "mmk289",
-      name: "Mel Kahn",
+      name: "Mel Khan",
       position: "Marketing Director",
       image: melKhan,
     },
