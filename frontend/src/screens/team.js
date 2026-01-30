@@ -109,14 +109,14 @@ function Team() {
   const MARKETING = [
     {
       netID: "mmk289",
-      name: "Melanie Kahn",
+      name: "Mel Kahn",
       position: "Marketing Director",
       image: melKhan,
     },
     {
       netID: "mgl89",
       name: "Mia Lopez",
-      position: "Marketing Associate",
+      position: "Marketing Director",
       image: miaLopez,
     },
     {
