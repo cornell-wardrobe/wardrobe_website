@@ -126,12 +126,6 @@ function Team() {
       image: graceCarlson,
     },
     {
-      netID: "yp468",
-      name: "Yuna Park",
-      position: "Marketing Associate",
-      image: yunapark,
-    },
-    {
       netID: "sc3498",
       name: "Sherry Chen",
       position: "Marketing Associate",
