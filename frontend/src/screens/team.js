@@ -72,12 +72,6 @@ function Team() {
       image: kainwang,
     },
     {
-      netID: "sb2677",
-      name: "Sofia Bonilla",
-      position: "Operations Associate",
-      image: sofiaBonilla,
-    },
-    {
       netID: "eh698",
       name: "Elaine Hong",
       position: "Operations Associate",
