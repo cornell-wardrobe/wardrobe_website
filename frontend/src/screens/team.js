@@ -147,16 +147,16 @@ function Team() {
 
   const FINANCE = [
     {
-      netID: "bjl99",
-      name: "Benjamin Loong",
+      netID: "asw259",
+      name: "Alex Weibly",
       position: "Financial Director",
-      image: benjaminloong,
+      image: alexweibly
     },
     {
-      netID: "ks2395",
-      name: "Katherin Son",
-      position: "Finance Director",
-      image: katherineSon,
+      netID: "bjl99",
+      name: "Benjamin Loong",
+      position: "Financial Analyst",
+      image: benjaminloong,
     },
     {
       netID: "ed549",
@@ -169,12 +169,6 @@ function Team() {
       name: "Suan Choi",
       position: "Financial Analyst",
       image: suanchoi
-    },
-    {
-      netID: "asw259",
-      name: "Alex Weibly",
-      position: "Financial Analyst",
-      image: alexweibly
     },
     {
       netID: "is448",
