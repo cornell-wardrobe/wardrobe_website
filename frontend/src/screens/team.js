@@ -70,7 +70,7 @@ function Team() {
       name: "Kain Wang",
       position: "Operations Director",
       image: kainwang,
-    },
+    },  
     {
       netID: "eh698",
       name: "Elaine Hong",
@@ -177,8 +177,6 @@ function Team() {
       image: michaelatteritano
     },
   ];
-
-
   const EVENTS = [
     {
       netID: "ehs98",
