@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import People from "../components/people";
-import katherineSon from "../components/headshots/Katherine_Son.JPG"
+//import katherineSon from "../components/headshots/Katherine_Son.JPG"
 import mohammedBari from "../components/headshots/Mohammed_Bari.JPG"
 import synaSony from "../components/headshots/Syna_Sony.JPG"
 import erikaChin from "../components/headshots/Erika_Chin.JPG";
@@ -13,7 +13,7 @@ import ethanFrank from "../components/headshots/Ethan_Frank.jpg";
 import elaineHong from "../components/headshots/Elaine_Hong.JPG";
 import rachelEisenhart from "../components/headshots/Rachel_Eisenhart.jpg";
 import estelleDalessio from "../components/headshots/Estelle_D'Alessio.jpeg";
-import sofiaBonilla from "../components/headshots/Sofia_Bonilla.jpeg";
+//import sofiaBonilla from "../components/headshots/Sofia_Bonilla.jpeg";
 import yalaHuangFeng from "../components/headshots/Yala_Huang _Feng.png";
 import memberdagba from "../components/headshots/Member_Dagba.png";
 import senecasun from "../components/headshots/Seneca_Sun.JPG";
@@ -30,7 +30,7 @@ import catherinedisque from "../components/headshots/Catherine_Disque.JPG";
 import safowanaislam from "../components/headshots/template.jpg";
 import michaelatteritano from "../components/headshots/template.jpg";
 import sophieli from "../components/headshots/template.jpg";
-import yunapark from "../components/headshots/template.jpg"; 
+//import yunapark from "../components/headshots/template.jpg"; 
 
 
 
