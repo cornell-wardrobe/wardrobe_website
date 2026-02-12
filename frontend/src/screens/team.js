@@ -20,7 +20,7 @@ import senecasun from "../components/headshots/Seneca_Sun.JPG";
 import suanchoi from "../components/headshots/Suan_Choi.jpg";
 import alexweibly from "../components/headshots/Alex_Weibly.jpeg";
 import sherrychen from "../components/headshots/Sherry_Chen.jpg";
-import alexahan from "../components/headshots/Alexa_Hen.JPG";
+//import alexahan from "../components/headshots/Alexa_Hen.JPG";
 import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
 import kainwang from "../components/headshots/Kain_Wang.JPG";
 import benjaminloong from "../components/headshots/Benjamin_Loong.JPG";
@@ -124,12 +124,6 @@ function Team() {
       name: "Sherry Chen",
       position: "Marketing Associate",
       image: sherrychen,
-    },
-    {
-      netID: "ash293",
-      name: "Alexa Han",
-      position: "Marketing Associate",
-      image: alexahan,
     },
     {
       netID: "rse53",
