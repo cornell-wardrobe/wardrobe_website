@@ -10,7 +10,7 @@ import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 import melKhan from "../components/headshots/Mel_Khan.JPG";
 import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
 import ethanFrank from "../components/headshots/Ethan_Frank.jpg";
-import elaineHong from "../components/headshots/Elaine_Hong.JPG";
+//import elaineHong from "../components/headshots/Elaine_Hong.JPG";
 import rachelEisenhart from "../components/headshots/Rachel_Eisenhart.jpg";
 import estelleDalessio from "../components/headshots/Estelle_D'Alessio.jpeg";
 //import sofiaBonilla from "../components/headshots/Sofia_Bonilla.jpeg";
@@ -70,13 +70,7 @@ function Team() {
       name: "Kain Wang",
       position: "Operations Director",
       image: kainwang,
-    },  
-    {
-      netID: "eh698",
-      name: "Elaine Hong",
-      position: "Operations Associate",
-      image: elaineHong,
-    }
+    },
   ];
 
   const TECH = [
