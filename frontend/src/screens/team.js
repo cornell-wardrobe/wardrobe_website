@@ -4,7 +4,7 @@ import People from "../components/people";
 //import katherineSon from "../components/headshots/Katherine_Son.JPG"
 import mohammedBari from "../components/headshots/Mohammed_Bari.JPG"
 import synaSony from "../components/headshots/Syna_Sony.JPG"
-import erikaChin from "../components/headshots/Erika_Chin.JPG";
+import erikaChin from "../components/headshots/ErikaChin.JPG";
 import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
 import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 import melKhan from "../components/headshots/Mel_Khan.JPG";
@@ -30,7 +30,12 @@ import catherinedisque from "../components/headshots/Catherine_Disque.JPG";
 import safowanaislam from "../components/headshots/template.jpg";
 import michaelatteritano from "../components/headshots/template.jpg";
 import sophieli from "../components/headshots/template.jpg";
-//import yunapark from "../components/headshots/template.jpg"; 
+import sophialin from "../components/headshots/SophiaLin.JPG";
+import xinqilian from "../components/headshots/XinQiLian.jpg";
+import suriwang from "../components/headshots/SuriWang.jpg";
+import ryanross from "../components/headshots/RyanRoss.jpg";
+import ingachen from "../components/headshots/IngaChen.jpg";
+import teresachen from "../components/headshots/TeresaChen.jpg";
 
 
 
@@ -41,7 +46,8 @@ function Team() {
       name: "Erika Chin",
       position: "President",
       image: erikaChin,
-      blurb: "Erika is a junior studying Computer Science and Business. She is passionate about using technology to create sustainable solutions for the fashion industry. In her free time, she enjoys hiking, cooking, and exploring new coffee shops around campus.",
+      blurb: "I am a senior majoring in Statistical Sciences. Outside of Wardrobe, I am a captain of the Varsity Fencing team. I am interested in strategy and operations, specifically for startups.",
+      linkedin: "http://linkedin.com/in/erikajchin/"
     },
 
     {
@@ -81,6 +87,29 @@ function Team() {
       linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
     
     },
+    {
+      netID: "sophialin",
+      name: "Sophia Lin",
+      position: "Operations Associate",
+      image: sophialin,
+      blurb: "Sophia is a freshman studying Applied Economics and Management. She is interested in supporting and creating visible impact on those around her by improving processes so that organizations can function smoothly. Outside Wardrobe, she can be found clerking for the Student Assembly, working at the ReUse MegaCenter, or at ABCC or DOTS.",
+      linkedin: "www.linkedin.com/in/sophia-lin-a40421367"
+    },
+    {
+      netID: "ryanross",
+      name: "Ryan Ross",
+      position: "Operations Associate",
+      image: ryanross,
+      blurb: "Ryan is a freshman in the ILR school, minoring in business. Outside of The Wardrobe, he is a part of Social Enterprise at Cornell and Crossroads at Cornell. He hopes to pursue a career in consulting, with a focus on retail or hospitality.",
+      linkedin: "https://www.linkedin.com/in/ryan-ross-b67621218/"
+    },
+    {
+      netID: "ingachen",
+      name: "Inga Chen",
+      position: "Operations Associate",
+      blurb: "Majoring in Communication and Environment & Sustainability. I plan on working in a role that positively impacts sustainability in the future. Currently, I’m in Engineers for a Sustainable world, hall council and hall association, and Cornell Mind Matters.",
+      linkedin: "https://www.linkedin.com/in/inga-chen-175131326?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+    }
   ];
 
   const TECH = [
@@ -109,8 +138,15 @@ function Team() {
       image: yalaHuangFeng,
       blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
       linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
-    
     },
+    {
+      netID: "teresachen",
+      name: "Teresa Chen",
+      position: "Frontend Software Engineer",
+      image: teresachen,
+      blurb: "Electrical & Computer Engineering. Looking forward to work in the semiconductor industry!C2S2",
+      linkedin: "https://www.linkedin.com/in/teresa-chen0927?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+    }
   ];
 
   const MARKETING = [
@@ -157,7 +193,14 @@ function Team() {
       image: rachelEisenhart,
       blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
       linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
-    
+    },
+    {
+      netID: "suriwang",
+      name: "Suri Wang",
+      position: "Marketing Associate",
+      image: suriwang,
+      blurb: "My major is Biology and Society on the pre-med track! I hope to become a pediatrician or neurologist. On campus, I am also a part of Thread Magazine, Rho Psi Eta, and EARS.",
+      linkedin: "https://www.linkedin.com/in/suri-wang-0682972b2?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     },
   ];
 
@@ -214,7 +257,14 @@ function Team() {
       image: michaelatteritano,
       blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
       linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
-    
+    },
+    {
+      netID: "kson",
+      name: "Xin Qi Lian",
+      position: "Financial Analyst",
+      image: xinqilian,
+      blurb: "Xin Qi Lian is a first-year student studying at the Cornell University Dyson School of Applied Economics and Management. She's interested in exploring the real-world applications of business strategy and finance. Outside of the Wardrobe, she is apart of Art and Business Club at Cornell, Society for Women in Business, Diversity on the Street, Scholars of Finance, and Dyson Council of Impact and Community Engagement.",
+      linkedin: "linkedin.com/in/xinqilian"
     },
   ];
   const EVENTS = [
