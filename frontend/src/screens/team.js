@@ -4,7 +4,7 @@ import People from "../components/people";
 //import katherineSon from "../components/headshots/Katherine_Son.JPG"
 import mohammedBari from "../components/headshots/Mohammed_Bari.JPG"
 import synaSony from "../components/headshots/Syna_Sony.JPG"
-import erikaChin from "../components/headshots/ErikaChin.JPG";
+import erikaChin from "../components/headshots/ErikaChin.jpg";
 import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
 import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 import melKhan from "../components/headshots/Mel_Khan.JPG";
@@ -30,12 +30,12 @@ import catherinedisque from "../components/headshots/Catherine_Disque.JPG";
 import safowanaislam from "../components/headshots/template.jpg";
 import michaelatteritano from "../components/headshots/template.jpg";
 import sophieli from "../components/headshots/template.jpg";
-import sophialin from "../components/headshots/SophiaLin.JPG";
-import xinqilian from "../components/headshots/XinQiLian.jpg";
-import suriwang from "../components/headshots/SuriWang.jpg";
+import sophialin from "../components/headshots/SophiaLin.jpg";
+import xinqilian from "../components/headshots/XinQiLian.JPG";
+import suriwang from "../components/headshots/SuriWang.JPG";
 import ryanross from "../components/headshots/RyanRoss.jpg";
-import ingachen from "../components/headshots/IngaChen.jpg";
-import teresachen from "../components/headshots/TeresaChen.jpg";
+import ingachen from "../components/headshots/IngaChen.JPG";
+import teresachen from "../components/headshots/TeresaChen.jpeg";
 
 
 
@@ -107,6 +107,7 @@ function Team() {
       netID: "ingachen",
       name: "Inga Chen",
       position: "Operations Associate",
+      image: ingachen,
       blurb: "Majoring in Communication and Environment & Sustainability. I plan on working in a role that positively impacts sustainability in the future. Currently, I’m in Engineers for a Sustainable world, hall council and hall association, and Cornell Mind Matters.",
       linkedin: "https://www.linkedin.com/in/inga-chen-175131326?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     }
@@ -144,7 +145,7 @@ function Team() {
       name: "Teresa Chen",
       position: "Frontend Software Engineer",
       image: teresachen,
-      blurb: "Electrical & Computer Engineering. Looking forward to work in the semiconductor industry!C2S2",
+      blurb: "Electrical & Computer Engineering. Looking forward to work in the semiconductor industry! I am also part of C2S2",
       linkedin: "https://www.linkedin.com/in/teresa-chen0927?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
   ];
