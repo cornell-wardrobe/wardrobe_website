@@ -41,6 +41,7 @@ function Team() {
       name: "Erika Chin",
       position: "President",
       image: erikaChin,
+      blurb: "Erika is a junior studying Computer Science and Business. She is passionate about using technology to create sustainable solutions for the fashion industry. In her free time, she enjoys hiking, cooking, and exploring new coffee shops around campus.",
     },
 
     {
@@ -48,6 +49,8 @@ function Team() {
       name: "Jessica Caivano",
       position: "Vice President",
       image: jessicaCaivano,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
     },
 
     {
@@ -55,6 +58,8 @@ function Team() {
       name: "Ethan Frank",
       position: "VP External Affairs",
       image: ethanFrank,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
     },
   ];
 
@@ -64,12 +69,17 @@ function Team() {
       name: "Syna Sony",
       position: "Operations Director",
       image: synaSony,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
     },
     {
       netID: "kcw57",
       name: "Kain Wang",
       position: "Operations Director",
       image: kainwang,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
   ];
 
@@ -79,18 +89,27 @@ function Team() {
       name: "Zahin Tasnin",
       position: "Technology Director",
       image: zahintasnin,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "mb2753",
       name: "Mohammed Bari",
       position: "Frontend Software Engineer",
       image: mohammedBari,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "yh2293",
       name: "Yala Huang Feng",
       position: "Frontend Software Engineer",
       image: yalaHuangFeng,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
   ];
 
@@ -100,30 +119,45 @@ function Team() {
       name: "Mel Khan",
       position: "Marketing Director",
       image: melKhan,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "mgl89",
       name: "Mia Lopez",
       position: "Marketing Director",
       image: miaLopez,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "gcc77",
       name: "Grace Carlson",
       position: "Marketing Associate",
       image: graceCarlson,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "sc3498",
       name: "Sherry Chen",
       position: "Marketing Associate",
       image: sherrychen,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "rse53",
       name: "Rachel Eisenhart",
       position: "Marketing Associate",
       image: rachelEisenhart,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
   ];
 
@@ -132,37 +166,55 @@ function Team() {
       netID: "asw259",
       name: "Alex Weibly",
       position: "Financial Director",
-      image: alexweibly
+      image: alexweibly,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "bjl99",
       name: "Benjamin Loong",
       position: "Financial Analyst",
       image: benjaminloong,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "ed549",
       name: "Estelle D’Alessio",
       position: "Finance Analyst",
       image: estelleDalessio,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "sc3365",
       name: "Suan Choi",
       position: "Financial Analyst",
-      image: suanchoi
+      image: suanchoi,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "is448",
       name: "Seneca Sun",
       position: "Financial Analyst",
-      image: senecasun
+      image: senecasun,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "mfa52",
       name: "Michael Atteritano",
       position: "Financial Analyst",
-      image: michaelatteritano
+      image: michaelatteritano,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
   ];
   const EVENTS = [
@@ -171,6 +223,9 @@ function Team() {
       name: "Emily Savedoff",
       position: "Events Director",
       image: emilysavedoff,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     
     {
@@ -178,24 +233,36 @@ function Team() {
       name: "Sophie Li",
       position: "Events Coordinator",
       image: sophieli,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "cad285",
       name: "Catherine Disque",
       position: "Events Coordinator",
       image: catherinedisque,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "mnd48",
       name: "Naomi Dagba",
       position: "Events Coordinator",
       image: memberdagba,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     {
       netID: "sni9",
       name: "Safowana Islam",
       position: "Events Coordinator",
       image: safowanaislam,
+      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
+      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+    
     },
     
   ];

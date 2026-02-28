@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.008c9f43.css",
-    "main.js": "/static/js/main.5422d7d2.js",
+    "main.css": "/static/css/main.fc29c1a6.css",
+    "main.js": "/static/js/main.4b408821.js",
     "static/media/Mel_Khan.JPG": "/static/media/Mel_Khan.2d70adaf810c254377e1.JPG",
-    "static/media/Laura_Twizere.JPG": "/static/media/Laura_Twizere.a373bbe1901640fcdf16.JPG",
     "static/media/Jessica_Caivano.JPG": "/static/media/Jessica_Caivano.4bd3323fafc61afdb164.JPG",
     "static/media/Mohammed_Bari.JPG": "/static/media/Mohammed_Bari.bb4fd409f86b75f39b10.JPG",
     "static/media/Catherine_Disque.JPG": "/static/media/Catherine_Disque.b767e8342990781e3430.JPG",
@@ -18,7 +17,6 @@
     "static/media/Benjamin_Loong.JPG": "/static/media/Benjamin_Loong.ea1e88708b3ac775a94c.JPG",
     "static/media/Seneca_Sun.JPG": "/static/media/Seneca_Sun.619dc5afcbb4cba6d939.JPG",
     "static/media/Zahin_Tasnin.JPG": "/static/media/Zahin_Tasnin.f4983277648b77bddc62.JPG",
-    "static/media/Elaine_Hong.JPG": "/static/media/Elaine_Hong.42a7bc7034c8ec460389.JPG",
     "static/media/Estelle_D'Alessio.jpeg": "/static/media/Estelle_D'Alessio.147f9c63ec17972b9f6c.jpeg",
     "static/media/Rachel_Eisenhart.jpg": "/static/media/Rachel_Eisenhart.c5ef0d4d4730579d8d75.jpg",
     "static/media/Suan_Choi.jpg": "/static/media/Suan_Choi.e7e96e7c9c9d4812804c.jpg",
@@ -26,7 +24,6 @@
     "static/media/Ethan_Frank.jpg": "/static/media/Ethan_Frank.f6e94452b64f1b9216b2.jpg",
     "static/media/rent-find-your-fit.png": "/static/media/rent-find-your-fit.8494816e6fb3950a02e6.png",
     "static/media/Sherry_Chen.jpg": "/static/media/Sherry_Chen.e93b39cf45875f430321.jpg",
-    "static/media/Alexa_Hen.JPG": "/static/media/Alexa_Hen.462172a9fee548b9c669.JPG",
     "static/media/events-step-three.svg": "/static/media/events-step-three.469b342f570b33a36658bd157c7961cb.svg",
     "static/media/rent-mens-size.jpeg": "/static/media/rent-mens-size.41c74c5b5300f1b081f3.jpeg",
     "static/media/rent-womens-size.jpeg": "/static/media/rent-womens-size.101975dd3ba79f0c5d00.jpeg",
@@ -43,11 +40,11 @@
     "static/media/home_shop.svg": "/static/media/home_shop.cd77102d394f732a523525def851ffe0.svg",
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
-    "main.008c9f43.css.map": "/static/css/main.008c9f43.css.map",
-    "main.5422d7d2.js.map": "/static/js/main.5422d7d2.js.map"
+    "main.fc29c1a6.css.map": "/static/css/main.fc29c1a6.css.map",
+    "main.4b408821.js.map": "/static/js/main.4b408821.js.map"
   },
   "entrypoints": [
-    "static/css/main.008c9f43.css",
-    "static/js/main.5422d7d2.js"
+    "static/css/main.fc29c1a6.css",
+    "static/js/main.4b408821.js"
   ]
 }
