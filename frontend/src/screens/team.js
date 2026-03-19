@@ -10,7 +10,7 @@ import ethanFrank from "../components/headshots/Ethan_Frank.jpg";
 //operations
 import synaSony from "../components/headshots/Syna_Sony.JPG";
 import kainwang from "../components/headshots/Kain_Wang.JPG";
-import elizabethLaraRivera from "../components/headshots/logo.png";
+import elizabethLaraRivera from "../components/headshots/logo2.png";
 import sophialin from "../components/headshots/SophiaLin.jpg";
 import isabellaLee from "../components/headshots/isabellaLee.jpg";
 import ryanross from "../components/headshots/RyanRoss.jpg";
@@ -26,7 +26,7 @@ import teresachen from "../components/headshots/TeresaChen.jpeg";
 import melKhan from "../components/headshots/Mel_Khan.JPG";
 import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
-import seamusMcDevitt from "../components/headshots/logo.png";
+import seamusMcDevitt from "../components/headshots/logo2.png";
 import sherrychen from "../components/headshots/Sherry_Chen.jpg";
 import suriwang from "../components/headshots/SuriWang.JPG";
 import rachelEisenhart from "../components/headshots/Rachel_Eisenhart.jpg";
