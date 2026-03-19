@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import People from "../components/people";
 //import katherineSon from "../components/headshots/Katherine_Son.JPG"
-import mohammedBari from "../components/headshots/Mohammed_Bari.JPG"
+//import mohammedBari from "../components/headshots/Mohammed_Bari.JPG"
 import synaSony from "../components/headshots/Syna_Sony.JPG"
 import erikaChin from "../components/headshots/ErikaChin.jpg";
 import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
