@@ -1,45 +1,54 @@
 import React from "react";
 import { useState } from "react";
 import People from "../components/people";
-//import katherineSon from "../components/headshots/Katherine_Son.JPG"
-//import mohammedBari from "../components/headshots/Mohammed_Bari.JPG"
-import synaSony from "../components/headshots/Syna_Sony.JPG"
+
+//management
 import erikaChin from "../components/headshots/ErikaChin.jpg";
 import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
-import miaLopez from "../components/headshots/Mia_Lopez.JPG";
-import melKhan from "../components/headshots/Mel_Khan.JPG";
-import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
 import ethanFrank from "../components/headshots/Ethan_Frank.jpg";
-//import elaineHong from "../components/headshots/Elaine_Hong.JPG";
-import rachelEisenhart from "../components/headshots/Rachel_Eisenhart.jpg";
-import estelleDalessio from "../components/headshots/Estelle_D'Alessio.jpeg";
-//import sofiaBonilla from "../components/headshots/Sofia_Bonilla.jpeg";
-import yalaHuangFeng from "../components/headshots/Yala_Huang _Feng.png";
-import memberdagba from "../components/headshots/Member_Dagba.png";
-import senecasun from "../components/headshots/Seneca_Sun.JPG";
-import suanchoi from "../components/headshots/Suan_Choi.jpg";
-import alexweibly from "../components/headshots/Alex_Weibly.jpeg";
-import sherrychen from "../components/headshots/Sherry_Chen.jpg";
-//import alexahan from "../components/headshots/Alexa_Hen.JPG";
-import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
+
+//operations
+import synaSony from "../components/headshots/Syna_Sony.JPG";
 import kainwang from "../components/headshots/Kain_Wang.JPG";
-import benjaminloong from "../components/headshots/Benjamin_Loong.JPG";
-//import lauratwizere from "../components/headshots/Laura_Twizere.JPG";
-import emilysavedoff from "../components/headshots/template.jpg";
-import catherinedisque from "../components/headshots/Catherine_Disque.JPG";
-import safowanaislam from "../components/headshots/template.jpg";
-import michaelatteritano from "../components/headshots/template.jpg";
-import sophieli from "../components/headshots/template.jpg";
+import elizabethLaraRivera from "../components/headshots/template.jpg";
 import sophialin from "../components/headshots/SophiaLin.jpg";
-import xinqilian from "../components/headshots/XinQiLian.JPG";
-import suriwang from "../components/headshots/SuriWang.JPG";
-import ryanross from "../components/headshots/RyanRoss.jpg";
-import ingachen from "../components/headshots/IngaChen.JPG";
-import teresachen from "../components/headshots/TeresaChen.jpeg";
-import jessicaFrazendeiro from "../components/headshots/Jessica_Fazendeiro.png";
 import isabellaLee from "../components/headshots/isabellaLee.jpg";
+import ryanross from "../components/headshots/RyanRoss.jpg";
 import lexieChen from "../components/headshots/lexieChen.jpg";
+import ingachen from "../components/headshots/IngaChen.JPG";
+
+//technology
+import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
+import yalaHuangFeng from "../components/headshots/Yala_Huang _Feng.png";
+import teresachen from "../components/headshots/TeresaChen.jpeg";
+
+//marketing
+import melKhan from "../components/headshots/Mel_Khan.JPG";
+import miaLopez from "../components/headshots/Mia_Lopez.JPG";
+import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
+import seamusMcDevitt from "../components/headshots/template.jpg";
+import sherrychen from "../components/headshots/Sherry_Chen.jpg";
+import suriwang from "../components/headshots/SuriWang.JPG";
+import rachelEisenhart from "../components/headshots/Rachel_Eisenhart.jpg";
+
+//finance
+import alexweibly from "../components/headshots/Alex_Weibly.jpeg";
 import diMa from "../components/headshots/diMa.JPG";
+import xinqilian from "../components/headshots/XinQiLian.JPG";
+import benjaminloong from "../components/headshots/Benjamin_Loong.JPG";
+
+//events
+import emilysavedoff from "../components/headshots/EmilySavedoff.jpg";
+import memberdagba from "../components/headshots/Member_Dagba.png";
+import lavanyaLehl from "../components/headshots/LavanyaLehl.jpg";
+import jessicaFrazendeiro from "../components/headshots/Jessica_Fazendeiro.png";
+import sophiaJonisch from "../components/headshots/SophiaJonisch.jpg";
+
+
+
+
+
+
 
 function Team() {
   const MANAGEMENT = [
@@ -98,9 +107,17 @@ function Team() {
       linkedin: "www.linkedin.com/in/sophia-lin-a40421367"
     },
     {
+      netID: "elizabethlararivera",
+      name: "Elizabeth Lara Rivera",
+      position: "Operations Associate",
+      image: elizabethLaraRivera,
+      blurb:"",
+      linkedin: "",
+    },
+    {
       netID: "ryanross",
       name: "Ryan Ross",
-      position: "Operations Associate",
+      position: "Operations Associate/Financial Analyst",
       image: ryanross,
       blurb: "Ryan is a freshman in the ILR school, minoring in business. Outside of The Wardrobe, he is a part of Social Enterprise at Cornell and Crossroads at Cornell. He hopes to pursue a career in consulting, with a focus on retail or hospitality.",
       linkedin: "https://www.linkedin.com/in/ryan-ross-b67621218/"
@@ -187,6 +204,14 @@ function Team() {
     
     },
     {
+      netID: "",
+      name: "Seamus McDevitt",
+      position: "Marketing Associate",
+      image: seamusMcDevitt,
+      blurb:"",
+      linkedin: "",
+    },
+    {
       netID: "sc3498",
       name: "Sherry Chen",
       position: "Marketing Associate",
@@ -232,42 +257,7 @@ function Team() {
     
     },
     {
-      netID: "ed549",
-      name: "Estelle D’Alessio",
-      position: "Finance Analyst",
-      image: estelleDalessio,
-      blurb: "",
-      linkedin: "",
-    
-    },
-    {
-      netID: "sc3365",
-      name: "Suan Choi",
-      position: "Financial Analyst",
-      image: suanchoi,
-      blurb: "",
-      linkedin: "",
-    
-    },
-    {
-      netID: "is448",
-      name: "Seneca Sun",
-      position: "Financial Analyst",
-      image: senecasun,
-      blurb: "",
-      linkedin: "",
-    
-    },
-    {
-      netID: "mfa52",
-      name: "Michael Atteritano",
-      position: "Financial Analyst",
-      image: michaelatteritano,
-      blurb: "",
-      linkedin: "",
-    },
-    {
-      netID: "kson",
+      netID: "",
       name: "Xin Qi Lian",
       position: "Financial Analyst",
       image: xinqilian,
@@ -281,7 +271,15 @@ function Team() {
       image: diMa,
       blurb: "Di is a first-year Economics major in the College of Arts & Sciences with an interest in finance. Outside of The Wardrobe, she is apart of Cornell Alpha Fund, Society for Women in Business, LOKO Dance Team, and Impact Dance Troupe.",
       linkedin: "linkedin.com/in/didima/",
-    }
+    },
+    {
+      netID: "ryanross",
+      name: "Ryan Ross",
+      position: "Financial Analyst/Operations Associate",
+      image: ryanross,
+      blurb: "Ryan is a freshman in the ILR school, minoring in business. Outside of The Wardrobe, he is a part of Social Enterprise at Cornell and Crossroads at Cornell. He hopes to pursue a career in consulting, with a focus on retail or hospitality.",
+      linkedin: "https://www.linkedin.com/in/ryan-ross-b67621218/"
+    },
   ];
   const EVENTS = [
     {
@@ -291,26 +289,6 @@ function Team() {
       image: emilysavedoff,
       blurb: "",
       linkedin: ""
-    
-    },
-    
-    {
-      netID: "sl2964",
-      name: "Sophie Li",
-      position: "Events Coordinator",
-      image: sophieli,
-      blurb: "",
-      linkedin: "",
-    
-    },
-    {
-      netID: "cad285",
-      name: "Catherine Disque",
-      position: "Events Coordinator",
-      image: catherinedisque,
-      blurb: "",
-      linkedin: "",
-    
     },
     {
       netID: "mnd48",
@@ -321,13 +299,12 @@ function Team() {
       linkedin: "https://www.linkedin.com/in/naomidagba?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
     },
     {
-      netID: "sni9",
-      name: "Safowana Islam",
+      netID: "",
+      name: "Lavanya Lehl",
       position: "Events Coordinator",
-      image: safowanaislam,
-      blurb: "",
+      image: lavanyaLehl,
+      blurb:"",
       linkedin: "",
-    
     },
     {
       netID:"",
@@ -336,7 +313,15 @@ function Team() {
       image: jessicaFrazendeiro,
       blurb: "I am a sophomore studying Hotel Administration. Outside of The Wardrobe, I am involved in Startup Consulting and PDOW. I am interested in pursuing a career in consulting.",
       linkedin: "www.linkedin.com/in/jessica-fazendeiro",
-    }
+    },
+    {
+      netID:"",
+      name: "Sophia Jonisch", 
+      position: "Events Coordinator",
+      image: sophiaJonisch,
+      blurb:"",
+      linkedin: "",
+    },
   ];
 
   const [activeTab, setActiveTab] = useState(0);

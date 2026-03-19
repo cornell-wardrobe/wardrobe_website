@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.d024f345.css",
-    "main.js": "/static/js/main.356735b4.js",
+    "main.js": "/static/js/main.63cb8d12.js",
     "static/media/Mel_Khan.JPG": "/static/media/Mel_Khan.2d70adaf810c254377e1.JPG",
     "static/media/Jessica_Caivano.JPG": "/static/media/Jessica_Caivano.4bd3323fafc61afdb164.JPG",
-    "static/media/Catherine_Disque.JPG": "/static/media/Catherine_Disque.b767e8342990781e3430.JPG",
     "static/media/Grace_Carlson.JPG": "/static/media/Grace_Carlson.810b3746d5f91292b963.JPG",
     "static/media/Mia_Lopez.JPG": "/static/media/Mia_Lopez.e6d66ff1280dea8974ce.JPG",
     "static/media/Syna_Sony.JPG": "/static/media/Syna_Sony.4059d63ade684aaf5e5b.JPG",
@@ -13,23 +12,23 @@
     "static/media/media-infographic.png": "/static/media/media-infographic.e5dbfb20e28a0827c75d.png",
     "static/media/Kain_Wang.JPG": "/static/media/Kain_Wang.bf5eea272777d4de1552.JPG",
     "static/media/Benjamin_Loong.JPG": "/static/media/Benjamin_Loong.ea1e88708b3ac775a94c.JPG",
-    "static/media/Seneca_Sun.JPG": "/static/media/Seneca_Sun.619dc5afcbb4cba6d939.JPG",
     "static/media/Zahin_Tasnin.JPG": "/static/media/Zahin_Tasnin.f4983277648b77bddc62.JPG",
     "static/media/TeresaChen.jpeg": "/static/media/TeresaChen.4a1a2fbb32ec48b9efcb.jpeg",
     "static/media/Jessica_Fazendeiro.png": "/static/media/Jessica_Fazendeiro.93487bf8d19a51477b71.png",
-    "static/media/Estelle_D'Alessio.jpeg": "/static/media/Estelle_D'Alessio.147f9c63ec17972b9f6c.jpeg",
     "static/media/Rachel_Eisenhart.jpg": "/static/media/Rachel_Eisenhart.c5ef0d4d4730579d8d75.jpg",
-    "static/media/Suan_Choi.jpg": "/static/media/Suan_Choi.e7e96e7c9c9d4812804c.jpg",
     "static/media/Alex_Weibly.jpeg": "/static/media/Alex_Weibly.21ce4c50e39c8a3ba0c8.jpeg",
     "static/media/Ethan_Frank.jpg": "/static/media/Ethan_Frank.f6e94452b64f1b9216b2.jpg",
     "static/media/rent-find-your-fit.png": "/static/media/rent-find-your-fit.8494816e6fb3950a02e6.png",
     "static/media/Sherry_Chen.jpg": "/static/media/Sherry_Chen.e93b39cf45875f430321.jpg",
     "static/media/diMa.JPG": "/static/media/diMa.f0b7c2b3a6765f6b4bd2.JPG",
+    "static/media/LavanyaLehl.jpg": "/static/media/LavanyaLehl.fd96a4ccdf3430fc4480.jpg",
     "static/media/lexieChen.jpg": "/static/media/lexieChen.7a158d4940c95c5eb56b.jpg",
     "static/media/RyanRoss.jpg": "/static/media/RyanRoss.0a7a91c2343846bccf3d.jpg",
     "static/media/isabellaLee.jpg": "/static/media/isabellaLee.b20ca2a37b4ab1f7cca9.jpg",
     "static/media/IngaChen.JPG": "/static/media/IngaChen.3896ec166903381bfb68.JPG",
+    "static/media/SophiaJonisch.jpg": "/static/media/SophiaJonisch.74b3b97285ec321346d9.jpg",
     "static/media/SophiaLin.jpg": "/static/media/SophiaLin.4b06cde7e96fe1f32c33.jpg",
+    "static/media/EmilySavedoff.jpg": "/static/media/EmilySavedoff.36b80859d11716b388c8.jpg",
     "static/media/ErikaChin.jpg": "/static/media/ErikaChin.f2372997d3fe43991d51.jpg",
     "static/media/XinQiLian.JPG": "/static/media/XinQiLian.2f7d4695bf8226da622a.JPG",
     "static/media/SuriWang.JPG": "/static/media/SuriWang.256099b9b884fcd1dff4.JPG",
@@ -50,10 +49,10 @@
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
     "main.d024f345.css.map": "/static/css/main.d024f345.css.map",
-    "main.356735b4.js.map": "/static/js/main.356735b4.js.map"
+    "main.63cb8d12.js.map": "/static/js/main.63cb8d12.js.map"
   },
   "entrypoints": [
     "static/css/main.d024f345.css",
-    "static/js/main.356735b4.js"
+    "static/js/main.63cb8d12.js"
   ]
 }
