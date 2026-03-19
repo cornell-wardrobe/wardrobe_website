@@ -57,8 +57,8 @@ function Team() {
       name: "Jessica Caivano",
       position: "Vice President",
       image: jessicaCaivano,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: ""
     },
 
     {
@@ -66,8 +66,8 @@ function Team() {
       name: "Ethan Frank",
       position: "VP External Affairs",
       image: ethanFrank,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     },
   ];
 
