@@ -36,8 +36,10 @@ import suriwang from "../components/headshots/SuriWang.JPG";
 import ryanross from "../components/headshots/RyanRoss.jpg";
 import ingachen from "../components/headshots/IngaChen.JPG";
 import teresachen from "../components/headshots/TeresaChen.jpeg";
-
-
+import jessicaFrazendeiro from "../components/headshots/Jessica_Fazendeiro.png";
+import isabellaLee from "../components/headshots/isabellaLee.jpg";
+import lexieChen from "../components/headshots/lexieChen.jpg";
+import diMa from "../components/headshots/diMa.JPG";
 
 function Team() {
   const MANAGEMENT = [
@@ -75,16 +77,16 @@ function Team() {
       name: "Syna Sony",
       position: "Operations Director",
       image: synaSony,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     },
     {
       netID: "kcw57",
       name: "Kain Wang",
       position: "Operations Director",
       image: kainwang,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "Kain is an economics major going for minors in business and health policy. He's interested in optimizing private health insurance in the United States and is consequently studying to be an actuary. Outside of The Wardrobe, Kain frequently illustrates, contributing to campus publications and maintaining a self-run shop.",
+      linkedin: "https://www.linkedin.com/in/kain-wang-4b8525349/"
     
     },
     {
@@ -110,6 +112,22 @@ function Team() {
       image: ingachen,
       blurb: "Majoring in Communication and Environment & Sustainability. I plan on working in a role that positively impacts sustainability in the future. Currently, I’m in Engineers for a Sustainable world, hall council and hall association, and Cornell Mind Matters.",
       linkedin: "https://www.linkedin.com/in/inga-chen-175131326?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+    },
+    {
+      netID: "isabella",
+      name: "Isabella Lee",
+      position: "Operations Associate",
+      image: isabellaLee,
+      blurb: "Isabella Lee is a first-year student majoring in Applied Economics and Management at the Dyson School. She is interested in pursuing a career in corporate or public accounting. She currently works at Café Jennie, located inside The Cornell Store, where she helps maintain an efficient and welcoming environment. Outside of academics and work, Isabella enjoys discovering new TV shows and movies to watch with friends and reading in her free time.",
+      linkedin: "www.linkedin.com/in/ isabella-lee928",
+    },
+    {
+      netID: "lexieChen",
+      name: "Lexie Chen",
+      position: "Operations Associate",
+      image: lexieChen,
+      blurb: "Lexie is a freshman studying Applied Economics & Management. Outside of The Wardrobe, she is involved in Medium Design Collective and Cornell Mergers & Acquisitions Club. In her free time, she enjoys going to concerts, painting, and looking for new study spots on campus!",
+      linkedin: "https://www.linkedin.com/in/lexie-chen/"
     }
   ];
 
@@ -119,26 +137,16 @@ function Team() {
       name: "Zahin Tasnin",
       position: "Technology Director",
       image: zahintasnin,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
-    
-    },
-    {
-      netID: "mb2753",
-      name: "Mohammed Bari",
-      position: "Frontend Software Engineer",
-      image: mohammedBari,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
-    
+      blurb: "Zahin is a sophomore studying computer science in the college of engineering. Outside of The Wardrobe, she is also part of Cornell WebDev and Cornell Blockchain. In her free time, she likes to cook and hang out with her friends.",
+      linkedin: "https://www.linkedin.com/in/zahintasnin/"
     },
     {
       netID: "yh2293",
       name: "Yala Huang Feng",
       position: "Frontend Software Engineer",
       image: yalaHuangFeng,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: ""
     },
     {
       netID: "teresachen",
@@ -156,8 +164,8 @@ function Team() {
       name: "Mel Khan",
       position: "Marketing Director",
       image: melKhan,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: ""
     
     },
     {
@@ -165,8 +173,8 @@ function Team() {
       name: "Mia Lopez",
       position: "Marketing Director",
       image: miaLopez,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: ""
     
     },
     {
@@ -174,8 +182,8 @@ function Team() {
       name: "Grace Carlson",
       position: "Marketing Associate",
       image: graceCarlson,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     
     },
     {
@@ -183,17 +191,16 @@ function Team() {
       name: "Sherry Chen",
       position: "Marketing Associate",
       image: sherrychen,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
-    
+      blurb: "My major is Applied Economics & Management. My career aspirations is marketing and graphic design. My other organizations include Cornell Dining, Cornell Red Cross, Society of Women in Business.",
+      linkedin: "http://linkedin.com/in/sherry-chen0772",
     },
     {
       netID: "rse53",
       name: "Rachel Eisenhart",
       position: "Marketing Associate",
       image: rachelEisenhart,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     },
     {
       netID: "suriwang",
@@ -211,8 +218,8 @@ function Team() {
       name: "Alex Weibly",
       position: "Financial Director",
       image: alexweibly,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     
     },
     {
@@ -220,8 +227,8 @@ function Team() {
       name: "Benjamin Loong",
       position: "Financial Analyst",
       image: benjaminloong,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     
     },
     {
@@ -229,8 +236,8 @@ function Team() {
       name: "Estelle D’Alessio",
       position: "Finance Analyst",
       image: estelleDalessio,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     
     },
     {
@@ -238,8 +245,8 @@ function Team() {
       name: "Suan Choi",
       position: "Financial Analyst",
       image: suanchoi,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     
     },
     {
@@ -247,8 +254,8 @@ function Team() {
       name: "Seneca Sun",
       position: "Financial Analyst",
       image: senecasun,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     
     },
     {
@@ -256,8 +263,8 @@ function Team() {
       name: "Michael Atteritano",
       position: "Financial Analyst",
       image: michaelatteritano,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     },
     {
       netID: "kson",
@@ -267,6 +274,14 @@ function Team() {
       blurb: "Xin Qi Lian is a first-year student studying at the Cornell University Dyson School of Applied Economics and Management. She's interested in exploring the real-world applications of business strategy and finance. Outside of the Wardrobe, she is apart of Art and Business Club at Cornell, Society for Women in Business, Diversity on the Street, Scholars of Finance, and Dyson Council of Impact and Community Engagement.",
       linkedin: "linkedin.com/in/xinqilian"
     },
+    {
+      netID: "dima",
+      name: "Di Ma",
+      position: "Financial Analyst",
+      image: diMa,
+      blurb: "Di is a first-year Economics major in the College of Arts & Sciences with an interest in finance. Outside of The Wardrobe, she is apart of Cornell Alpha Fund, Society for Women in Business, LOKO Dance Team, and Impact Dance Troupe.",
+      linkedin: "linkedin.com/in/didima/",
+    }
   ];
   const EVENTS = [
     {
@@ -274,8 +289,8 @@ function Team() {
       name: "Emily Savedoff",
       position: "Events Director",
       image: emilysavedoff,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: ""
     
     },
     
@@ -284,8 +299,8 @@ function Team() {
       name: "Sophie Li",
       position: "Events Coordinator",
       image: sophieli,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     
     },
     {
@@ -293,8 +308,8 @@ function Team() {
       name: "Catherine Disque",
       position: "Events Coordinator",
       image: catherinedisque,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     
     },
     {
@@ -302,20 +317,26 @@ function Team() {
       name: "Naomi Dagba",
       position: "Events Coordinator",
       image: memberdagba,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
-    
+      blurb: "Biological Engineering and minor with environmental sustainability.",
+      linkedin: "https://www.linkedin.com/in/naomidagba?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
     },
     {
       netID: "sni9",
       name: "Safowana Islam",
       position: "Events Coordinator",
       image: safowanaislam,
-      blurb: "Jessica is a senior majoring in Environmental Science and Policy. She is dedicated to promoting sustainable practices in the fashion industry and has been involved in various sustainability initiatives on campus. In her free time, she enjoys yoga, traveling, and trying out new plant-based recipes.",
-      linkedin: "https://www.linkedin.com/in/jessica-caivano-9b8a1b1b2/"
+      blurb: "",
+      linkedin: "",
     
     },
-    
+    {
+      netID:"",
+      name: "Jessica Fazendeiro",
+      position: "Events Coordinator",
+      image: jessicaFrazendeiro,
+      blurb: "I am a sophomore studying Hotel Administration. Outside of The Wardrobe, I am involved in Startup Consulting and PDOW. I am interested in pursuing a career in consulting.",
+      linkedin: "www.linkedin.com/in/jessica-fazendeiro",
+    }
   ];
 
   const [activeTab, setActiveTab] = useState(0);
