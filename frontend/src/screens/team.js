@@ -170,7 +170,7 @@ function Team() {
       name: "Teresa Chen",
       position: "Frontend Software Engineer",
       image: teresachen,
-      blurb: "Electrical & Computer Engineering. Looking forward to work in the semiconductor industry! I am also part of C2S2",
+      blurb: "Electrical & Computer Engineering. Looking forward to work in the semiconductor industry! I am also part of C2S2!",
       linkedin: "https://www.linkedin.com/in/teresa-chen0927?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
   ];
