@@ -166,7 +166,7 @@ function Team() {
       linkedin: ""
     },
     {
-      netID: "teresachen",
+      netID: "yc2877",
       name: "Teresa Chen",
       position: "Frontend Software Engineer",
       image: teresachen,
