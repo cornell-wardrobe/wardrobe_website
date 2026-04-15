@@ -12,6 +12,13 @@ import homeStepThree from "../components/images/landingPage/home_step_three.svg"
 function Landingpage() {
   return (
     <div>
+      <div>
+        <p className="bg-yellow-400 text-sm py-1 text-center md:text-base">
+          <a href="https://cglink.me/2ee/r2302935" className="underline font-semibold text-blue-700">
+            Register
+          </a> now for the Spring 2026 Pop-Up Shop!
+        </p>
+      </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 h-full items-center">
           <div className="ml-7 text-center md:text-left">
