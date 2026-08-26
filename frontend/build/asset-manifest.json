@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d024f345.css",
-    "main.js": "/static/js/main.63cb8d12.js",
+    "main.css": "/static/css/main.f1054c1a.css",
+    "main.js": "/static/js/main.809b3d0a.js",
     "static/media/Mel_Khan.JPG": "/static/media/Mel_Khan.2d70adaf810c254377e1.JPG",
     "static/media/Jessica_Caivano.JPG": "/static/media/Jessica_Caivano.4bd3323fafc61afdb164.JPG",
     "static/media/Grace_Carlson.JPG": "/static/media/Grace_Carlson.810b3746d5f91292b963.JPG",
@@ -32,27 +32,27 @@
     "static/media/ErikaChin.jpg": "/static/media/ErikaChin.f2372997d3fe43991d51.jpg",
     "static/media/XinQiLian.JPG": "/static/media/XinQiLian.2f7d4695bf8226da622a.JPG",
     "static/media/SuriWang.JPG": "/static/media/SuriWang.256099b9b884fcd1dff4.JPG",
-    "static/media/events-step-three.svg": "/static/media/events-step-three.469b342f570b33a36658bd157c7961cb.svg",
+    "static/media/events-step-three.svg": "/static/media/events-step-three.537e33491a9f358e6df75bb74d42b677.svg",
     "static/media/rent-mens-size.jpeg": "/static/media/rent-mens-size.41c74c5b5300f1b081f3.jpeg",
     "static/media/rent-womens-size.jpeg": "/static/media/rent-womens-size.101975dd3ba79f0c5d00.jpeg",
-    "static/media/home_page_mirror.svg": "/static/media/home_page_mirror.b2f92ccbec80d16e2a2e57bc7405fa3d.svg",
-    "static/media/events-first.svg": "/static/media/events-first.a8d43147687f52b22c6cafb66fdc0f53.svg",
-    "static/media/template.jpg": "/static/media/template.50c58739346399bf7ec0.jpg",
+    "static/media/home_page_mirror.svg": "/static/media/home_page_mirror.aa721815c9e75af0a8dafddcdb1c52d1.svg",
+    "static/media/logo2.png": "/static/media/logo2.92ddc98c5bc74374574c.png",
+    "static/media/events-first.svg": "/static/media/events-first.fd9545302df3542028ceebdd6a32d330.svg",
     "static/media/home_step_three.svg": "/static/media/home_step_three.82301de97b5b319437eaebc630c70fb6.svg",
     "static/media/apply-first.svg": "/static/media/apply-first.eb580097aece3c6dab6a898926da938f.svg",
     "static/media/home_step_two.svg": "/static/media/home_step_two.8fb779949b3803e4ee57c92402bab156.svg",
-    "static/media/events-step-two.svg": "/static/media/events-step-two.9d04eb1eaa3679cbb58028bcaaba714c.svg",
+    "static/media/events-step-two.svg": "/static/media/events-step-two.bd2bce23f3d0e800de393f4a8a1bc6f2.svg",
     "static/media/events-step-one.svg": "/static/media/events-step-one.b3d13f464ac8a1ee47b3e0a6a46ab7ca.svg",
     "static/media/home_step_one.svg": "/static/media/home_step_one.476101539ca40b172b68f4945fb3570e.svg",
     "static/media/rent-first.svg": "/static/media/rent-first.2ce4c0a5d1331949447ac7cdbf6364ed.svg",
     "static/media/home_shop.svg": "/static/media/home_shop.cd77102d394f732a523525def851ffe0.svg",
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
-    "main.d024f345.css.map": "/static/css/main.d024f345.css.map",
-    "main.63cb8d12.js.map": "/static/js/main.63cb8d12.js.map"
+    "main.f1054c1a.css.map": "/static/css/main.f1054c1a.css.map",
+    "main.809b3d0a.js.map": "/static/js/main.809b3d0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d024f345.css",
-    "static/js/main.63cb8d12.js"
+    "static/css/main.f1054c1a.css",
+    "static/js/main.809b3d0a.js"
   ]
 }
