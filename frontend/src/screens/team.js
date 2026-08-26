@@ -3,14 +3,12 @@ import { useState } from "react";
 import People from "../components/people";
 
 //management
-import erikaChin from "../components/headshots/ErikaChin.jpg";
 import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
 import ethanFrank from "../components/headshots/Ethan_Frank.jpg";
 
 //operations
 import synaSony from "../components/headshots/Syna_Sony.JPG";
 import kainwang from "../components/headshots/Kain_Wang.JPG";
-import elizabethLaraRivera from "../components/headshots/logo2.png";
 import sophialin from "../components/headshots/SophiaLin.jpg";
 import isabellaLee from "../components/headshots/isabellaLee.jpg";
 import ryanross from "../components/headshots/RyanRoss.jpg";
@@ -19,27 +17,22 @@ import ingachen from "../components/headshots/IngaChen.JPG";
 
 //technology
 import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
-import yalaHuangFeng from "../components/headshots/Yala_Huang _Feng.png";
 import teresachen from "../components/headshots/TeresaChen.jpeg";
 
 //marketing
 import melKhan from "../components/headshots/Mel_Khan.JPG";
 import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
-import seamusMcDevitt from "../components/headshots/logo2.png";
 import sherrychen from "../components/headshots/Sherry_Chen.jpg";
 import suriwang from "../components/headshots/SuriWang.JPG";
 import rachelEisenhart from "../components/headshots/Rachel_Eisenhart.jpg";
 
 //finance
-import alexweibly from "../components/headshots/Alex_Weibly.jpeg";
 import diMa from "../components/headshots/diMa.JPG";
 import xinqilian from "../components/headshots/XinQiLian.JPG";
-import benjaminloong from "../components/headshots/Benjamin_Loong.JPG";
 
 //events
 import emilysavedoff from "../components/headshots/EmilySavedoff.jpg";
-import memberdagba from "../components/headshots/Member_Dagba.png";
 import lavanyaLehl from "../components/headshots/LavanyaLehl.jpg";
 import jessicaFrazendeiro from "../components/headshots/Jessica_Fazendeiro.png";
 import sophiaJonisch from "../components/headshots/SophiaJonisch.jpg";
