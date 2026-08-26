@@ -52,19 +52,11 @@ import sophiaJonisch from "../components/headshots/SophiaJonisch.jpg";
 
 function Team() {
   const MANAGEMENT = [
-    {
-      netID: "ejc245",
-      name: "Erika Chin",
-      position: "President",
-      image: erikaChin,
-      blurb: "I am a senior majoring in Statistical Sciences. Outside of Wardrobe, I am a captain of the Varsity Fencing team. I am interested in strategy and operations, specifically for startups.",
-      linkedin: "http://linkedin.com/in/erikajchin/"
-    },
 
     {
       netID: "jmc689",
       name: "Jessica Caivano",
-      position: "Vice President",
+      position: "President",
       image: jessicaCaivano,
       blurb: "",
       linkedin: ""
@@ -73,11 +65,32 @@ function Team() {
     {
       netID: "esf77",
       name: "Ethan Frank",
-      position: "VP External Affairs",
+      position: "Vice President",
       image: ethanFrank,
       blurb: "",
       linkedin: "",
     },
+
+    {
+      netID: "mmk289",
+      name: "Mel Khan",
+      position: "VP Internal",
+      image: melKhan,
+      blurb: "",
+      linkedin: ""
+    
+    },
+
+    {
+      netID: "mgl89",
+      name: "Mia Lopez",
+      position: "VP External",
+      image: miaLopez,
+      blurb: "",
+      linkedin: ""
+    
+    },
+
   ];
 
   const OPS = [
@@ -106,14 +119,7 @@ function Team() {
       blurb: "Sophia is a freshman studying Applied Economics and Management. She is interested in supporting and creating visible impact on those around her by improving processes so that organizations can function smoothly. Outside Wardrobe, she can be found clerking for the Student Assembly, working at the ReUse MegaCenter, or at ABCC or DOTS.",
       linkedin: "www.linkedin.com/in/sophia-lin-a40421367"
     },
-    {
-      netID: "elizabethlararivera",
-      name: "Elizabeth Lara Rivera",
-      position: "Operations Associate",
-      image: elizabethLaraRivera,
-      blurb:"",
-      linkedin: "",
-    },
+
     {
       netID: "ryanross",
       name: "Ryan Ross",
@@ -157,14 +163,7 @@ function Team() {
       blurb: "Zahin is a sophomore studying computer science in the college of engineering. Outside of The Wardrobe, she is also part of Cornell WebDev and Cornell Blockchain. In her free time, she likes to cook and hang out with her friends.",
       linkedin: "https://www.linkedin.com/in/zahintasnin/"
     },
-    {
-      netID: "yh2293",
-      name: "Yala Huang Feng",
-      position: "Frontend Software Engineer",
-      image: yalaHuangFeng,
-      blurb: "",
-      linkedin: ""
-    },
+    
     {
       netID: "teresachen",
       name: "Teresa Chen",
@@ -176,41 +175,26 @@ function Team() {
   ];
 
   const MARKETING = [
-    {
-      netID: "mmk289",
-      name: "Mel Khan",
-      position: "Marketing Director",
-      image: melKhan,
-      blurb: "",
-      linkedin: ""
     
-    },
-    {
-      netID: "mgl89",
-      name: "Mia Lopez",
-      position: "Marketing Director",
-      image: miaLopez,
-      blurb: "",
-      linkedin: ""
-    
-    },
     {
       netID: "gcc77",
       name: "Grace Carlson",
-      position: "Marketing Associate",
+      position: "Marketing Director",
       image: graceCarlson,
       blurb: "",
       linkedin: "",
     
     },
+
     {
-      netID: "",
-      name: "Seamus McDevitt",
-      position: "Marketing Associate",
-      image: seamusMcDevitt,
-      blurb:"",
-      linkedin: "",
+      netID: "suriwang",
+      name: "Suri Wang",
+      position: "Marketing Director",
+      image: suriwang,
+      blurb: "My major is Biology and Society on the pre-med track! I hope to become a pediatrician or neurologist. On campus, I am also a part of Thread Magazine, Rho Psi Eta, and EARS.",
+      linkedin: "https://www.linkedin.com/in/suri-wang-0682972b2?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     },
+    
     {
       netID: "sc3498",
       name: "Sherry Chen",
@@ -222,40 +206,25 @@ function Team() {
     {
       netID: "rse53",
       name: "Rachel Eisenhart",
-      position: "Marketing Associate",
+      position: "Photographer",
       image: rachelEisenhart,
       blurb: "",
       linkedin: "",
     },
-    {
-      netID: "suriwang",
-      name: "Suri Wang",
-      position: "Marketing Associate",
-      image: suriwang,
-      blurb: "My major is Biology and Society on the pre-med track! I hope to become a pediatrician or neurologist. On campus, I am also a part of Thread Magazine, Rho Psi Eta, and EARS.",
-      linkedin: "https://www.linkedin.com/in/suri-wang-0682972b2?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
-    },
+    
   ];
 
   const FINANCE = [
-    {
-      netID: "asw259",
-      name: "Alex Weibly",
-      position: "Financial Director",
-      image: alexweibly,
-      blurb: "",
-      linkedin: "",
     
-    },
     {
-      netID: "bjl99",
-      name: "Benjamin Loong",
-      position: "Financial Analyst",
-      image: benjaminloong,
-      blurb: "",
-      linkedin: "",
-    
+      netID: "dima",
+      name: "Di Ma",
+      position: "Finance Director",
+      image: diMa,
+      blurb: "Di is a first-year Economics major in the College of Arts & Sciences with an interest in finance. Outside of The Wardrobe, she is apart of Cornell Alpha Fund, Society for Women in Business, LOKO Dance Team, and Impact Dance Troupe.",
+      linkedin: "linkedin.com/in/didima/",
     },
+
     {
       netID: "",
       name: "Xin Qi Lian",
@@ -264,14 +233,7 @@ function Team() {
       blurb: "Xin Qi Lian is a first-year student studying at the Cornell University Dyson School of Applied Economics and Management. She's interested in exploring the real-world applications of business strategy and finance. Outside of the Wardrobe, she is apart of Art and Business Club at Cornell, Society for Women in Business, Diversity on the Street, Scholars of Finance, and Dyson Council of Impact and Community Engagement.",
       linkedin: "linkedin.com/in/xinqilian"
     },
-    {
-      netID: "dima",
-      name: "Di Ma",
-      position: "Financial Analyst",
-      image: diMa,
-      blurb: "Di is a first-year Economics major in the College of Arts & Sciences with an interest in finance. Outside of The Wardrobe, she is apart of Cornell Alpha Fund, Society for Women in Business, LOKO Dance Team, and Impact Dance Troupe.",
-      linkedin: "linkedin.com/in/didima/",
-    },
+    
     {
       netID: "ryanross",
       name: "Ryan Ross",
@@ -280,6 +242,16 @@ function Team() {
       blurb: "Ryan is a freshman in the ILR school, minoring in business. Outside of The Wardrobe, he is a part of Social Enterprise at Cornell and Crossroads at Cornell. He hopes to pursue a career in consulting, with a focus on retail or hospitality.",
       linkedin: "https://www.linkedin.com/in/ryan-ross-b67621218/"
     },
+
+    {
+      netID: "",
+      name: "Lavanya Lehl",
+      position: "Events Coordinator",
+      image: lavanyaLehl,
+      blurb:"",
+      linkedin: "",
+    },
+
   ];
   const EVENTS = [
     {
@@ -290,22 +262,7 @@ function Team() {
       blurb: "",
       linkedin: ""
     },
-    {
-      netID: "mnd48",
-      name: "Naomi Dagba",
-      position: "Events Coordinator",
-      image: memberdagba,
-      blurb: "Biological Engineering and minor with environmental sustainability.",
-      linkedin: "https://www.linkedin.com/in/naomidagba?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-    },
-    {
-      netID: "",
-      name: "Lavanya Lehl",
-      position: "Events Coordinator",
-      image: lavanyaLehl,
-      blurb:"",
-      linkedin: "",
-    },
+    
     {
       netID:"",
       name: "Jessica Fazendeiro",
