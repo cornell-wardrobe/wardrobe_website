@@ -30,10 +30,10 @@ import rachelEisenhart from "../components/headshots/Rachel_Eisenhart.jpg";
 //finance
 import diMa from "../components/headshots/diMa.JPG";
 import xinqilian from "../components/headshots/XinQiLian.JPG";
+import lavanyaLehl from "../components/headshots/LavanyaLehl.jpg";
 
 //events
 import emilysavedoff from "../components/headshots/EmilySavedoff.jpg";
-import lavanyaLehl from "../components/headshots/LavanyaLehl.jpg";
 import jessicaFrazendeiro from "../components/headshots/Jessica_Fazendeiro.png";
 import sophiaJonisch from "../components/headshots/SophiaJonisch.jpg";
 
