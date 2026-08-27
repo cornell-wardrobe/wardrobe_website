@@ -24,7 +24,7 @@ function Rent() {
               <p className="text-white text-sm my-4 mx-6">RENT</p>
             </button>
           </Link> */}
-          <a href="https://forms.gle/W9TnXKHAxqbP657W8">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScBXVCcrQ9AZZqgsyM-in8vWJAVQ2SFEAsvCfLWRkRqUUJMxw/viewform">
           <button type="button" className="bg-blue-700 text-white px-5 py-2 cursor-default">
               <p className="text-white text-sm my-4 mx-6">RENT</p>
           </button>
