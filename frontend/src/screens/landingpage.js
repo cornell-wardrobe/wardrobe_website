@@ -13,11 +13,11 @@ function Landingpage() {
   return (
     <div>
       <div>
-        {/* <p className="bg-yellow-400 text-sm py-1 text-center md:text-base">
-          <a href="https://cglink.me/2ee/r2302935" className="underline font-semibold text-blue-700">
-            Register
-          </a> now for the Spring 2026 Pop-Up Shop!
-        </p> */}
+        <p className="bg-yellow-400 text-sm py-1 text-center md:text-base">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1mj5Y7e48TOwmiHi6GomNn9sJSfdAkiyH8wgzSS8t_D-cCg/viewform" className="underline font-semibold text-blue-700">
+            APPLY NOW
+          </a> to join our team!!
+        </p>
       </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 h-full items-center">
