@@ -30,13 +30,13 @@ function Landingpage() {
                 <p className="text-white text-sm my-4 mx-6">RENT NOW</p>
               </button>
             </Link> */}
-            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe1mj5Y7e48TOwmiHi6GomNn9sJSfdAkiyH8wgzSS8t_D-cCg/viewform" target="_blank" rel="noopener noreferrer">
+            <Link to="https://forms.gle/7Pq1t3Uc87oHvQYbA" target="_blank" rel="noopener noreferrer">
               <button type="button" className="bg-blue-600 mt-4 px-4 py-2">
                 <p className="text-white text-sm my-4 mx-6">COFFEE CHAT</p>
               </button>
             </Link>
             <p></p>
-            <Link to="https://forms.gle/UcPTRW12ShW2MhRU6" target="_blank" rel="noopener noreferrer">
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe1mj5Y7e48TOwmiHi6GomNn9sJSfdAkiyH8wgzSS8t_D-cCg/viewform" target="_blank" rel="noopener noreferrer">
               <button type="button" className="bg-blue-600 mt-4 px-4 py-2">
                 <p className="text-white text-sm my-4 mx-6">APPLY NOW</p>
               </button>
