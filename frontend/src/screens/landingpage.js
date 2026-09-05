@@ -25,9 +25,14 @@ function Landingpage() {
             <p className="text-xl text-blue-700 mt-5 md:mt-0">THE WARDROBE AT CORNELL</p>
             <p className="my-4 mr-4 text-4xl font-bold md:text-5xl xl:text-6xl">Pre-Professional Clothing For All Students</p>
             <p className="text-xl med:text-2xl">Helping any student pursue any opportunity</p>
-            <Link to="/rent">
+            {/* <Link to="/rent">
               <button type="button" className="bg-blue-600 mt-4 px-4 py-2">
                 <p className="text-white text-sm my-4 mx-6">RENT NOW</p>
+              </button>
+            </Link> */}
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe1mj5Y7e48TOwmiHi6GomNn9sJSfdAkiyH8wgzSS8t_D-cCg/viewform">
+              <button type="button" className="bg-blue-600 mt-4 px-4 py-2">
+                <p className="text-white text-sm my-4 mx-6">APPLY NOW</p>
               </button>
             </Link>
             {/* <Link to="https://cornell.campusgroups.com/Wardrobe/rsvp_boot?id=2277144" target="blank">
