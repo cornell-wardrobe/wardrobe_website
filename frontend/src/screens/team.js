@@ -96,7 +96,7 @@ function Team() {
       name: "Sophia Lin",
       position: "Operations Associate",
       image: sophialin,
-      linkedin: "www.linkedin.com/in/sophia-lin-a40421367"
+      linkedin: "https://www.linkedin.com/in/sophia-lin-a40421367/"
     },
 
     {
@@ -118,7 +118,7 @@ function Team() {
       name: "Isabella Lee",
       position: "Operations Associate",
       image: isabellaLee,
-      linkedin: "www.linkedin.com/in/ isabella-lee928",
+      linkedin: "https://www.linkedin.com/in/isabella-lee928/",
     },
     {
       netID: "lexieChen",
@@ -190,7 +190,7 @@ function Team() {
       name: "Di Ma",
       position: "Finance Director",
       image: diMa,
-      linkedin: "linkedin.com/in/didima/",
+      linkedin: "https://www.linkedin.com/in/didi-ma/",
     },
 
     {
@@ -198,7 +198,7 @@ function Team() {
       name: "Xin Qi Lian",
       position: "Financial Analyst",
       image: xinqilian,
-      linkedin: "linkedin.com/in/xinqilian"
+      linkedin: "https://www.linkedin.com/in/xinqilian/"
     },
     
     {
@@ -212,7 +212,7 @@ function Team() {
     {
       netID: "",
       name: "Lavanya Lehl",
-      position: "Events Coordinator",
+      position: "Financial Analyst",
       image: lavanyaLehl,
       linkedin: "https://www.linkedin.com/in/lavanya-lehl/",
     },
@@ -232,7 +232,7 @@ function Team() {
       name: "Jessica Fazendeiro",
       position: "Events Coordinator",
       image: jessicaFrazendeiro,
-      linkedin: "www.linkedin.com/in/jessica-fazendeiro",
+      linkedin: "https://www.linkedin.com/in/jessica-fazendeiro/",
     },
     {
       netID:"",
