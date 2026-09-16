@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f1054c1a.css",
-    "main.js": "/static/js/main.b871e57b.js",
+    "main.js": "/static/js/main.e966f454.js",
     "static/media/Mel_Khan.JPG": "/static/media/Mel_Khan.2d70adaf810c254377e1.JPG",
     "static/media/Jessica_Caivano.JPG": "/static/media/Jessica_Caivano.4bd3323fafc61afdb164.JPG",
     "static/media/Grace_Carlson.JPG": "/static/media/Grace_Carlson.810b3746d5f91292b963.JPG",
@@ -43,10 +43,10 @@
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
     "main.f1054c1a.css.map": "/static/css/main.f1054c1a.css.map",
-    "main.b871e57b.js.map": "/static/js/main.b871e57b.js.map"
+    "main.e966f454.js.map": "/static/js/main.e966f454.js.map"
   },
   "entrypoints": [
     "static/css/main.f1054c1a.css",
-    "static/js/main.b871e57b.js"
+    "static/js/main.e966f454.js"
   ]
 }

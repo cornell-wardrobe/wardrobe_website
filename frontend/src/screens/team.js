@@ -4,7 +4,10 @@ import People from "../components/people";
 
 //management
 import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
-import ethanFrank from "../components/headshots/Ethan_Frank.jpg";
+import melKhan from "../components/headshots/Mel_Khan.JPG";
+import miaLopez from "../components/headshots/Mia_Lopez.JPG";
+
+
 
 //operations
 import synaSony from "../components/headshots/Syna_Sony.JPG";
@@ -20,8 +23,6 @@ import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
 import teresachen from "../components/headshots/TeresaChen.jpeg";
 
 //marketing
-import melKhan from "../components/headshots/Mel_Khan.JPG";
-import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
 import sherrychen from "../components/headshots/Sherry_Chen.jpg";
 import suriwang from "../components/headshots/SuriWang.JPG";
@@ -53,15 +54,6 @@ function Team() {
       image: jessicaCaivano,
       blurb: "",
       linkedin: ""
-    },
-
-    {
-      netID: "esf77",
-      name: "Ethan Frank",
-      position: "Vice President",
-      image: ethanFrank,
-      blurb: "",
-      linkedin: "",
     },
 
     {

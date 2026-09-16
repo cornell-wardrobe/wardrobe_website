@@ -13,11 +13,11 @@ function Landingpage() {
   return (
     <div>
       <div>
-        <p className="bg-yellow-400 text-sm py-1 text-center md:text-base">
+        {/* <p className="bg-yellow-400 text-sm py-1 text-center md:text-base">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1mj5Y7e48TOwmiHi6GomNn9sJSfdAkiyH8wgzSS8t_D-cCg/viewform" className="underline font-semibold text-blue-700">
             APPLY NOW
           </a> to join our team!
-        </p>
+        </p> */}
       </div>
       <div className="md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
         <div className="flex bg-slate-100 h-full items-center">
@@ -25,22 +25,22 @@ function Landingpage() {
             <p className="text-xl text-blue-700 mt-5 md:mt-0">THE WARDROBE AT CORNELL</p>
             <p className="my-4 mr-4 text-4xl font-bold md:text-5xl xl:text-6xl">Pre-Professional Clothing For All Students</p>
             <p className="text-xl med:text-2xl">Helping any student pursue any opportunity</p>
-            {/* <Link to="/rent">
+            <Link to="/rent">
               <button type="button" className="bg-blue-600 mt-4 px-4 py-2">
                 <p className="text-white text-sm my-4 mx-6">RENT NOW</p>
               </button>
-            </Link> */}
-            <Link to="https://forms.gle/7Pq1t3Uc87oHvQYbA" target="_blank" rel="noopener noreferrer">
+            </Link>
+            {/* <Link to="https://forms.gle/7Pq1t3Uc87oHvQYbA" target="_blank" rel="noopener noreferrer">
               <button type="button" className="bg-blue-600 mt-4 px-4 py-2">
                 <p className="text-white text-sm my-4 mx-6">COFFEE CHAT</p>
               </button>
-            </Link>
+            </Link> */}
             <p></p>
-            <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe1mj5Y7e48TOwmiHi6GomNn9sJSfdAkiyH8wgzSS8t_D-cCg/viewform" target="_blank" rel="noopener noreferrer">
+            {/* <Link to="https://docs.google.com/forms/d/e/1FAIpQLSe1mj5Y7e48TOwmiHi6GomNn9sJSfdAkiyH8wgzSS8t_D-cCg/viewform" target="_blank" rel="noopener noreferrer">
               <button type="button" className="bg-blue-600 mt-4 px-4 py-2">
                 <p className="text-white text-sm my-4 mx-6">APPLY NOW</p>
               </button>
-            </Link>
+            </Link> */}
             {/* <Link to="https://cornell.campusgroups.com/Wardrobe/rsvp_boot?id=2277144" target="blank">
               <button type="button" className="bg-blue-600 mt-4 px-4 py-2">
                 <p className="text-white text-sm my-4 mx-6">POP UP</p>
