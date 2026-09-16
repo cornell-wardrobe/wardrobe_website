@@ -52,8 +52,7 @@ function Team() {
       name: "Jessica Caivano",
       position: "President",
       image: jessicaCaivano,
-      blurb: "",
-      linkedin: ""
+      linkedin: "https://www.linkedin.com/in/jess-caivano/"
     },
 
     {
@@ -61,8 +60,7 @@ function Team() {
       name: "Mel Khan",
       position: "VP Internal",
       image: melKhan,
-      blurb: "",
-      linkedin: ""
+      linkedin: "https://www.linkedin.com/in/melanie-khan-7387262ba/"
     
     },
 
@@ -71,8 +69,7 @@ function Team() {
       name: "Mia Lopez",
       position: "VP External",
       image: miaLopez,
-      blurb: "",
-      linkedin: ""
+      linkedin: "https://www.linkedin.com/in/mia-lopez4/"
     
     },
 
@@ -84,15 +81,13 @@ function Team() {
       name: "Syna Sony",
       position: "Operations Director",
       image: synaSony,
-      blurb: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/syna-sony-964b152a2/",
     },
     {
       netID: "kcw57",
       name: "Kain Wang",
       position: "Operations Director",
       image: kainwang,
-      blurb: "Kain is an economics major going for minors in business and health policy. He's interested in optimizing private health insurance in the United States and is consequently studying to be an actuary. Outside of The Wardrobe, Kain frequently illustrates, contributing to campus publications and maintaining a self-run shop.",
       linkedin: "https://www.linkedin.com/in/kain-wang-4b8525349/"
     
     },
@@ -101,7 +96,6 @@ function Team() {
       name: "Sophia Lin",
       position: "Operations Associate",
       image: sophialin,
-      blurb: "Sophia is a freshman studying Applied Economics and Management. She is interested in supporting and creating visible impact on those around her by improving processes so that organizations can function smoothly. Outside Wardrobe, she can be found clerking for the Student Assembly, working at the ReUse MegaCenter, or at ABCC or DOTS.",
       linkedin: "www.linkedin.com/in/sophia-lin-a40421367"
     },
 
@@ -110,7 +104,6 @@ function Team() {
       name: "Ryan Ross",
       position: "Operations Associate/Financial Analyst",
       image: ryanross,
-      blurb: "Ryan is a freshman in the ILR school, minoring in business. Outside of The Wardrobe, he is a part of Social Enterprise at Cornell and Crossroads at Cornell. He hopes to pursue a career in consulting, with a focus on retail or hospitality.",
       linkedin: "https://www.linkedin.com/in/ryan-ross-b67621218/"
     },
     {
@@ -118,7 +111,6 @@ function Team() {
       name: "Inga Chen",
       position: "Operations Associate",
       image: ingachen,
-      blurb: "Majoring in Communication and Environment & Sustainability. I plan on working in a role that positively impacts sustainability in the future. Currently, I’m in Engineers for a Sustainable world, hall council and hall association, and Cornell Mind Matters.",
       linkedin: "https://www.linkedin.com/in/inga-chen-175131326?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     },
     {
@@ -126,7 +118,6 @@ function Team() {
       name: "Isabella Lee",
       position: "Operations Associate",
       image: isabellaLee,
-      blurb: "Isabella Lee is a first-year student majoring in Applied Economics and Management at the Dyson School. She is interested in pursuing a career in corporate or public accounting. She currently works at Café Jennie, located inside The Cornell Store, where she helps maintain an efficient and welcoming environment. Outside of academics and work, Isabella enjoys discovering new TV shows and movies to watch with friends and reading in her free time.",
       linkedin: "www.linkedin.com/in/ isabella-lee928",
     },
     {
@@ -134,7 +125,6 @@ function Team() {
       name: "Lexie Chen",
       position: "Operations Associate",
       image: lexieChen,
-      blurb: "Lexie is a freshman studying Applied Economics & Management. Outside of The Wardrobe, she is involved in Medium Design Collective and Cornell Mergers & Acquisitions Club. In her free time, she enjoys going to concerts, painting, and looking for new study spots on campus!",
       linkedin: "https://www.linkedin.com/in/lexie-chen/"
     }
   ];
@@ -145,7 +135,6 @@ function Team() {
       name: "Zahin Tasnin",
       position: "Technology Director",
       image: zahintasnin,
-      blurb: "Zahin is a sophomore studying computer science in the college of engineering. Outside of The Wardrobe, she is also part of Cornell WebDev and Cornell Blockchain. In her free time, she likes to cook and hang out with her friends.",
       linkedin: "https://www.linkedin.com/in/zahintasnin/"
     },
     
@@ -154,7 +143,6 @@ function Team() {
       name: "Teresa Chen",
       position: "Frontend Software Engineer",
       image: teresachen,
-      blurb: "Electrical & Computer Engineering. Looking forward to work in the semiconductor industry! I am also part of C2S2",
       linkedin: "https://www.linkedin.com/in/teresa-chen0927?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
   ];
@@ -166,8 +154,7 @@ function Team() {
       name: "Grace Carlson",
       position: "Marketing Director",
       image: graceCarlson,
-      blurb: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/grace-carlson-625679328/",
     
     },
 
@@ -176,7 +163,6 @@ function Team() {
       name: "Suri Wang",
       position: "Marketing Director",
       image: suriwang,
-      blurb: "My major is Biology and Society on the pre-med track! I hope to become a pediatrician or neurologist. On campus, I am also a part of Thread Magazine, Rho Psi Eta, and EARS.",
       linkedin: "https://www.linkedin.com/in/suri-wang-0682972b2?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
     },
     
@@ -185,7 +171,6 @@ function Team() {
       name: "Sherry Chen",
       position: "Marketing Associate",
       image: sherrychen,
-      blurb: "My major is Applied Economics & Management. My career aspirations is marketing and graphic design. My other organizations include Cornell Dining, Cornell Red Cross, Society of Women in Business.",
       linkedin: "http://linkedin.com/in/sherry-chen0772",
     },
     {
@@ -193,8 +178,7 @@ function Team() {
       name: "Rachel Eisenhart",
       position: "Photographer",
       image: rachelEisenhart,
-      blurb: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/r-eisenhart/",
     },
     
   ];
@@ -206,7 +190,6 @@ function Team() {
       name: "Di Ma",
       position: "Finance Director",
       image: diMa,
-      blurb: "Di is a first-year Economics major in the College of Arts & Sciences with an interest in finance. Outside of The Wardrobe, she is apart of Cornell Alpha Fund, Society for Women in Business, LOKO Dance Team, and Impact Dance Troupe.",
       linkedin: "linkedin.com/in/didima/",
     },
 
@@ -215,7 +198,6 @@ function Team() {
       name: "Xin Qi Lian",
       position: "Financial Analyst",
       image: xinqilian,
-      blurb: "Xin Qi Lian is a first-year student studying at the Cornell University Dyson School of Applied Economics and Management. She's interested in exploring the real-world applications of business strategy and finance. Outside of the Wardrobe, she is apart of Art and Business Club at Cornell, Society for Women in Business, Diversity on the Street, Scholars of Finance, and Dyson Council of Impact and Community Engagement.",
       linkedin: "linkedin.com/in/xinqilian"
     },
     
@@ -224,7 +206,6 @@ function Team() {
       name: "Ryan Ross",
       position: "Financial Analyst/Operations Associate",
       image: ryanross,
-      blurb: "Ryan is a freshman in the ILR school, minoring in business. Outside of The Wardrobe, he is a part of Social Enterprise at Cornell and Crossroads at Cornell. He hopes to pursue a career in consulting, with a focus on retail or hospitality.",
       linkedin: "https://www.linkedin.com/in/ryan-ross-b67621218/"
     },
 
@@ -233,8 +214,7 @@ function Team() {
       name: "Lavanya Lehl",
       position: "Events Coordinator",
       image: lavanyaLehl,
-      blurb:"",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/lavanya-lehl/",
     },
 
   ];
@@ -244,8 +224,7 @@ function Team() {
       name: "Emily Savedoff",
       position: "Events Director",
       image: emilysavedoff,
-      blurb: "",
-      linkedin: ""
+      linkedin: "https://www.linkedin.com/in/emilysavedoff/"
     },
     
     {
@@ -253,7 +232,6 @@ function Team() {
       name: "Jessica Fazendeiro",
       position: "Events Coordinator",
       image: jessicaFrazendeiro,
-      blurb: "I am a sophomore studying Hotel Administration. Outside of The Wardrobe, I am involved in Startup Consulting and PDOW. I am interested in pursuing a career in consulting.",
       linkedin: "www.linkedin.com/in/jessica-fazendeiro",
     },
     {
@@ -261,8 +239,7 @@ function Team() {
       name: "Sophia Jonisch", 
       position: "Events Coordinator",
       image: sophiaJonisch,
-      blurb:"",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/sophiajonisch/",
     },
   ];
 

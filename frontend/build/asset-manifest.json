@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f1054c1a.css",
-    "main.js": "/static/js/main.e966f454.js",
+    "main.js": "/static/js/main.35757142.js",
     "static/media/Mel_Khan.JPG": "/static/media/Mel_Khan.2d70adaf810c254377e1.JPG",
     "static/media/Jessica_Caivano.JPG": "/static/media/Jessica_Caivano.4bd3323fafc61afdb164.JPG",
     "static/media/Grace_Carlson.JPG": "/static/media/Grace_Carlson.810b3746d5f91292b963.JPG",
@@ -13,7 +13,6 @@
     "static/media/TeresaChen.jpeg": "/static/media/TeresaChen.4a1a2fbb32ec48b9efcb.jpeg",
     "static/media/Jessica_Fazendeiro.png": "/static/media/Jessica_Fazendeiro.93487bf8d19a51477b71.png",
     "static/media/Rachel_Eisenhart.jpg": "/static/media/Rachel_Eisenhart.c5ef0d4d4730579d8d75.jpg",
-    "static/media/Ethan_Frank.jpg": "/static/media/Ethan_Frank.f6e94452b64f1b9216b2.jpg",
     "static/media/rent-find-your-fit.png": "/static/media/rent-find-your-fit.8494816e6fb3950a02e6.png",
     "static/media/Sherry_Chen.jpg": "/static/media/Sherry_Chen.e93b39cf45875f430321.jpg",
     "static/media/diMa.JPG": "/static/media/diMa.f0b7c2b3a6765f6b4bd2.JPG",
@@ -43,10 +42,10 @@
     "index.html": "/index.html",
     "static/media/home_tie.svg": "/static/media/home_tie.b3bdfff2e17b767123776b260c6e1140.svg",
     "main.f1054c1a.css.map": "/static/css/main.f1054c1a.css.map",
-    "main.e966f454.js.map": "/static/js/main.e966f454.js.map"
+    "main.35757142.js.map": "/static/js/main.35757142.js.map"
   },
   "entrypoints": [
     "static/css/main.f1054c1a.css",
-    "static/js/main.e966f454.js"
+    "static/js/main.35757142.js"
   ]
 }
