@@ -7,37 +7,47 @@ import jessicaCaivano from "../components/headshots/Jessica_Caivano.JPG";
 import melKhan from "../components/headshots/Mel_Khan.JPG";
 import miaLopez from "../components/headshots/Mia_Lopez.JPG";
 
-
-
 //operations
 import synaSony from "../components/headshots/Syna_Sony.JPG";
 import kainwang from "../components/headshots/Kain_Wang.JPG";
 import sophialin from "../components/headshots/SophiaLin.jpg";
 import isabellaLee from "../components/headshots/isabellaLee.jpg";
-import ryanross from "../components/headshots/RyanRoss.jpg";
-import lexieChen from "../components/headshots/lexieChen.jpg";
+import ryanross from "../components/headshots/Ryan Ross.jpg";
+import lexieChen from "../components/headshots/Lexie Chen.jpg";
 import ingachen from "../components/headshots/IngaChen.JPG";
+import rykynfann from "../components/headshots/Rykyn Fann.jpeg";
+import manasareddysanivarapu from "../components/headshots/logo2.png";
 
 //technology
 import zahintasnin from "../components/headshots/Zahin_Tasnin.JPG";
 import teresachen from "../components/headshots/TeresaChen.jpeg";
 
 //marketing
-import graceCarlson from "../components/headshots/Grace_Carlson.JPG";
-import sherrychen from "../components/headshots/Sherry_Chen.jpg";
+import graceCarlson from "../components/headshots/Grace Carlson.jpg";
+import sherrychen from "../components/headshots/Sherry Chen.jpg";
 import suriwang from "../components/headshots/SuriWang.JPG";
 import rachelEisenhart from "../components/headshots/Rachel_Eisenhart.jpg";
+import chloecho from "../components/headshots/Chloe Cho.jpeg";
+import sandraemhenya from "../components/headshots/logo2.png";
 
 //finance
-import diMa from "../components/headshots/diMa.JPG";
+import diMa from "../components/headshots/Di Ma.jpeg";
 import xinqilian from "../components/headshots/XinQiLian.JPG";
 import lavanyaLehl from "../components/headshots/LavanyaLehl.jpg";
+import helenseo from "../components/headshots/Helen Seo.jpeg";
+// import sandraemhenya from "../components/headshots/Sandra Emhenya.jpeg";
+import jessicazheleznov from "../components/headshots/Jessica Zheleznov.jpeg";
+import anastasiaabramova from "../components/headshots/Anastasia Abramova.jpg";
+import srinidhipasumarthy from "../components/headshots/Srinidhi Pasumarthy.png";
 
 //events
 import emilysavedoff from "../components/headshots/EmilySavedoff.jpg";
 import jessicaFrazendeiro from "../components/headshots/Jessica_Fazendeiro.png";
 import sophiaJonisch from "../components/headshots/SophiaJonisch.jpg";
-
+import oliviahuang from "../components/headshots/Olivia Huang.jpg";
+import briannajustiniano from "../components/headshots/Brianna Justiniano.jpg";
+import rodinbehravan from "../components/headshots/Rodin Behravan.png";
+import lyladesario from "../components/headshots/Lyla Desario.jpeg";
 
 
 
@@ -126,6 +136,20 @@ function Team() {
       position: "Operations Associate",
       image: lexieChen,
       linkedin: "https://www.linkedin.com/in/lexie-chen/"
+    },
+    {
+      netID: "rykynfann",
+      name: "Rykyn Fann",
+      position: "Operations Associate",
+      image: rykynfann,
+      linkedin: "https://www.linkedin.com/in/rykyn-fann/"
+    },
+    {
+      netID: "manasareddysanivarapu",
+      name: "Manasareddy Sanivarapu",
+      position: "Operations Associate",
+      image: manasareddysanivarapu,
+      linkedin: "https://www.linkedin.com/in/manasareddy-s/"
     }
   ];
 
@@ -137,7 +161,6 @@ function Team() {
       image: zahintasnin,
       linkedin: "https://www.linkedin.com/in/zahintasnin/"
     },
-    
     {
       netID: "teresachen",
       name: "Teresa Chen",
@@ -157,7 +180,6 @@ function Team() {
       linkedin: "https://www.linkedin.com/in/grace-carlson-625679328/",
     
     },
-
     {
       netID: "suriwang",
       name: "Suri Wang",
@@ -180,7 +202,27 @@ function Team() {
       image: rachelEisenhart,
       linkedin: "https://www.linkedin.com/in/r-eisenhart/",
     },
-    
+    {
+      netID: "",
+      name: "Helen Seo",
+      position: "Financial Analyst",
+      image: helenseo,
+      linkedin: "https://www.linkedin.com/in/helen-seo-0a4865286/",
+    },
+    {
+      netID: "",
+      name: "Chloe Cho",
+      position: "Financial Analyst",
+      image: chloecho,
+      linkedin: "https://www.linkedin.com/company/the-wardrobe-cornell/posts/",
+    },
+    {
+      netID: "",
+      name: "Sandra Emhenya",
+      position: "Financial Analyst",
+      image: sandraemhenya,
+      linkedin: "https://www.linkedin.com/in/sandra-o-emhenya/",
+    }
   ];
 
   const FINANCE = [
@@ -200,7 +242,6 @@ function Team() {
       image: xinqilian,
       linkedin: "https://www.linkedin.com/in/xinqilian/"
     },
-    
     {
       netID: "ryanross",
       name: "Ryan Ross",
@@ -208,7 +249,6 @@ function Team() {
       image: ryanross,
       linkedin: "https://www.linkedin.com/in/ryan-ross-b67621218/"
     },
-
     {
       netID: "",
       name: "Lavanya Lehl",
@@ -216,7 +256,28 @@ function Team() {
       image: lavanyaLehl,
       linkedin: "https://www.linkedin.com/in/lavanya-lehl/",
     },
-
+    {
+      netID: "",
+      name: "Jessi Zeleznov",
+      position: "Financial Analyst",
+      image: jessicazheleznov,
+      linkedin: "https://www.linkedin.com/in/jessica-zheleznov/",
+    },
+    {
+      netID: "",
+      name: "Anastasia Abramova",
+      position: "Financial Analyst",
+      image: anastasiaabramova,
+      linkedin: "https://www.linkedin.com/in/anastasia-abramovaa/",
+    },
+    {
+      netID: "",
+      name: "Srinidhi Pasumarthy",
+      position: "Financial Analyst",
+      image: srinidhipasumarthy,
+      linkedin: "https://www.linkedin.com/in/srinidhipasumarthy/",
+    }
+    
   ];
   const EVENTS = [
     {
@@ -241,6 +302,34 @@ function Team() {
       image: sophiaJonisch,
       linkedin: "https://www.linkedin.com/in/sophiajonisch/",
     },
+    {
+      netID: "",
+      name: "Olivia Huang",
+      position: "Events Coordinator",
+      image: oliviahuang,
+      linkedin: "https://www.linkedin.com/company/the-wardrobe-cornell/posts/",
+    },
+    {
+      netID: "",
+      name: "Brianna Justiniano",
+      position: "Events Coordinator",
+      image: briannajustiniano,
+      linkedin: "https://www.linkedin.com/in/brianna-justiniano-38b089391/",
+    },
+    {
+      netID: "",
+      name: "Rodin Behravan",
+      position: "Events Coordinator",
+      image: rodinbehravan,
+      linkedin: "https://www.linkedin.com/in/rodinbehravan/",
+    },
+    {
+      netID: "",
+      name: "Lyla Desario",
+      position: "Events Coordinator",
+      image: lyladesario,
+      linkedin: "https://www.linkedin.com/in/lyla-desario-9b67652a4/",
+    }
   ];
 
   const [activeTab, setActiveTab] = useState(0);
