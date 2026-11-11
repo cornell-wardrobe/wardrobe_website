@@ -13,9 +13,9 @@ function Events() {
           <div className="md:mb-24 lg:mb-0 lg:ml-32 xl:ml-56 text-center lg:text-left">
             <p className="text-xl text-blue-700">GET EXCITED FOR</p>
             <p className="my-4 mr-4 text-4xl font-bold med:text-5xl lg:text-6xl">Pop-Up Shop</p>
-            <p className="text-xl  med:text-2xl">Fall 2026 Pop-Up Shop! More details to come!</p>
-            <p className="text-lg med:text-2xl italic">Location TBD</p>
-            <p className="text-lg med:text-2xl italic">Time TBD</p>
+            <p className="text-xl  med:text-2xl">Fall 2026 Pop-Up Shop!</p>
+            <p className="text-lg med:text-2xl italic">Date: December 4th, 2026</p>
+            <p className="text-lg med:text-2xl italic">Location: TBD</p>
             {/* <Link to="https://cglink.me/2ee/r2302935" target="blank">
               <button type="button" className="bg-blue-600 mt-8">
                 <p className="text-white text-sm my-4 mx-6">REGISTER</p>
