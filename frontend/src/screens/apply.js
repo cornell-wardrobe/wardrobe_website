@@ -1,4 +1,5 @@
 import React from "react";
+import PhotoPanel from "../components/photoPanel";
 import applyFirst from "../components/images/apply/apply-first.svg";
 // import recruitment_1 from "../components/images/apply/recruitment_1.png"
 // import recruitment_2 from "../components/images/apply/recruitment_2.png"
@@ -6,23 +7,23 @@ import applyFirst from "../components/images/apply/apply-first.svg";
 function Apply() {
   return (
     <div className="w-screen overflow-hidden">
-      <div className="h-[70vh] xs:h-[75vh] md:h-screen grid grid-rows-2 gap-0 md:flex md:columns-2">
-        <div className="flex w-screen bg-slate-100 items-center h-full md:w-[50vw]">
-          <div className="mx-4 mt-16 xs:mx-0 xs:mt-0 justify-center w-full md:ml-7">
-            <p className="text-5xl pb-2 font-bold text-center md:text-left md:text-6xl">Nice to meet you!</p>
-            <p className="text-2xl pb-2 mr-4 text-center md:text-left">The Wardrobe&apos;s Spring 2026 applications are now open!</p>
+      <div className="flex flex-col md:flex-row md:min-h-[calc(100vh-7rem)]">
+        <PhotoPanel className="flex w-full items-center py-16 md:w-1/2 md:py-12">
+          <div className="panel-light mx-5 md:mx-12 px-6 py-10 md:px-10 md:py-14 w-full">
+            <h1 className="text-4xl sm:text-5xl pb-3 text-center md:text-left md:text-6xl">Nice to meet you!</h1>
+            <p className="text-xl md:text-2xl pb-4 text-center md:text-left">The Wardrobe&apos;s Spring 2026 applications are now open!</p>
             <div className="flex flex-col justify-center items-center md:justify-normal md:items-start">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1mj5Y7e48TOwmiHi6GomNn9sJSfdAkiyH8wgzSS8t_D-cCg/viewform" target="_blank" rel="noopener noreferrer">
-                <button type="button" className="bg-blue-600 text-white px-5 py-2 cursor-default">
-                  <p className="text-white text-sm my-4 mx-6">APPLY</p>
+                <button type="button" className="btn">
+                  <p>APPLY</p>
                 </button>
               </a> 
             </div>
           </div>
-        </div>
-        <div className="flex items-center justify-center bg-slate-100">
+        </PhotoPanel>
+        <div className="flex items-center justify-center bg-cream py-10 md:w-1/2 md:py-0">
           <img
-            className="md:p-0 scale-75 sm:scale-50 md:scale-75 lg:pr-20" 
+            className="max-h-[70vh] w-auto max-w-full px-6"
             src={applyFirst}
             alt="People sitting on computer"
           />

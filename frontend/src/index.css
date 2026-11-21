@@ -1,19 +1,169 @@
+/* Brand fonts (self-hosted via npm packages).
+   League Spartan: titles. Glacial Indifference: everything else. */
+@import "@fontsource/league-spartan/latin-700.css";
+@import "@fontsource/league-spartan/latin-800.css";
+@import "typeface-glacial-indifference/index.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* ------------------------------------------------------------------
+   Brand tokens: the single place to update colors and fonts.
+   Colors are space-separated RGB channels so Tailwind opacity works
+   (e.g. bg-ink/40). Values were sampled from the Marketing "Color Story"
+   screenshot and are PROVISIONAL until Marketing confirms exact values.
+   ------------------------------------------------------------------ */
+:root {
+  /* Primary: white, near-black, translucent white */
+  --color-white: 255 255 255;            /* #ffffff */
+  --color-ink: 21 22 29;                 /* #15161d near-black */
+  --glass: rgb(255 255 255 / 0.72);      /* translucent white panels */
+  --glass-strong: rgb(254 252 248 / 0.96); /* off-white panel over dark/photo */
+
+  /* Secondary: warm off-white, light warm gray, charcoal */
+  --color-cream: 254 252 248;            /* #fefcf8 */
+  --color-sand: 239 235 229;             /* #efebe5 */
+  --color-charcoal: 43 43 43;            /* #2b2b2b */
+
+  /* Accent: use sparingly (links, buttons, small highlights) */
+  --color-blue: 46 74 138;               /* #2e4a8a muted blue */
+  --color-navy: 2 12 69;                 /* #020c45 deep navy */
+  --color-butter: 255 243 194;           /* #fff3c2 pale yellow */
+
+  --font-display: "League Spartan", "Montserrat", "Century Gothic", "Avenir Next", Arial, sans-serif;
+  --font-body: "Glacial Indifference", "Avenir Next", "Avenir", "Century Gothic", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
 @layer base {
   html {
-    font-family: "Avenir", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  body {
+    margin: 0;
+    background-color: rgb(var(--color-cream));
+    color: rgb(var(--color-ink));
+    font-size: 1.0625rem; /* Glacial Indifference runs small; nudge up */
+    line-height: 1.55;
+  }
+
+  /* Titles and major section headings: League Spartan, bold, uppercase.
+     Uppercase is applied here in CSS so the source copy is untouched. */
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.05;
+    letter-spacing: 0.005em;
+    overflow-wrap: break-word;
+  }
+
+  strong, b { font-weight: 700; }
+
+  a { color: rgb(var(--color-blue)); }
+
+  /* Visible keyboard focus everywhere; butter on dark surfaces. */
+  :focus-visible {
+    outline: 3px solid rgb(var(--color-blue));
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  .on-dark :focus-visible {
+    outline-color: rgb(var(--color-butter));
+  }
 }
 
-body {
-  margin: 0;
+@layer components {
+  /* Page titles / major section headings set on <p> or <div> in the source */
+  .title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.05;
+    letter-spacing: 0.005em;
+    overflow-wrap: break-word;
+  }
+
+  /* Small label above a title (e.g. "WHAT WE DO") */
+  .eyebrow {
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgb(var(--color-blue));
+  }
+  .on-dark .eyebrow { color: rgb(var(--color-butter)); }
+
+  .btn,
+  .btn-light {
+    display: inline-block;
+    padding: 0.85rem 2rem;
+    font-weight: 700;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    line-height: 1.2;
+    cursor: pointer;
+    transition: background-color 0.15s ease, color 0.15s ease;
+  }
+  .btn p, .btn-light p { margin: 0; }
+  /* Primary button: deep navy, muted blue on hover */
+  .btn { background-color: rgb(var(--color-navy)); color: #fff; }
+  .btn:hover { background-color: rgb(var(--color-blue)); }
+  .btn-light { background-color: #fff; color: rgb(var(--color-ink)); }
+  .btn-light:hover { background-color: rgb(var(--color-butter)); }
+
+  /* Translucent white panel over imagery */
+  .panel-glass {
+    background-color: var(--glass);
+    color: rgb(var(--color-ink));
+    backdrop-filter: blur(2px);
+  }
+  .panel-solid { background-color: #fff; color: rgb(var(--color-ink)); }
+
+  /* Off-white panel that sits on a dark or photo background.
+     Dark text, so focus rings switch back to blue inside it. */
+  .panel-light {
+    background-color: var(--glass-strong);
+    color: rgb(var(--color-ink));
+  }
+  .on-dark .panel-light :focus-visible { outline-color: rgb(var(--color-navy)); }
+  .on-dark .panel-light .eyebrow { color: rgb(var(--color-blue)); }
+
+  /* Hero base when no photo is set: near-black fading into deep navy,
+     with a soft muted-blue glow and the brand halftone dots. */
+  .halftone {
+    background-image:
+      radial-gradient(rgb(255 255 255 / 0.14) 1.5px, transparent 1.6px),
+      radial-gradient(ellipse at 85% 0%, rgb(var(--color-blue) / 0.55), transparent 65%),
+      linear-gradient(160deg, rgb(var(--color-navy)) 0%, rgb(var(--color-ink)) 80%);
+    background-size: 14px 14px, 100% 100%, 100% 100%;
+  }
+
+  /* Faint dot field that fades toward the middle: edge decoration on light sections */
+  .dots-edge {
+    background-image: radial-gradient(rgb(var(--color-navy) / 0.14) 1.5px, transparent 1.6px);
+    background-size: 14px 14px;
+    -webkit-mask-image: linear-gradient(to right, #000 0%, transparent 30%, transparent 70%, #000 100%);
+    mask-image: linear-gradient(to right, #000 0%, transparent 30%, transparent 70%, #000 100%);
+  }
+
+  /* Vertical dotted connector (muted blue) */
+  .dotted-v {
+    display: block;
+    width: 4px;
+    background: radial-gradient(circle at center, rgb(var(--color-blue) / 0.75) 1.6px, transparent 1.8px) 0 0 / 4px 10px repeat-y;
+  }
+
+  /* Pale yellow highlight chip for an occasional label */
+  .eyebrow-chip {
+    display: inline-block;
+    background-color: rgb(var(--color-butter));
+    color: rgb(var(--color-navy));
+    padding: 0.15rem 0.6rem;
+  }
 }
 
 code {

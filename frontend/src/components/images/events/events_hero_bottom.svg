@@ -1,0 +1,10 @@
+<svg width="720" height="170" viewBox="0 0 720 170" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMax slice">
+<defs><linearGradient id="bm-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.42" stop-color="#fff"/><stop offset="1" stop-color="#fff"/></linearGradient><mask id="bm"><rect width="720" height="170" fill="url(#bm-g)"/></mask></defs>
+<g mask="url(#bm)">
+<path d="M-4 162 H724" stroke="#fff" stroke-opacity="0.3" stroke-width="2" stroke-linecap="round"/>
+<g fill="#fff" fill-opacity="0.10" stroke="#fff" stroke-opacity="0.34" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round">
+<rect x="32.0" y="140.0" width="96" height="22" rx="3"/><path d="M40.0 151.0 H120.0" fill="none"/><rect x="36.0" y="120.0" width="88" height="20" rx="3"/><path d="M44.0 130.0 H116.0" fill="none"/><rect x="34.0" y="102.0" width="92" height="18" rx="3"/><path d="M42.0 111.0 H118.0" fill="none"/><rect x="38.0" y="86.0" width="84" height="16" rx="3"/><path d="M46.0 94.0 H114.0" fill="none"/><rect x="161.0" y="140.0" width="70" height="22" rx="3"/><path d="M169.0 151.0 H223.0" fill="none"/><rect x="164.0" y="120.0" width="64" height="20" rx="3"/><path d="M172.0 130.0 H220.0" fill="none"/><rect x="162.0" y="102.0" width="68" height="18" rx="3"/><path d="M170.0 111.0 H222.0" fill="none"/><rect x="262" y="128" width="78" height="34" rx="3"/><rect x="258" y="116" width="86" height="12" rx="3"/>
+<path d="M356 162 C356 148 366 144 380 144 L398 148 L398 162 H356 Z"/><path d="M406 162 C406 148 416 144 430 144 L448 148 L448 162 H406 Z"/>
+<path d="M507.0 70 H573.0 V162 H507.0 Z"/><path d="M531.0 70 C531.0 48 549.0 48 549.0 70" fill="none"/><path d="M540.0 111 V129" fill="none"/><path d="M589.0 92 H647.0 V162 H589.0 Z"/><path d="M609.0 92 C609.0 70 627.0 70 627.0 92" fill="none"/><path d="M618.0 123 V137" fill="none"/><path d="M660.0 104 H708.0 V162 H660.0 Z"/><path d="M675.0 104 C675.0 82 693.0 82 693.0 104" fill="none"/><path d="M684.0 130 V141" fill="none"/></g>
+</g>
+</svg>

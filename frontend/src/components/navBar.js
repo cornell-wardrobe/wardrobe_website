@@ -36,14 +36,14 @@ function NavBar() {
   }
 
   return (
-    <Disclosure as="nav" className="bg-white shadow nav:sticky nav:top-0 z-50">
+    <Disclosure as="nav" className="bg-white border-b border-sand nav:sticky nav:top-0 z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-5 nav:px-9 lg:px-15">
             <div className="relative flex h-28 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center nav:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-ink hover:bg-sand">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -58,12 +58,12 @@ function NavBar() {
                     <img
                       className="block h-14 w-auto lg:hidden"
                       src={Logo}
-                      alt="Your Company"
+                      alt="The Wardrobe"
                     />
                     <img
                       className="hidden h-14 w-auto lg:block"
                       src={Logo}
-                      alt="Your Company"
+                      alt="The Wardrobe"
                     />
                   </a>
                 </div>
@@ -74,8 +74,8 @@ function NavBar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          "hover:text-black text-md font-medium px-3 py-2",
-                          item.current ? "text-blue-600" : "text-gray-500"
+                          "hover:text-brand-blue text-lg font-bold px-3 py-2",
+                          item.current ? "text-brand-blue underline underline-offset-8 decoration-2" : "text-ink"
                         )}
                       >
                         {item.name}
@@ -83,13 +83,13 @@ function NavBar() {
                     ))}
                     <div
                       id="vertical bar"
-                      className="h-20 border-l-black border-[1px]"
+                      className="h-20 border-l border-charcoal/40"
                     ></div>
                     <a
                       href={"rent"}
                       className={classNames(
-                        "flex items-center hover:text-black text-md font-medium px-3 py-2",
-                        path === "/rent" ? "text-blue-600" : "text-gray-500"
+                        "flex items-center hover:text-brand-blue text-lg font-bold px-3 py-2",
+                        path === "/rent" ? "text-brand-blue underline underline-offset-8 decoration-2" : "text-ink"
                       )}
                     >
                       <ShoppingCartIcon className="h-6" />
@@ -109,8 +109,8 @@ function NavBar() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    "hover:text-black text-md font-medium px-3 py-2",
-                    item.current ? "text-blue-600" : "text-gray-500"
+                    "hover:text-brand-blue text-lg font-bold px-3 py-2",
+                    item.current ? "text-brand-blue" : "text-ink"
                   )}
                 >
                   {item.name}
@@ -119,8 +119,8 @@ function NavBar() {
               <a
                 href={"rent"}
                 className={classNames(
-                  "flex items-center hover:text-black text-md font-medium px-3 py-2",
-                  path === "/rent" ? "text-blue-600" : "text-gray-500"
+                  "flex items-center hover:text-brand-blue text-lg font-bold px-3 py-2",
+                  path === "/rent" ? "text-brand-blue" : "text-ink"
                 )}
               >
                 <ShoppingCartIcon className="h-6" />

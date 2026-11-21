@@ -1,0 +1,10 @@
+<svg width="210" height="122" viewBox="0 0 210 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="0.6" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="m"><rect width="210" height="122" fill="url(#f)"/></mask></defs>
+<g mask="url(#m)">
+<g fill="#15161d" fill-opacity="0.04" stroke="#15161d" stroke-opacity="0.26" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M40.0 18 V27 M40.0 27 L23.0 42 H57.0 Z" fill="none"/><path d="M34.0 38 L18.0 47 L13.0 86 L16.0 112 H64.0 L67.0 86 L62.0 47 L46.0 38 Z"/><path d="M34.0 38 L40.0 78 L46.0 38" fill="none"/><path d="M34.0 38 L26.0 62 M46.0 38 L54.0 62" fill="none"/><circle cx="40.0" cy="98" r="1.6"/><circle cx="40.0" cy="116" r="1.6"/>
+<path d="M108.0 18 V27 M108.0 27 L91.0 42 H125.0 Z" fill="none"/><path d="M102.0 38 L85.0 47 L76.0 85 L84.0 89 L88.0 78 L88.0 106 H128.0 L128.0 78 L132.0 89 L140.0 85 L131.0 47 L114.0 38 Z"/><path d="M102.0 38 L108.0 50 L95.0 44 M114.0 38 L108.0 50 L121.0 44 M108.0 50 V102" fill="none"/>
+<path d="M160.0 40 H192.0" fill="none"/><path d="M160.0 44 H192.0 L206.0 102 H146.0 Z"/><path d="M160.0 53 H192.0" fill="none"/><path d="M176.0 18 V27 M176.0 27 L159.0 42 H193.0 Z" fill="none"/>
+</g>
+</g>
+</svg>

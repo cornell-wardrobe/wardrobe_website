@@ -1,0 +1,10 @@
+<svg width="210" height="122" viewBox="0 0 210 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="0.6" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="m"><rect width="210" height="122" fill="url(#f)"/></mask></defs>
+<g mask="url(#m)">
+<g fill="#15161d" fill-opacity="0.04" stroke="#15161d" stroke-opacity="0.26" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M170.0 18 V27 M170.0 27 L153.0 42 H187.0 Z" fill="none"/><path d="M161.0 38 C146.0 68 150.0 102 154.0 130 L186.0 130 C190.0 102 194.0 68 179.0 38 Z"/><path d="M157.0 72 C164.0 82 176.0 82 183.0 72" fill="none"/>
+<path d="M34.0 18 V27 M34.0 27 L17.0 42 H51.0 Z" fill="none"/><path d="M19.0 40 H49.0" fill="none"/><path d="M19.0 44 H49.0 L51.0 124 H37.0 L34.0 86 L31.0 124 H17.0 Z"/><path d="M19.0 52 H49.0" fill="none"/>
+</g>
+<path d="M102.0 18 V32" stroke="#2b2b2b" stroke-opacity="0.3" fill="none"/><path d="M96.0 32 H108.0 L106.5 46 L112.0 92 L102.0 104 L92.0 92 L97.5 46 Z" fill="#fff3c2" stroke="#2b2b2b" stroke-opacity="0.38" stroke-width="1.3"/>
+</g>
+</svg>

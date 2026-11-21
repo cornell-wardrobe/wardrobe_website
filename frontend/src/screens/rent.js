@@ -7,10 +7,10 @@ import rentWomensSize from "../components/images/rent/rent-womens-size.jpeg";
 
 function Rent() {
   return (
-    <div className="pt-10 max-w-screen-lg mx-auto">
-      <div className="flex flex-row items-center ml-10 mr-10">
-        <div className="pl-2.5 pr-2.5 w-6/12 float-left">
-          <p className="text-3xl font-bold mt-5 mb-3">Looking for attire?</p>
+    <div className="bg-white"><div className="pt-10 pb-16 max-w-screen-lg mx-auto">
+      <div className="flex flex-col md:flex-row items-center mx-6 md:mx-10">
+        <div className="pl-2.5 pr-2.5 md:w-6/12">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl mt-5 mb-4">Looking for attire?</h1>
           <div className="mb-8">
             Fill out our rental form for the desired items at least 48 hours in advance. 
             Our team will respond promptly with a pickup date, location, and return date. 
@@ -25,12 +25,12 @@ function Rent() {
             </button>
           </Link> */}
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScBXVCcrQ9AZZqgsyM-in8vWJAVQ2SFEAsvCfLWRkRqUUJMxw/viewform">
-          <button type="button" className="bg-blue-700 text-white px-5 py-2 cursor-default">
-              <p className="text-white text-sm my-4 mx-6">RENT</p>
+          <button type="button" className="btn">
+              <p>RENT</p>
           </button>
           </a>
         </div>
-        <div className="pl-2.5 pr-2.5 w-6/12 float-left">
+        <div className="pl-2.5 pr-2.5 md:w-6/12 mt-8 md:mt-0">
           <img
             className="max-w-full align-middle inline-block w-96"
             src={rentFirst}
@@ -40,9 +40,9 @@ function Rent() {
       </div>
       <div className="pt-10">
         <div>
-          <p className="text-3xl font-bold mt-5 mb-3 text-center">
+          <h2 className="text-3xl sm:text-4xl mt-5 mb-3 text-center">
             Unsure of size?
-          </p>
+          </h2>
           <p className="text-center">
             Use our fitting guide to help find what&apos;s most comfortable for you.
           </p>
@@ -56,9 +56,9 @@ function Rent() {
         </div>
         <div>
           <div className="text-center max-w-screen-md px-3 mx-auto">
-            <p className="text-center text-2xl font-semibold mt-5 mb-3">
+            <h3 className="text-center text-2xl mt-5 mb-3">
               Men&apos;s Sizes
-            </p>
+            </h3>
             <img
               className="text-center align-middle inline-block"
               src={rentMensSize}
@@ -66,9 +66,9 @@ function Rent() {
             ></img>
           </div>
           <div className="text-center max-w-screen-md px-3 mx-auto">
-            <p className="text-center text-2xl font-semibold mt-5 mb-3">
+            <h3 className="text-center text-2xl mt-5 mb-3">
               Women&apos;s Sizes
-            </p>
+            </h3>
             <img
               className="text-center align-middle inline-block"
               src={rentWomensSize}
@@ -77,7 +77,7 @@ function Rent() {
           </div>
         </div>
       </div>
-    </div>
+    </div></div>
   );
 }
 
